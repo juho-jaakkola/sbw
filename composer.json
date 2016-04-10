@@ -6,7 +6,10 @@
   "minimum-stability": "dev",
   "repositories": [
     {"type": "vcs", "url": "https://github.com/beck24/embed_extender.git"},
-    {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"}
+    {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/time_theme_pro.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/time_theme_pro_sbw.git"},
+    {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"},
+    {"type": "vcs", "url": "https://github.com/juho-jaakkola/hypeWall_extended.git"}
   ],
   "require": {
     "arckinteractive/elgg_hybridauth": "dev-master",
@@ -14,6 +17,7 @@
     "au/comment_tracker": "dev-master",
     "au/rssimport": "dev-master",
     "beck24/embed_extender": "dev-master",
+    "beck24/granular_access": "dev-master",
     "beck24/image_proxy": "dev-master",
     "centillien/metatags": "dev-master",
     "coldtrick/advanced_statistics": "dev-master",
@@ -27,6 +31,7 @@
     "coldtrick/friend_request": "dev-master",
     "coldtrick/group_tools": "dev-master",
     "coldtrick/html_email_handler": "dev-master",
+    "coldtrick/language_selector": "dev-master",
     "coldtrick/profile_manager": "dev-master",
     "coldtrick/tag_tools": "dev-master",
     "coldtrick/target_blank": "dev-master",
@@ -35,7 +40,7 @@
     "elgg/dbvalidator": "dev-master",
     "elgg/elgg": "2.0.x-dev",
     "elgg/mentions": "dev-master",
-    "hypejunction/elgg_tokeninput": "dev-master",
+    "elgg/videolist": "dev-master",
     "hypejunction/hypedropzone": "dev-master",
     "hypejunction/hypescraper": "dev-master",
     "hypejunction/hypewall": "dev-master",
@@ -50,6 +55,9 @@
     "iionly/tidypics": "dev-master",
     "juho-jaakkola/elgg-scheduling": "dev-master",
     "jumbojett/vroom": "dev-master",
+    "nlybe/hypewall_extended": "dev-installer-name",
+    "sbw/time_theme_pro": "dev-master",
+    "sbw/time_theme_pro_sbw": "dev-master",
     "thetruebumba/spam_login_filter": "dev-master"
   },
   "require-dev": {
