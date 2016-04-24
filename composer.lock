@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a605157758ec9a28f2e337afa9e9ad47",
-    "content-hash": "100e1a477b36eb0744b0559983dc314a",
+    "hash": "0708c9d37e7cd2776aaa51e8dd60ca5f",
+    "content-hash": "e6e622587a014041e0626a76f811e0be",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -439,22 +439,25 @@
         },
         {
             "name": "bower-asset/text",
-            "version": "2.0.14",
+            "version": "2.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/requirejs/text.git",
-                "reference": "b57d66a8aa705c4dcd4959ced3be2cbda7e76183"
+                "reference": "d04de4ffd7bf5ba6cb80cdca2d40d4f6f52a1b1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/requirejs/text/zipball/b57d66a8aa705c4dcd4959ced3be2cbda7e76183",
-                "reference": "b57d66a8aa705c4dcd4959ced3be2cbda7e76183",
+                "url": "https://api.github.com/repos/requirejs/text/zipball/d04de4ffd7bf5ba6cb80cdca2d40d4f6f52a1b1f",
+                "reference": "d04de4ffd7bf5ba6cb80cdca2d40d4f6f52a1b1f",
                 "shasum": ""
             },
             "type": "bower-asset-library",
             "extra": {
                 "bower-asset-main": "text.js"
-            }
+            },
+            "license": [
+                "MIT"
+            ]
         },
         {
             "name": "centillien/metatags",
@@ -697,12 +700,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/event_manager.git",
-                "reference": "1822b858ab7123e8b795a2183def0519e1a7b15c"
+                "reference": "5167b079300c36c577f367a024b67036ee00d22f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/1822b858ab7123e8b795a2183def0519e1a7b15c",
-                "reference": "1822b858ab7123e8b795a2183def0519e1a7b15c",
+                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/5167b079300c36c577f367a024b67036ee00d22f",
+                "reference": "5167b079300c36c577f367a024b67036ee00d22f",
                 "shasum": ""
             },
             "require": {
@@ -725,7 +728,7 @@
                 "events",
                 "plugin"
             ],
-            "time": "2016-04-13 09:54:24"
+            "time": "2016-04-22 12:02:16"
         },
         {
             "name": "coldtrick/file_tools",
@@ -797,12 +800,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "7267f7f2ccc89c9099f46416c52f7b6b93e91539"
+                "reference": "8255ae3cc3dc9098928bb53b5b04b9f4e40a417b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/7267f7f2ccc89c9099f46416c52f7b6b93e91539",
-                "reference": "7267f7f2ccc89c9099f46416c52f7b6b93e91539",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/8255ae3cc3dc9098928bb53b5b04b9f4e40a417b",
+                "reference": "8255ae3cc3dc9098928bb53b5b04b9f4e40a417b",
                 "shasum": ""
             },
             "require": {
@@ -823,7 +826,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2016-04-14 08:27:49"
+            "time": "2016-04-19 13:50:00"
         },
         {
             "name": "coldtrick/html_email_handler",
@@ -926,12 +929,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/tag_tools.git",
-                "reference": "4c39d4e86daabb4e77fd06913a8deef53677f68b"
+                "reference": "013e59423986108bb6e1baefce4773dee074dc38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/tag_tools/zipball/4c39d4e86daabb4e77fd06913a8deef53677f68b",
-                "reference": "4c39d4e86daabb4e77fd06913a8deef53677f68b",
+                "url": "https://api.github.com/repos/ColdTrick/tag_tools/zipball/013e59423986108bb6e1baefce4773dee074dc38",
+                "reference": "013e59423986108bb6e1baefce4773dee074dc38",
                 "shasum": ""
             },
             "require": {
@@ -951,7 +954,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-04-14 08:50:00"
+            "time": "2016-04-21 11:29:29"
         },
         {
             "name": "coldtrick/target_blank",
@@ -992,18 +995,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/translation_editor.git",
-                "reference": "5d139ad639842dd6dd5bd7fe823c0116347ba496"
+                "reference": "ea4278b8951e705af9cd8bbe4c41bd9169f3b21a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/translation_editor/zipball/5d139ad639842dd6dd5bd7fe823c0116347ba496",
-                "reference": "5d139ad639842dd6dd5bd7fe823c0116347ba496",
+                "url": "https://api.github.com/repos/ColdTrick/translation_editor/zipball/ea4278b8951e705af9cd8bbe4c41bd9169f3b21a",
+                "reference": "ea4278b8951e705af9cd8bbe4c41bd9169f3b21a",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.8"
             },
             "require-dev": {
+                "coldtrick/releases": "dev-master",
                 "coldtrick/sniffs": "dev-master"
             },
             "type": "elgg-plugin",
@@ -1017,7 +1021,7 @@
                 "i18n",
                 "plugin"
             ],
-            "time": "2016-04-18 07:52:18"
+            "time": "2016-04-19 15:11:29"
         },
         {
             "name": "coldtrick/widget_manager",
@@ -1744,12 +1748,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "93250e5b805dd9485bcf73a182b7a01a64a5e86e"
+                "reference": "544dd73a1255fbe7926eb3a86ecea5576b9a6b80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/93250e5b805dd9485bcf73a182b7a01a64a5e86e",
-                "reference": "93250e5b805dd9485bcf73a182b7a01a64a5e86e",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/544dd73a1255fbe7926eb3a86ecea5576b9a6b80",
+                "reference": "544dd73a1255fbe7926eb3a86ecea5576b9a6b80",
                 "shasum": ""
             },
             "require": {
@@ -1798,7 +1802,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2016-04-14 14:19:10"
+            "time": "2016-04-21 00:21:11"
         },
         {
             "name": "elgg/login_as",
@@ -2696,12 +2700,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/juho-jaakkola/elgg-scheduling.git",
-                "reference": "e55c06547dfb96c002ed0eea745a0b51beb2364f"
+                "reference": "c52af6ab0aa4fb058cddf53465586faf55d7c8ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/juho-jaakkola/elgg-scheduling/zipball/e55c06547dfb96c002ed0eea745a0b51beb2364f",
-                "reference": "e55c06547dfb96c002ed0eea745a0b51beb2364f",
+                "url": "https://api.github.com/repos/juho-jaakkola/elgg-scheduling/zipball/c52af6ab0aa4fb058cddf53465586faf55d7c8ab",
+                "reference": "c52af6ab0aa4fb058cddf53465586faf55d7c8ab",
                 "shasum": ""
             },
             "type": "elgg-plugin",
@@ -2724,7 +2728,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-03-30 06:03:48"
+            "time": "2016-04-17 14:24:54"
         },
         {
             "name": "jumbojett/vroom",
@@ -2749,16 +2753,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.20",
+            "version": "1.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "e87a786e3ae12a25cf78a71bb07b4b384bfaa83a"
+                "reference": "35a83cf67d80d7040f306c77b0a84b9fbcc4fbfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/e87a786e3ae12a25cf78a71bb07b4b384bfaa83a",
-                "reference": "e87a786e3ae12a25cf78a71bb07b4b384bfaa83a",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/35a83cf67d80d7040f306c77b0a84b9fbcc4fbfb",
+                "reference": "35a83cf67d80d7040f306c77b0a84b9fbcc4fbfb",
                 "shasum": ""
             },
             "require": {
@@ -2828,7 +2832,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-03-14 21:54:11"
+            "time": "2016-04-22 10:56:25"
         },
         {
             "name": "league/flysystem-memory",
@@ -2980,13 +2984,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/juho-jaakkola/hypeWall_Extended.git",
-                "reference": "c5579c5b2661e99a30a1f489eedfa600a28cf7a2"
+                "url": "https://github.com/nlybe/hypeWall_Extended.git",
+                "reference": "3a20401dbb7712add6c0997345875f3444a46475"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/juho-jaakkola/hypeWall_Extended/zipball/c5579c5b2661e99a30a1f489eedfa600a28cf7a2",
-                "reference": "c5579c5b2661e99a30a1f489eedfa600a28cf7a2",
+                "url": "https://api.github.com/repos/nlybe/hypeWall_Extended/zipball/3a20401dbb7712add6c0997345875f3444a46475",
+                "reference": "3a20401dbb7712add6c0997345875f3444a46475",
                 "shasum": ""
             },
             "require": {
@@ -2994,13 +2998,14 @@
                 "hypejunction/hypewall": "dev-master"
             },
             "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "hypeWall_extended"
+            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
-            "support": {
-                "source": "https://github.com/juho-jaakkola/hypeWall_Extended/tree/master"
-            },
-            "time": "2016-03-18 23:19:31"
+            "time": "2016-04-17 19:58:14"
         },
         {
             "name": "pelago/emogrifier",
@@ -3144,12 +3149,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "438196c8f66647073bcaf99908b543bda7ffd6d4"
+                "reference": "c671d3899901257a98ec4c4fd39685d14112efc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/438196c8f66647073bcaf99908b543bda7ffd6d4",
-                "reference": "438196c8f66647073bcaf99908b543bda7ffd6d4",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/c671d3899901257a98ec4c4fd39685d14112efc7",
+                "reference": "c671d3899901257a98ec4c4fd39685d14112efc7",
                 "shasum": ""
             },
             "conflict": {
@@ -3235,7 +3240,7 @@
                 "zendframework/zend-view": ">=2,<2.2.7|>=2.3,<2.3.1",
                 "zendframework/zend-xmlrpc": ">=2.1,<2.1.6|>=2.2,<2.2.6",
                 "zendframework/zendframework": ">=2,<2.4.9|>=2.5,<2.5.1",
-                "zendframework/zendframework1": ">=1,<1.11.15|>=1.12,<1.12.17",
+                "zendframework/zendframework1": ">=1,<1.11.15|>=1.12,<1.12.18",
                 "zendframework/zendopenid": ">=2,<2.0.2",
                 "zendframework/zendxml": ">=1,<1.0.1",
                 "zf-commons/zfc-user": "<1.2.2",
@@ -3255,7 +3260,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2016-04-11 16:52:34"
+            "time": "2016-04-21 06:36:58"
         },
         {
             "name": "sbw/time_theme_pro",
@@ -3763,64 +3768,6 @@
             "time": "2015-08-29 09:53:56"
         },
         {
-            "name": "zendframework/zend-hydrator",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/zend-hydrator.git",
-                "reference": "22652e1661a5a10b3f564cf7824a2206cf5a4a65"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-hydrator/zipball/22652e1661a5a10b3f564cf7824a2206cf5a4a65",
-                "reference": "22652e1661a5a10b3f564cf7824a2206cf5a4a65",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.5 || ^7.0",
-                "zendframework/zend-stdlib": "^2.7 || ^3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "^2.0@dev",
-                "zendframework/zend-eventmanager": "^2.6.2 || ^3.0",
-                "zendframework/zend-filter": "^2.6",
-                "zendframework/zend-inputfilter": "^2.6",
-                "zendframework/zend-serializer": "^2.6.1",
-                "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3"
-            },
-            "suggest": {
-                "zendframework/zend-eventmanager": "^2.6.2 || ^3.0, to support aggregate hydrator usage",
-                "zendframework/zend-filter": "^2.6, to support naming strategy hydrator usage",
-                "zendframework/zend-serializer": "^2.6.1, to use the SerializableStrategy",
-                "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3, to support hydrator plugin manager usage"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-release-1.0": "1.0-dev",
-                    "dev-release-1.1": "1.1-dev",
-                    "dev-master": "2.0-dev",
-                    "dev-develop": "2.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Zend\\Hydrator\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "homepage": "https://github.com/zendframework/zend-hydrator",
-            "keywords": [
-                "hydrator",
-                "zf2"
-            ],
-            "time": "2016-02-18 22:38:26"
-        },
-        {
             "name": "zendframework/zend-loader",
             "version": "2.5.1",
             "source": {
@@ -3926,26 +3873,26 @@
         },
         {
             "name": "zendframework/zend-mime",
-            "version": "2.5.1",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-mime.git",
-                "reference": "4148e39291c94ffea84c5b26a5ba69147953dcad"
+                "reference": "340769c3d962ac4d9d3cf9da7e75419368e56fcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-mime/zipball/4148e39291c94ffea84c5b26a5ba69147953dcad",
-                "reference": "4148e39291c94ffea84c5b26a5ba69147953dcad",
+                "url": "https://api.github.com/repos/zendframework/zend-mime/zipball/340769c3d962ac4d9d3cf9da7e75419368e56fcc",
+                "reference": "340769c3d962ac4d9d3cf9da7e75419368e56fcc",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.23",
-                "zendframework/zend-stdlib": "~2.5"
+                "php": "^5.5 || ^7.0",
+                "zendframework/zend-stdlib": "^2.7 || ^3.0"
             },
             "require-dev": {
                 "fabpot/php-cs-fixer": "1.7.*",
                 "phpunit/phpunit": "~4.0",
-                "zendframework/zend-mail": "~2.5"
+                "zendframework/zend-mail": "^2.6"
             },
             "suggest": {
                 "zendframework/zend-mail": "Zend\\Mail component"
@@ -3953,8 +3900,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev",
-                    "dev-develop": "2.6-dev"
+                    "dev-master": "2.6-dev",
+                    "dev-develop": "2.7-dev"
                 }
             },
             "autoload": {
@@ -3971,47 +3918,33 @@
                 "mime",
                 "zf2"
             ],
-            "time": "2015-06-03 15:32:02"
+            "time": "2016-04-20 21:02:01"
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "2.7.7",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "0e44eb46788f65e09e077eb7f44d2659143bcc1f"
+                "reference": "8bafa58574204bdff03c275d1d618aaa601588ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/0e44eb46788f65e09e077eb7f44d2659143bcc1f",
-                "reference": "0e44eb46788f65e09e077eb7f44d2659143bcc1f",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/8bafa58574204bdff03c275d1d618aaa601588ae",
+                "reference": "8bafa58574204bdff03c275d1d618aaa601588ae",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5 || ^7.0",
-                "zendframework/zend-hydrator": "~1.1"
+                "php": "^5.5 || ^7.0"
             },
             "require-dev": {
                 "athletic/athletic": "~0.1",
                 "fabpot/php-cs-fixer": "1.7.*",
-                "phpunit/phpunit": "~4.0",
-                "zendframework/zend-config": "~2.5",
-                "zendframework/zend-eventmanager": "~2.5",
-                "zendframework/zend-filter": "~2.5",
-                "zendframework/zend-inputfilter": "~2.5",
-                "zendframework/zend-serializer": "~2.5",
-                "zendframework/zend-servicemanager": "~2.5"
-            },
-            "suggest": {
-                "zendframework/zend-eventmanager": "To support aggregate hydrator usage",
-                "zendframework/zend-filter": "To support naming strategy hydrator usage",
-                "zendframework/zend-serializer": "Zend\\Serializer component",
-                "zendframework/zend-servicemanager": "To support hydrator plugin manager usage"
+                "phpunit/phpunit": "~4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-release-2.7": "2.7-dev",
                     "dev-master": "3.0-dev",
                     "dev-develop": "3.1-dev"
                 }
@@ -4030,7 +3963,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2016-04-12 21:17:31"
+            "time": "2016-04-12 21:19:36"
         },
         {
             "name": "zendframework/zend-validator",

@@ -8,8 +8,7 @@
     {"type": "vcs", "url": "https://github.com/beck24/embed_extender.git"},
     {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/time_theme_pro.git"},
     {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/time_theme_pro_sbw.git"},
-    {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"},
-    {"type": "vcs", "url": "https://github.com/juho-jaakkola/hypeWall_extended.git"}
+    {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"}
   ],
   "require": {
     "arckinteractive/elgg_hybridauth": "dev-master",
