@@ -5,7 +5,6 @@
   "prefer-stable": true,
   "minimum-stability": "dev",
   "repositories": [
-    {"type": "vcs", "url": "https://github.com/beck24/embed_extender.git"},
     {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/time_theme_pro.git"},
     {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/time_theme_pro_sbw.git"},
     {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"}
@@ -54,6 +53,7 @@
     "iionly/tidypics": "dev-master",
     "juho-jaakkola/elgg-scheduling": "dev-master",
     "jumbojett/vroom": "dev-master",
+    "nlybe/amap_maps_api": "dev-master",
     "nlybe/hypewall_extended": "dev-master",
     "sbw/time_theme_pro": "dev-master",
     "sbw/time_theme_pro_sbw": "dev-master",

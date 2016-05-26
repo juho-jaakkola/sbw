@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0708c9d37e7cd2776aaa51e8dd60ca5f",
-    "content-hash": "e6e622587a014041e0626a76f811e0be",
+    "hash": "be500038c8b7d5cf0aa7c394c144855d",
+    "content-hash": "b8347ddcc4b4417f7498da22309f8fc6",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -271,16 +271,16 @@
         },
         {
             "name": "bower-asset/jquery",
-            "version": "2.2.3",
+            "version": "2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jquery/jquery-dist.git",
-                "reference": "af22a351b2ea5801ffb1695abb3bb34d5bed9198"
+                "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/af22a351b2ea5801ffb1695abb3bb34d5bed9198",
-                "reference": "af22a351b2ea5801ffb1695abb3bb34d5bed9198",
+                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/c0185ab7c75aab88762c5aae780b9d83b80eda72",
+                "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -632,12 +632,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/csv_exporter.git",
-                "reference": "af665ff160d398498753c58af8e1ca4d17764739"
+                "reference": "510b0af3c5caf1d288aad658fc65f972d9d787d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/csv_exporter/zipball/af665ff160d398498753c58af8e1ca4d17764739",
-                "reference": "af665ff160d398498753c58af8e1ca4d17764739",
+                "url": "https://api.github.com/repos/ColdTrick/csv_exporter/zipball/510b0af3c5caf1d288aad658fc65f972d9d787d4",
+                "reference": "510b0af3c5caf1d288aad658fc65f972d9d787d4",
                 "shasum": ""
             },
             "require": {
@@ -658,7 +658,7 @@
                 "export",
                 "plugin"
             ],
-            "time": "2016-05-13 10:50:39"
+            "time": "2016-05-26 12:49:22"
         },
         {
             "name": "coldtrick/digest",
@@ -700,12 +700,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/event_manager.git",
-                "reference": "8b1418b4a3d64f5764446e846e51b2630760f612"
+                "reference": "be70887ac101b3047d272f264628cc54b30044dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/8b1418b4a3d64f5764446e846e51b2630760f612",
-                "reference": "8b1418b4a3d64f5764446e846e51b2630760f612",
+                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/be70887ac101b3047d272f264628cc54b30044dd",
+                "reference": "be70887ac101b3047d272f264628cc54b30044dd",
                 "shasum": ""
             },
             "require": {
@@ -728,7 +728,7 @@
                 "events",
                 "plugin"
             ],
-            "time": "2016-05-12 09:37:59"
+            "time": "2016-05-26 13:05:02"
         },
         {
             "name": "coldtrick/file_tools",
@@ -800,12 +800,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "42e6e6407f2a03ceee50e614814730bdf8268a40"
+                "reference": "8aa55a3d64177f5cce62f9c5a557abd82161d240"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/42e6e6407f2a03ceee50e614814730bdf8268a40",
-                "reference": "42e6e6407f2a03ceee50e614814730bdf8268a40",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/8aa55a3d64177f5cce62f9c5a557abd82161d240",
+                "reference": "8aa55a3d64177f5cce62f9c5a557abd82161d240",
                 "shasum": ""
             },
             "require": {
@@ -826,7 +826,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2016-05-13 10:44:41"
+            "time": "2016-05-26 12:32:00"
         },
         {
             "name": "coldtrick/html_email_handler",
@@ -894,12 +894,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/profile_manager.git",
-                "reference": "9aa02ec84ba985a6e37fbbcbf17ba84566e3d77a"
+                "reference": "4b31a0af555572944b70b0a33b860e4479695dda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/profile_manager/zipball/9aa02ec84ba985a6e37fbbcbf17ba84566e3d77a",
-                "reference": "9aa02ec84ba985a6e37fbbcbf17ba84566e3d77a",
+                "url": "https://api.github.com/repos/ColdTrick/profile_manager/zipball/4b31a0af555572944b70b0a33b860e4479695dda",
+                "reference": "4b31a0af555572944b70b0a33b860e4479695dda",
                 "shasum": ""
             },
             "require": {
@@ -921,7 +921,7 @@
                 "plugin",
                 "profile"
             ],
-            "time": "2016-05-13 15:01:50"
+            "time": "2016-05-26 13:23:23"
         },
         {
             "name": "coldtrick/tag_tools",
@@ -929,12 +929,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/tag_tools.git",
-                "reference": "cefb78c4601eeaf94637ae86ea5dbb20d1faca7c"
+                "reference": "790f990c8011b4dcf9110690821def70968ac5a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/tag_tools/zipball/cefb78c4601eeaf94637ae86ea5dbb20d1faca7c",
-                "reference": "cefb78c4601eeaf94637ae86ea5dbb20d1faca7c",
+                "url": "https://api.github.com/repos/ColdTrick/tag_tools/zipball/790f990c8011b4dcf9110690821def70968ac5a2",
+                "reference": "790f990c8011b4dcf9110690821def70968ac5a2",
                 "shasum": ""
             },
             "require": {
@@ -954,7 +954,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-05-04 12:46:56"
+            "time": "2016-05-26 13:00:57"
         },
         {
             "name": "coldtrick/target_blank",
@@ -1029,12 +1029,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/widget_manager.git",
-                "reference": "7686c749ba460d3dc0e0bcd3d42f4307da152ef7"
+                "reference": "2dc3b67f29c2430edaf939f9492444d4e93d4a94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/7686c749ba460d3dc0e0bcd3d42f4307da152ef7",
-                "reference": "7686c749ba460d3dc0e0bcd3d42f4307da152ef7",
+                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/2dc3b67f29c2430edaf939f9492444d4e93d4a94",
+                "reference": "2dc3b67f29c2430edaf939f9492444d4e93d4a94",
                 "shasum": ""
             },
             "require": {
@@ -1056,7 +1056,7 @@
                 "plugin",
                 "widgets"
             ],
-            "time": "2016-05-13 09:00:42"
+            "time": "2016-05-26 13:02:17"
         },
         {
             "name": "composer/installers",
@@ -1748,12 +1748,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "260a17a6418fc818fa83cdce61313f1bf303a531"
+                "reference": "8c2c47276df38151cb31a7a4fe7176cfb387022c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/260a17a6418fc818fa83cdce61313f1bf303a531",
-                "reference": "260a17a6418fc818fa83cdce61313f1bf303a531",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/8c2c47276df38151cb31a7a4fe7176cfb387022c",
+                "reference": "8c2c47276df38151cb31a7a4fe7176cfb387022c",
                 "shasum": ""
             },
             "require": {
@@ -1802,7 +1802,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2016-05-07 07:15:03"
+            "time": "2016-05-20 14:33:09"
         },
         {
             "name": "elgg/login_as",
@@ -1889,16 +1889,16 @@
         },
         {
             "name": "fortawesome/font-awesome",
-            "version": "v4.6.2",
+            "version": "v4.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                "reference": "e7cc59d666ed0826656f695afad7c56e95eb6513"
+                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/e7cc59d666ed0826656f695afad7c56e95eb6513",
-                "reference": "e7cc59d666ed0826656f695afad7c56e95eb6513",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/8e241f209faa1dd2182c9fdc9c352d8806504a4e",
+                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e",
                 "shasum": ""
             },
             "require-dev": {
@@ -1933,7 +1933,7 @@
                 "font",
                 "icon"
             ],
-            "time": "2016-05-04 16:06:44"
+            "time": "2016-05-13 15:42:25"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2621,12 +2621,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iionly/tidypics.git",
-                "reference": "35dc88ebee2315a728b38ce1f6454c1e4878464b"
+                "reference": "64ee7e949cd2943fd8ee81a9c6b170f5af6c2474"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iionly/tidypics/zipball/35dc88ebee2315a728b38ce1f6454c1e4878464b",
-                "reference": "35dc88ebee2315a728b38ce1f6454c1e4878464b",
+                "url": "https://api.github.com/repos/iionly/tidypics/zipball/64ee7e949cd2943fd8ee81a9c6b170f5af6c2474",
+                "reference": "64ee7e949cd2943fd8ee81a9c6b170f5af6c2474",
                 "shasum": ""
             },
             "require": {
@@ -2650,7 +2650,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-04-03 18:14:26"
+            "time": "2016-05-21 16:42:07"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -2980,6 +2980,23 @@
             "time": "2016-03-08 11:49:57"
         },
         {
+            "name": "nlybe/amap_maps_api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:sbw-dev/amap_maps_api.git",
+                "reference": "ddce5a13512d98d61998511c7a60b7e4831ac637"
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "time": "2016-05-16 17:26:26"
+        },
+        {
             "name": "nlybe/hypewall_extended",
             "version": "dev-master",
             "source": {
@@ -3149,12 +3166,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "c5bfcbdb02684851e3215545502d0be51d3e4e13"
+                "reference": "96f1ef760845211c8acbb15970e706db1e4b2c5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/c5bfcbdb02684851e3215545502d0be51d3e4e13",
-                "reference": "c5bfcbdb02684851e3215545502d0be51d3e4e13",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/96f1ef760845211c8acbb15970e706db1e4b2c5e",
+                "reference": "96f1ef760845211c8acbb15970e706db1e4b2c5e",
                 "shasum": ""
             },
             "conflict": {
@@ -3214,7 +3231,7 @@
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
                 "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
                 "twig/twig": "<1.20",
-                "typo3/cms": ">=6.2,<6.2.16|>=7,<7.1|>=7.1,<7.2|>=7.2,<7.3|>=7.3,<7.4|>=7.4,<7.5|>=7.5,<7.6|>=7.6,<7.6.1",
+                "typo3/cms": ">=6.2,<6.2.25|>=7,<7.1|>=7.1,<7.2|>=7.2,<7.3|>=7.3,<7.4|>=7.4,<7.5|>=7.5,<7.6|>=7.6,<7.6.8|>=8,<8.1.1",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.7|>=3,<3.0.1",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
                 "willdurand/js-translation-bundle": "<2.1.1",
@@ -3260,7 +3277,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2016-05-10 10:37:23"
+            "time": "2016-05-25 05:33:34"
         },
         {
             "name": "sbw/time_theme_pro",
@@ -3352,20 +3369,23 @@
         },
         {
             "name": "smottt/wideimage",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smottt/WideImage.git",
-                "reference": "6cbdaa6eb186c4a618b2ef5a7f38fcb50f0f2b1b"
+                "reference": "9235ee96b5cdbc83a4c3ab7b51ce2fdd82c561ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smottt/WideImage/zipball/6cbdaa6eb186c4a618b2ef5a7f38fcb50f0f2b1b",
-                "reference": "6cbdaa6eb186c4a618b2ef5a7f38fcb50f0f2b1b",
+                "url": "https://api.github.com/repos/smottt/WideImage/zipball/9235ee96b5cdbc83a4c3ab7b51ce2fdd82c561ca",
+                "reference": "9235ee96b5cdbc83a4c3ab7b51ce2fdd82c561ca",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
             },
             "type": "library",
             "autoload": {
@@ -3380,7 +3400,7 @@
             ],
             "description": "An open-source PHP library for image manipulation. (With namespaces, PHP 5.3+)",
             "homepage": "http://wideimage.sourceforge.net",
-            "time": "2015-10-05 20:32:34"
+            "time": "2016-05-16 20:00:28"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -3499,16 +3519,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "1289d16209491b584839022f29257ad859b8532d"
+                "reference": "dff51f72b0706335131b00a7f49606168c582594"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/1289d16209491b584839022f29257ad859b8532d",
-                "reference": "1289d16209491b584839022f29257ad859b8532d",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/dff51f72b0706335131b00a7f49606168c582594",
+                "reference": "dff51f72b0706335131b00a7f49606168c582594",
                 "shasum": ""
             },
             "require": {
@@ -3520,7 +3540,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -3554,20 +3574,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-01-20 09:13:37"
+            "time": "2016-05-18 14:26:46"
         },
         {
             "name": "symfony/polyfill-php54",
-            "version": "v1.1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php54.git",
-                "reference": "9ba741ca01c77282ecf5796c2c1d667f03454ffb"
+                "reference": "34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/9ba741ca01c77282ecf5796c2c1d667f03454ffb",
-                "reference": "9ba741ca01c77282ecf5796c2c1d667f03454ffb",
+                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1",
+                "reference": "34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1",
                 "shasum": ""
             },
             "require": {
@@ -3576,7 +3596,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -3612,20 +3632,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-01-25 19:13:00"
+            "time": "2016-05-18 14:26:46"
         },
         {
             "name": "symfony/polyfill-php55",
-            "version": "v1.1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php55.git",
-                "reference": "b4f3f07d91702f8f926339fc4fcf81671d8c27e6"
+                "reference": "bf2ff9ad6be1a4772cb873e4eea94d70daa95c6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/b4f3f07d91702f8f926339fc4fcf81671d8c27e6",
-                "reference": "b4f3f07d91702f8f926339fc4fcf81671d8c27e6",
+                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/bf2ff9ad6be1a4772cb873e4eea94d70daa95c6d",
+                "reference": "bf2ff9ad6be1a4772cb873e4eea94d70daa95c6d",
                 "shasum": ""
             },
             "require": {
@@ -3635,7 +3655,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -3668,7 +3688,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-01-20 09:13:37"
+            "time": "2016-05-18 14:26:46"
         },
         {
             "name": "tedivm/stash",
@@ -4448,16 +4468,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.25",
+            "version": "4.8.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "6d1588a6542a52ed89636e5a9876bc7502bbb853"
+                "reference": "fc1d8cd5b5de11625979125c5639347896ac2c74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/6d1588a6542a52ed89636e5a9876bc7502bbb853",
-                "reference": "6d1588a6542a52ed89636e5a9876bc7502bbb853",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/fc1d8cd5b5de11625979125c5639347896ac2c74",
+                "reference": "fc1d8cd5b5de11625979125c5639347896ac2c74",
                 "shasum": ""
             },
             "require": {
@@ -4516,7 +4536,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-05-10 18:47:12"
+            "time": "2016-05-17 03:09:28"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -4692,16 +4712,16 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "1.3.6",
+            "version": "1.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "2292b116f43c272ff4328083096114f84ea46a56"
+                "reference": "4e8f0da10ac5802913afc151413bc8c53b6c2716"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/2292b116f43c272ff4328083096114f84ea46a56",
-                "reference": "2292b116f43c272ff4328083096114f84ea46a56",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/4e8f0da10ac5802913afc151413bc8c53b6c2716",
+                "reference": "4e8f0da10ac5802913afc151413bc8c53b6c2716",
                 "shasum": ""
             },
             "require": {
@@ -4738,7 +4758,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-05-04 07:59:13"
+            "time": "2016-05-17 03:18:57"
         },
         {
             "name": "sebastian/exporter",
@@ -5088,6 +5108,7 @@
         "iionly/tidypics": 20,
         "juho-jaakkola/elgg-scheduling": 20,
         "jumbojett/vroom": 20,
+        "nlybe/amap_maps_api": 20,
         "nlybe/hypewall_extended": 20,
         "sbw/time_theme_pro": 20,
         "sbw/time_theme_pro_sbw": 20,
