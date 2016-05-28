@@ -7,6 +7,7 @@
   "repositories": [
     {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/time_theme_pro.git"},
     {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/time_theme_pro_sbw.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/theme_sbw.git"},
     {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"}
   ],
   "require": {
@@ -57,6 +58,7 @@
     "nlybe/hypewall_extended": "dev-master",
     "sbw/time_theme_pro": "dev-master",
     "sbw/time_theme_pro_sbw": "dev-master",
+    "sbw-dev/theme_sbw": "dev-master",
     "thetruebumba/spam_login_filter": "dev-master"
   },
   "require-dev": {
