@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ecb0bc9d4383d0c27c2da722a578a4e5",
-    "content-hash": "9848e67ef33358b9ff7524447b2276ce",
+    "hash": "4318a48295b77fbaaf2ec7e7b479cd38",
+    "content-hash": "9544c896fc3f19b5d8ae4db6bd1c4ead",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -700,12 +700,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/event_manager.git",
-                "reference": "4ac16c022fede680060d4ffe67c301d17cbde3d7"
+                "reference": "078d5d0df7891cf169a5447eb04ee6d29813b1fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/4ac16c022fede680060d4ffe67c301d17cbde3d7",
-                "reference": "4ac16c022fede680060d4ffe67c301d17cbde3d7",
+                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/078d5d0df7891cf169a5447eb04ee6d29813b1fc",
+                "reference": "078d5d0df7891cf169a5447eb04ee6d29813b1fc",
                 "shasum": ""
             },
             "require": {
@@ -763,16 +763,16 @@
         },
         {
             "name": "coldtrick/friend_request",
-            "version": "dev-master",
+            "version": "v4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/friend_request.git",
-                "reference": "1c60ff0a521cdb694e7593e0cd9bc29aabddd3a4"
+                "reference": "20a232a88116fdc3b9ffdb501ef7f3b887903d7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/friend_request/zipball/1c60ff0a521cdb694e7593e0cd9bc29aabddd3a4",
-                "reference": "1c60ff0a521cdb694e7593e0cd9bc29aabddd3a4",
+                "url": "https://api.github.com/repos/ColdTrick/friend_request/zipball/20a232a88116fdc3b9ffdb501ef7f3b887903d7b",
+                "reference": "20a232a88116fdc3b9ffdb501ef7f3b887903d7b",
                 "shasum": ""
             },
             "require": {
@@ -792,7 +792,7 @@
                 "friends",
                 "plugin"
             ],
-            "time": "2016-02-16 08:23:29"
+            "time": "2015-12-17 14:37:21"
         },
         {
             "name": "coldtrick/group_tools",
@@ -894,12 +894,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/profile_manager.git",
-                "reference": "4b31a0af555572944b70b0a33b860e4479695dda"
+                "reference": "888665892f73b8738aaff1582ad647a884c8164d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/profile_manager/zipball/4b31a0af555572944b70b0a33b860e4479695dda",
-                "reference": "4b31a0af555572944b70b0a33b860e4479695dda",
+                "url": "https://api.github.com/repos/ColdTrick/profile_manager/zipball/888665892f73b8738aaff1582ad647a884c8164d",
+                "reference": "888665892f73b8738aaff1582ad647a884c8164d",
                 "shasum": ""
             },
             "require": {
@@ -1029,12 +1029,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/widget_manager.git",
-                "reference": "2dc3b67f29c2430edaf939f9492444d4e93d4a94"
+                "reference": "a2f698b6b6f61c393b9d1430fc15cc6bcf311c58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/2dc3b67f29c2430edaf939f9492444d4e93d4a94",
-                "reference": "2dc3b67f29c2430edaf939f9492444d4e93d4a94",
+                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/a2f698b6b6f61c393b9d1430fc15cc6bcf311c58",
+                "reference": "a2f698b6b6f61c393b9d1430fc15cc6bcf311c58",
                 "shasum": ""
             },
             "require": {
@@ -1748,12 +1748,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "8c2c47276df38151cb31a7a4fe7176cfb387022c"
+                "reference": "72b53aa6a86778c83d192011a309b0c9a809d0fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/8c2c47276df38151cb31a7a4fe7176cfb387022c",
-                "reference": "8c2c47276df38151cb31a7a4fe7176cfb387022c",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/72b53aa6a86778c83d192011a309b0c9a809d0fa",
+                "reference": "72b53aa6a86778c83d192011a309b0c9a809d0fa",
                 "shasum": ""
             },
             "require": {
@@ -5098,7 +5098,6 @@
         "coldtrick/digest": 20,
         "coldtrick/event_manager": 20,
         "coldtrick/file_tools": 20,
-        "coldtrick/friend_request": 20,
         "coldtrick/group_tools": 20,
         "coldtrick/html_email_handler": 20,
         "coldtrick/language_selector": 20,
