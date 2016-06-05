@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4318a48295b77fbaaf2ec7e7b479cd38",
-    "content-hash": "9544c896fc3f19b5d8ae4db6bd1c4ead",
+    "hash": "c692e382dccd855908f64ccc573aa65a",
+    "content-hash": "b9b1b3926073639094d8af5ee24e7795",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -591,6 +591,40 @@
                 "plugin"
             ],
             "time": "2016-05-04 12:38:21"
+        },
+        {
+            "name": "coldtrick/ckeditor_extended",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/ckeditor_extended.git",
+                "reference": "1318fd868a32eecbb736ef1d0a57312cedfc763e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/ckeditor_extended/zipball/1318fd868a32eecbb736ef1d0a57312cedfc763e",
+                "reference": "1318fd868a32eecbb736ef1d0a57312cedfc763e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "require-dev": {
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "offers you the ability to change the configuration of the editor",
+            "keywords": [
+                "CKEditor",
+                "elgg",
+                "plugin",
+                "wysiwyg"
+            ],
+            "time": "2016-01-05 14:30:37"
         },
         {
             "name": "coldtrick/content_subscriptions",
