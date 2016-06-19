@@ -5,6 +5,8 @@
   "prefer-stable": true,
   "minimum-stability": "dev",
   "repositories": [
+    {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/amap_maps_api.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/membersmap.git"},
     {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/time_theme_pro.git"},
     {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/time_theme_pro_sbw.git"},
     {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/theme_sbw.git"},
@@ -54,7 +56,7 @@
     "iionly/tidypics": "dev-master",
     "juho-jaakkola/elgg-scheduling": "dev-master",
     "jumbojett/vroom": "dev-master",
-    "nlybe/amap_maps_api": "dev-master",
+    "nlybe/membersmap": "dev-master",
     "nlybe/hypewall_extended": "dev-master",
     "sbw/time_theme_pro": "dev-master",
     "sbw/time_theme_pro_sbw": "dev-master",
