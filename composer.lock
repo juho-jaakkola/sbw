@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0c5ce56c3a1db3f98dd3783e5306518e",
-    "content-hash": "4908b69748b2f2cf91144c9ab166c7f2",
+    "hash": "eb8fb2460d05f01a550749c8a5a0c6b8",
+    "content-hash": "0314c4a415312fbcaeb13177ead283ce",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -3144,8 +3144,14 @@
             "version": "2.9.0",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:sbw-dev/amap_maps_api.git",
-                "reference": "1a8544edf43f3ab4568f7a348ab52fc370bc67c1"
+                "url": "https://github.com/sbwtech/amap_maps_api.git",
+                "reference": "38d6ae06874f3dafd1b110373283778c226170d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sbwtech/amap_maps_api/zipball/38d6ae06874f3dafd1b110373283778c226170d7",
+                "reference": "38d6ae06874f3dafd1b110373283778c226170d7",
+                "shasum": ""
             },
             "require": {
                 "composer/installers": ">=1.0.8",
@@ -3157,6 +3163,10 @@
             "license": [
                 "GPL-2.0"
             ],
+            "support": {
+                "source": "https://github.com/sbwtech/amap_maps_api/tree/master",
+                "issues": "https://github.com/sbwtech/amap_maps_api/issues"
+            },
             "time": "2016-06-19 00:40:48"
         },
         {
@@ -3192,8 +3202,14 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:sbw-dev/membersmap.git",
+                "url": "https://github.com/sbwtech/membersmap.git",
                 "reference": "59fe051c309598718d17cd5fcab685eed614739d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sbwtech/membersmap/zipball/59fe051c309598718d17cd5fcab685eed614739d",
+                "reference": "59fe051c309598718d17cd5fcab685eed614739d",
+                "shasum": ""
             },
             "require": {
                 "composer/installers": ">=1.0.8",
@@ -3203,6 +3219,10 @@
             "license": [
                 "GPL-2.0"
             ],
+            "support": {
+                "source": "https://github.com/sbwtech/membersmap/tree/master",
+                "issues": "https://github.com/sbwtech/membersmap/issues"
+            },
             "time": "2016-06-19 20:37:35"
         },
         {
@@ -3514,9 +3534,15 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:sbw-dev/theme_sbw.git",
+                "url": "https://github.com/sbwtech/theme_sbw.git",
                 "reference": "a189ff6091ea3c41faaa59d9d21ed0030643b617"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/a189ff6091ea3c41faaa59d9d21ed0030643b617",
+                "reference": "a189ff6091ea3c41faaa59d9d21ed0030643b617",
+                "shasum": ""
+            },
             "require": {
                 "composer/installers": ">=1.0.8"
             },
@@ -3524,41 +3550,11 @@
             "license": [
                 "GPL-2.0"
             ],
+            "support": {
+                "source": "https://github.com/sbwtech/theme_sbw/tree/master",
+                "issues": "https://github.com/sbwtech/theme_sbw/issues"
+            },
             "time": "2016-05-28 14:07:21"
-        },
-        {
-            "name": "sbw/time_theme_pro",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:sbw-dev/time_theme_pro.git",
-                "reference": "3bab648abac0ca3be45b620b3edcfd668200e46a"
-            },
-            "require": {
-                "composer/installers": ">=1.0.8"
-            },
-            "type": "elgg-plugin",
-            "license": [
-                "GPL-2.0"
-            ],
-            "time": "2016-04-10 10:59:30"
-        },
-        {
-            "name": "sbw/time_theme_pro_sbw",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:sbw-dev/time_theme_pro_sbw.git",
-                "reference": "844f79d455b915e76e80d12dd465e49a4e27cf44"
-            },
-            "require": {
-                "composer/installers": ">=1.0.8"
-            },
-            "type": "elgg-plugin",
-            "license": [
-                "GPL-2.0"
-            ],
-            "time": "2016-04-10 09:37:07"
         },
         {
             "name": "simplepie/simplepie",
@@ -5657,8 +5653,6 @@
         "jumbojett/vroom": 20,
         "nlybe/membersmap": 20,
         "nlybe/hypewall_extended": 20,
-        "sbw/time_theme_pro": 20,
-        "sbw/time_theme_pro_sbw": 20,
         "sbw-dev/theme_sbw": 20,
         "thetruebumba/spam_login_filter": 20
     },

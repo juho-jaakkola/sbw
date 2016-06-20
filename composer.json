@@ -5,11 +5,9 @@
   "prefer-stable": true,
   "minimum-stability": "dev",
   "repositories": [
-    {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/amap_maps_api.git"},
-    {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/membersmap.git"},
-    {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/time_theme_pro.git"},
-    {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/time_theme_pro_sbw.git"},
-    {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/theme_sbw.git"},
+    {"type": "vcs", "url": "https://github.com/sbwtech/amap_maps_api.git"},
+    {"type": "vcs", "url": "https://github.com/sbwtech/membersmap.git"},
+    {"type": "vcs", "url": "https://github.com/sbwtech/theme_sbw.git"},
     {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"}
   ],
   "require": {
@@ -58,8 +56,6 @@
     "jumbojett/vroom": "dev-master",
     "nlybe/membersmap": "dev-master",
     "nlybe/hypewall_extended": "dev-master",
-    "sbw/time_theme_pro": "dev-master",
-    "sbw/time_theme_pro_sbw": "dev-master",
     "sbw-dev/theme_sbw": "dev-master",
     "thetruebumba/spam_login_filter": "dev-master",
     "coldtrick/ckeditor_extended": "^2.0"
