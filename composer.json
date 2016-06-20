@@ -37,7 +37,7 @@
     "coldtrick/translation_editor": "dev-master",
     "coldtrick/widget_manager": "dev-master",
     "elgg/dbvalidator": "dev-master",
-    "elgg/elgg": "2.0.x-dev",
+    "elgg/elgg": "2.*",
     "elgg/mentions": "dev-master",
     "elgg/videolist": "dev-master",
     "hypejunction/hypedropzone": "dev-master",
