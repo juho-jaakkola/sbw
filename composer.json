@@ -58,7 +58,8 @@
     "nlybe/hypewall_extended": "dev-master",
     "sbw-dev/theme_sbw": "dev-master",
     "thetruebumba/spam_login_filter": "dev-master",
-    "coldtrick/ckeditor_extended": "^2.0"
+    "coldtrick/ckeditor_extended": "^2.0",
+    "daltonmedia/elgg_cookieconsent": "^1.1"
   },
   "require-dev": {
     "srokap/code_review": "^1.0.5",

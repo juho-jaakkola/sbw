@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3a1791e001298d8f7e24aea969541cef",
-    "content-hash": "a45f0a1bd237c87baad42d376bf91891",
+    "hash": "d3fe24102a44c8f76b44d758388d854d",
+    "content-hash": "661a17c70125a3a2fe746bca562f16e4",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -197,13 +197,10 @@
                 "composer/installers": ">=1.0.8"
             },
             "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
-            "support": {
-                "source": "https://github.com/beck24/embed_extender/tree/master",
-                "issues": "https://github.com/beck24/embed_extender/issues"
-            },
             "time": "2016-01-14 23:34:54"
         },
         {
@@ -834,12 +831,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "8aa55a3d64177f5cce62f9c5a557abd82161d240"
+                "reference": "d30f210d34dbbc49532758ef0352078cc7890834"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/8aa55a3d64177f5cce62f9c5a557abd82161d240",
-                "reference": "8aa55a3d64177f5cce62f9c5a557abd82161d240",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/d30f210d34dbbc49532758ef0352078cc7890834",
+                "reference": "d30f210d34dbbc49532758ef0352078cc7890834",
                 "shasum": ""
             },
             "require": {
@@ -860,7 +857,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2016-05-26 12:32:00"
+            "time": "2016-06-21 15:48:42"
         },
         {
             "name": "coldtrick/html_email_handler",
@@ -868,12 +865,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/html_email_handler.git",
-                "reference": "182da6003c2dbdb6e74383f62501eac1ae752969"
+                "reference": "7fb141ddfd947174e9247638daf9cc749c6bc19d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/html_email_handler/zipball/182da6003c2dbdb6e74383f62501eac1ae752969",
-                "reference": "182da6003c2dbdb6e74383f62501eac1ae752969",
+                "url": "https://api.github.com/repos/ColdTrick/html_email_handler/zipball/7fb141ddfd947174e9247638daf9cc749c6bc19d",
+                "reference": "7fb141ddfd947174e9247638daf9cc749c6bc19d",
                 "shasum": ""
             },
             "require": {
@@ -896,7 +893,7 @@
                 "notification",
                 "plugin"
             ],
-            "time": "2016-01-20 09:52:35"
+            "time": "2016-06-21 08:34:30"
         },
         {
             "name": "coldtrick/language_selector",
@@ -1218,6 +1215,46 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "time": "2014-12-30 15:22:37"
+        },
+        {
+            "name": "daltonmedia/elgg_cookieconsent",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Daltonmedia/elgg_cookieconsent.git",
+                "reference": "5e16912efaae7b88d8369e0ced0c56d26864c29c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Daltonmedia/elgg_cookieconsent/zipball/5e16912efaae7b88d8369e0ced0c56d26864c29c",
+                "reference": "5e16912efaae7b88d8369e0ced0c56d26864c29c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.5"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Dries dk",
+                    "email": "driesdk@gmail.com"
+                }
+            ],
+            "description": "Adds a configurable cookie consent message to your Elgg install",
+            "homepage": "http://daltonstudio.be",
+            "keywords": [
+                "cookie",
+                "cookieconsent",
+                "cookies",
+                "elgg",
+                "plugin"
+            ],
+            "time": "2016-06-21 08:10:01"
         },
         {
             "name": "doctrine/annotations",
@@ -3164,7 +3201,7 @@
                 "GPL-2.0"
             ],
             "support": {
-                "source": "https://github.com/sbwtech/amap_maps_api/tree/master",
+                "source": "https://github.com/sbwtech/amap_maps_api/tree/2.9.0",
                 "issues": "https://github.com/sbwtech/amap_maps_api/issues"
             },
             "time": "2016-06-19 00:40:48"
