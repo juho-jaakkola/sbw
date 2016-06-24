@@ -8,7 +8,8 @@
     {"type": "vcs", "url": "https://github.com/sbwtech/amap_maps_api.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/membersmap.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/theme_sbw.git"},
-    {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"}
+    {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"},
+    {"type": "vcs", "url": "https://github.com/nlybe/Elgg-Etherpad.git"}
   ],
   "require": {
     "arckinteractive/elgg_hybridauth": "dev-master",
@@ -54,6 +55,7 @@
     "iionly/tidypics": "dev-master",
     "juho-jaakkola/elgg-scheduling": "dev-master",
     "jumbojett/vroom": "dev-master",
+    "nlybe/etherpad": "dev-master",
     "nlybe/membersmap": "dev-master",
     "nlybe/hypewall_extended": "dev-master",
     "sbw-dev/theme_sbw": "dev-master",

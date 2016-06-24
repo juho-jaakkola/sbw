@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d3fe24102a44c8f76b44d758388d854d",
-    "content-hash": "661a17c70125a3a2fe746bca562f16e4",
+    "hash": "787dcec95241045715fc8036dedb9285",
+    "content-hash": "300d24d3a8063516dd52692a03acf5f7",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -68,12 +68,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AU-Landing-Project/au_subgroups.git",
-                "reference": "05b9467059c414fafa5c2e068657a0e788e3f8fd"
+                "reference": "51b4a21a4bbc8394f1dfa17d291a7c3db3db5b03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AU-Landing-Project/au_subgroups/zipball/05b9467059c414fafa5c2e068657a0e788e3f8fd",
-                "reference": "05b9467059c414fafa5c2e068657a0e788e3f8fd",
+                "url": "https://api.github.com/repos/AU-Landing-Project/au_subgroups/zipball/51b4a21a4bbc8394f1dfa17d291a7c3db3db5b03",
+                "reference": "51b4a21a4bbc8394f1dfa17d291a7c3db3db5b03",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +96,7 @@
                 "plugin",
                 "subgroups"
             ],
-            "time": "2016-04-11 16:19:37"
+            "time": "2016-06-24 15:30:28"
         },
         {
             "name": "au/comment_tracker",
@@ -663,12 +663,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/csv_exporter.git",
-                "reference": "510b0af3c5caf1d288aad658fc65f972d9d787d4"
+                "reference": "cc2e06540e25ce4e74756756e815f1bd695d23bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/csv_exporter/zipball/510b0af3c5caf1d288aad658fc65f972d9d787d4",
-                "reference": "510b0af3c5caf1d288aad658fc65f972d9d787d4",
+                "url": "https://api.github.com/repos/ColdTrick/csv_exporter/zipball/cc2e06540e25ce4e74756756e815f1bd695d23bf",
+                "reference": "cc2e06540e25ce4e74756756e815f1bd695d23bf",
                 "shasum": ""
             },
             "require": {
@@ -689,7 +689,7 @@
                 "export",
                 "plugin"
             ],
-            "time": "2016-05-26 12:49:22"
+            "time": "2016-06-23 07:54:23"
         },
         {
             "name": "coldtrick/digest",
@@ -831,12 +831,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "d30f210d34dbbc49532758ef0352078cc7890834"
+                "reference": "acb9cba25e253c4c5ade57094f8cfb273242ba3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/d30f210d34dbbc49532758ef0352078cc7890834",
-                "reference": "d30f210d34dbbc49532758ef0352078cc7890834",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/acb9cba25e253c4c5ade57094f8cfb273242ba3c",
+                "reference": "acb9cba25e253c4c5ade57094f8cfb273242ba3c",
                 "shasum": ""
             },
             "require": {
@@ -857,7 +857,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2016-06-21 15:48:42"
+            "time": "2016-06-22 08:56:10"
         },
         {
             "name": "coldtrick/html_email_handler",
@@ -3207,6 +3207,33 @@
             "time": "2016-06-19 00:40:48"
         },
         {
+            "name": "nlybe/etherpad",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nlybe/Elgg-Etherpad.git",
+                "reference": "d5f9c3f18f0b11166256690e021d8d915496e2fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nlybe/Elgg-Etherpad/zipball/d5f9c3f18f0b11166256690e021d8d915496e2fd",
+                "reference": "d5f9c3f18f0b11166256690e021d8d915496e2fd",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "license": [
+                "GNU Affero GPL-3.0+"
+            ],
+            "support": {
+                "source": "https://github.com/nlybe/Elgg-Etherpad/tree/master",
+                "issues": "https://github.com/nlybe/Elgg-Etherpad/issues"
+            },
+            "time": "2016-06-06 08:06:19"
+        },
+        {
             "name": "nlybe/hypewall_extended",
             "version": "dev-master",
             "source": {
@@ -4421,16 +4448,16 @@
         },
         {
             "name": "zendframework/zend-validator",
-            "version": "2.8.0",
+            "version": "2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-validator.git",
-                "reference": "f956581bc5fa4cf3f2933fe24e77deded8d1937b"
+                "reference": "8ec9f57a717dd37340308aa632f148a2c2be1cfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-validator/zipball/f956581bc5fa4cf3f2933fe24e77deded8d1937b",
-                "reference": "f956581bc5fa4cf3f2933fe24e77deded8d1937b",
+                "url": "https://api.github.com/repos/zendframework/zend-validator/zipball/8ec9f57a717dd37340308aa632f148a2c2be1cfc",
+                "reference": "8ec9f57a717dd37340308aa632f148a2c2be1cfc",
                 "shasum": ""
             },
             "require": {
@@ -4488,7 +4515,7 @@
                 "validator",
                 "zf2"
             ],
-            "time": "2016-05-16 13:39:40"
+            "time": "2016-06-23 13:44:31"
         }
     ],
     "packages-dev": [
@@ -5687,6 +5714,7 @@
         "iionly/tidypics": 20,
         "juho-jaakkola/elgg-scheduling": 20,
         "jumbojett/vroom": 20,
+        "nlybe/etherpad": 20,
         "nlybe/membersmap": 20,
         "nlybe/hypewall_extended": 20,
         "sbw-dev/theme_sbw": 20,
