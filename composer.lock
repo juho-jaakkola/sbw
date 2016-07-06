@@ -462,12 +462,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Centillien/metatags.git",
-                "reference": "98839f2beec16cdb68ffbced54a624236a617724"
+                "reference": "e7e19c274867f90673bf5ef468f3ad0fe74daf68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Centillien/metatags/zipball/98839f2beec16cdb68ffbced54a624236a617724",
-                "reference": "98839f2beec16cdb68ffbced54a624236a617724",
+                "url": "https://api.github.com/repos/Centillien/metatags/zipball/e7e19c274867f90673bf5ef468f3ad0fe74daf68",
+                "reference": "e7e19c274867f90673bf5ef468f3ad0fe74daf68",
                 "shasum": ""
             },
             "type": "elgg-plugin",
@@ -486,7 +486,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-03-19 09:40:15"
+            "time": "2016-06-29 10:24:46"
         },
         {
             "name": "coldtrick/advanced_statistics",
@@ -2816,12 +2816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iionly/tidypics.git",
-                "reference": "64ee7e949cd2943fd8ee81a9c6b170f5af6c2474"
+                "reference": "8d407fa093fd35ace4c1b3cf598c05f5dec7f325"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iionly/tidypics/zipball/64ee7e949cd2943fd8ee81a9c6b170f5af6c2474",
-                "reference": "64ee7e949cd2943fd8ee81a9c6b170f5af6c2474",
+                "url": "https://api.github.com/repos/iionly/tidypics/zipball/8d407fa093fd35ace4c1b3cf598c05f5dec7f325",
+                "reference": "8d407fa093fd35ace4c1b3cf598c05f5dec7f325",
                 "shasum": ""
             },
             "require": {
@@ -2845,7 +2845,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-05-21 16:42:07"
+            "time": "2016-07-05 19:26:11"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -3599,12 +3599,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/theme_sbw.git",
-                "reference": "a189ff6091ea3c41faaa59d9d21ed0030643b617"
+                "reference": "cc43c7604d074ae219b5fd6c4e7bcd9629372a54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/a189ff6091ea3c41faaa59d9d21ed0030643b617",
-                "reference": "a189ff6091ea3c41faaa59d9d21ed0030643b617",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/cc43c7604d074ae219b5fd6c4e7bcd9629372a54",
+                "reference": "cc43c7604d074ae219b5fd6c4e7bcd9629372a54",
                 "shasum": ""
             },
             "require": {
@@ -3618,7 +3618,7 @@
                 "source": "https://github.com/sbwtech/theme_sbw/tree/master",
                 "issues": "https://github.com/sbwtech/theme_sbw/issues"
             },
-            "time": "2016-05-28 14:07:21"
+            "time": "2016-07-05 17:17:37"
         },
         {
             "name": "simplepie/simplepie",
@@ -3711,16 +3711,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "f5b7563f67779c6d3d5370e23448e707c858df3e"
+                "reference": "7f9839ede2070f53e7e2f0849b9bd14748c434c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/f5b7563f67779c6d3d5370e23448e707c858df3e",
-                "reference": "f5b7563f67779c6d3d5370e23448e707c858df3e",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/7f9839ede2070f53e7e2f0849b9bd14748c434c5",
+                "reference": "7f9839ede2070f53e7e2f0849b9bd14748c434c5",
                 "shasum": ""
             },
             "require": {
@@ -3767,20 +3767,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-06 11:42:41"
+            "time": "2016-06-29 05:41:56"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.8.7",
+            "version": "v2.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "744dae663ffcfa21d8a111fb63541954199acbb2"
+                "reference": "7a55440a2bebd37b8bd06f99f5def1ddf0aa9249"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/744dae663ffcfa21d8a111fb63541954199acbb2",
-                "reference": "744dae663ffcfa21d8a111fb63541954199acbb2",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/7a55440a2bebd37b8bd06f99f5def1ddf0aa9249",
+                "reference": "7a55440a2bebd37b8bd06f99f5def1ddf0aa9249",
                 "shasum": ""
             },
             "require": {
@@ -3822,7 +3822,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-06 11:11:27"
+            "time": "2016-06-29 07:02:14"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -5573,16 +5573,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "c5a7e7fc273c758b92b85dcb9c46149ccda89623"
+                "reference": "2884c26ce4c1d61aebf423a8b912950fe7c764de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/c5a7e7fc273c758b92b85dcb9c46149ccda89623",
-                "reference": "c5a7e7fc273c758b92b85dcb9c46149ccda89623",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/2884c26ce4c1d61aebf423a8b912950fe7c764de",
+                "reference": "2884c26ce4c1d61aebf423a8b912950fe7c764de",
                 "shasum": ""
             },
             "require": {
@@ -5618,7 +5618,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-14 11:18:07"
+            "time": "2016-06-29 05:41:56"
         },
         {
             "name": "webmozart/assert",
