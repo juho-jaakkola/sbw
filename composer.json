@@ -13,6 +13,7 @@
   ],
   "require": {
     "arckinteractive/elgg_hybridauth": "dev-master",
+    "au/au_group_tag_menu": "dev-master",
     "au/au_subgroups": "dev-master",
     "au/comment_tracker": "dev-master",
     "au/rssimport": "dev-master",

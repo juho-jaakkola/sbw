@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7948732ebc3565becfbfe4410fcac24c",
-    "content-hash": "4f8ec2d07151dcd0934f3155250856b5",
+    "hash": "e312d2f3bb083073ce8c5d871301c233",
+    "content-hash": "dd6d590c29cc4ea1a246365781310571",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -61,6 +61,45 @@
                 "yahoo"
             ],
             "time": "2016-01-28 19:11:07"
+        },
+        {
+            "name": "au/au_group_tag_menu",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AU-Landing-Project/au_group_tag_menu.git",
+                "reference": "6045aa690134354e83f36c09d9b910c80eb576dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AU-Landing-Project/au_group_tag_menu/zipball/6045aa690134354e83f36c09d9b910c80eb576dc",
+                "reference": "6045aa690134354e83f36c09d9b910c80eb576dc",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8",
+                "php": ">=5.4"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Beckett"
+                }
+            ],
+            "description": "Adds a group submenu of specified tags and displays the results in the group context. Also adds group tagcloud with integrated listing in the group.",
+            "homepage": "https://github.com/AU-Landing-Project/au_analytics",
+            "keywords": [
+                "AU",
+                "elgg",
+                "groups",
+                "plugin",
+                "tag"
+            ],
+            "time": "2016-07-08 07:04:15"
         },
         {
             "name": "au/au_subgroups",
@@ -5674,6 +5713,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "arckinteractive/elgg_hybridauth": 20,
+        "au/au_group_tag_menu": 20,
         "au/au_subgroups": 20,
         "au/comment_tracker": 20,
         "au/rssimport": 20,
