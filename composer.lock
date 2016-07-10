@@ -209,12 +209,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/beck24/granular_access.git",
-                "reference": "d8d52aa4369b749d745b555ed10afefe793fdc7e"
+                "reference": "1e6c7fcac2d52c724629783f66b6b179a820f605"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beck24/granular_access/zipball/d8d52aa4369b749d745b555ed10afefe793fdc7e",
-                "reference": "d8d52aa4369b749d745b555ed10afefe793fdc7e",
+                "url": "https://api.github.com/repos/beck24/granular_access/zipball/1e6c7fcac2d52c724629783f66b6b179a820f605",
+                "reference": "1e6c7fcac2d52c724629783f66b6b179a820f605",
                 "shasum": ""
             },
             "require": {
@@ -227,7 +227,7 @@
             "license": [
                 "GPL-2.0"
             ],
-            "time": "2016-04-04 20:33:02"
+            "time": "2016-07-08 22:00:11"
         },
         {
             "name": "beck24/image_proxy",
@@ -831,12 +831,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "acb9cba25e253c4c5ade57094f8cfb273242ba3c"
+                "reference": "f97a0db9d17fd4c2a7aa8c8e9b3d5084701972e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/acb9cba25e253c4c5ade57094f8cfb273242ba3c",
-                "reference": "acb9cba25e253c4c5ade57094f8cfb273242ba3c",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/f97a0db9d17fd4c2a7aa8c8e9b3d5084701972e0",
+                "reference": "f97a0db9d17fd4c2a7aa8c8e9b3d5084701972e0",
                 "shasum": ""
             },
             "require": {
@@ -857,7 +857,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2016-06-22 08:56:10"
+            "time": "2016-07-07 14:05:15"
         },
         {
             "name": "coldtrick/html_email_handler",
@@ -1898,12 +1898,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "3d9e6b76731caf18efe619afbeadb5a2bb9230f9"
+                "reference": "db3ab94deb303c4c1bbb918b9dd312e6f831c659"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/3d9e6b76731caf18efe619afbeadb5a2bb9230f9",
-                "reference": "3d9e6b76731caf18efe619afbeadb5a2bb9230f9",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/db3ab94deb303c4c1bbb918b9dd312e6f831c659",
+                "reference": "db3ab94deb303c4c1bbb918b9dd312e6f831c659",
                 "shasum": ""
             },
             "require": {
@@ -1952,7 +1952,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2016-07-05 17:19:56"
+            "time": "2016-07-07 12:37:30"
         },
         {
             "name": "elgg/login_as",
@@ -2327,12 +2327,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeDropzone.git",
-                "reference": "650d01f168d5580f29af2345be97e90cf118e549"
+                "reference": "9f59b7e6c5702b68198623fee804510e4ef8fab5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeDropzone/zipball/650d01f168d5580f29af2345be97e90cf118e549",
-                "reference": "650d01f168d5580f29af2345be97e90cf118e549",
+                "url": "https://api.github.com/repos/hypeJunction/hypeDropzone/zipball/9f59b7e6c5702b68198623fee804510e4ef8fab5",
+                "reference": "9f59b7e6c5702b68198623fee804510e4ef8fab5",
                 "shasum": ""
             },
             "require-dev": {
@@ -2367,7 +2367,7 @@
                 "plugin",
                 "upload"
             ],
-            "time": "2015-10-20 14:01:10"
+            "time": "2016-07-06 17:31:41"
         },
         {
             "name": "hypejunction/hypescraper",
@@ -3599,12 +3599,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/theme_sbw.git",
-                "reference": "cc43c7604d074ae219b5fd6c4e7bcd9629372a54"
+                "reference": "cd45924a42912482730e56bd33ae3a83ad18be14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/cc43c7604d074ae219b5fd6c4e7bcd9629372a54",
-                "reference": "cc43c7604d074ae219b5fd6c4e7bcd9629372a54",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/cd45924a42912482730e56bd33ae3a83ad18be14",
+                "reference": "cd45924a42912482730e56bd33ae3a83ad18be14",
                 "shasum": ""
             },
             "require": {
@@ -3618,7 +3618,7 @@
                 "source": "https://github.com/sbwtech/theme_sbw/tree/master",
                 "issues": "https://github.com/sbwtech/theme_sbw/issues"
             },
-            "time": "2016-07-05 17:17:37"
+            "time": "2016-07-09 21:03:00"
         },
         {
             "name": "simplepie/simplepie",
