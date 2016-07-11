@@ -423,16 +423,16 @@
         },
         {
             "name": "bower-asset/jquery-ui",
-            "version": "1.11.4",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jqueryui.git",
-                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
+                "reference": "51d123ace890e283c7a6471c14ac14ad34ba988b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/jqueryui/zipball/c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
+                "url": "https://api.github.com/repos/components/jqueryui/zipball/51d123ace890e283c7a6471c14ac14ad34ba988b",
+                "reference": "51d123ace890e283c7a6471c14ac14ad34ba988b",
                 "shasum": ""
             },
             "require": {
@@ -870,12 +870,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "f97a0db9d17fd4c2a7aa8c8e9b3d5084701972e0"
+                "reference": "05211b06e41610b35fa9a5576f82a2b05049e1f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/f97a0db9d17fd4c2a7aa8c8e9b3d5084701972e0",
-                "reference": "f97a0db9d17fd4c2a7aa8c8e9b3d5084701972e0",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/05211b06e41610b35fa9a5576f82a2b05049e1f8",
+                "reference": "05211b06e41610b35fa9a5576f82a2b05049e1f8",
                 "shasum": ""
             },
             "require": {
@@ -896,7 +896,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2016-07-07 14:05:15"
+            "time": "2016-07-11 09:22:03"
         },
         {
             "name": "coldtrick/html_email_handler",
@@ -1937,12 +1937,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "db3ab94deb303c4c1bbb918b9dd312e6f831c659"
+                "reference": "4f56174f88d8228807bfa6c471c72774d3757434"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/db3ab94deb303c4c1bbb918b9dd312e6f831c659",
-                "reference": "db3ab94deb303c4c1bbb918b9dd312e6f831c659",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/4f56174f88d8228807bfa6c471c72774d3757434",
+                "reference": "4f56174f88d8228807bfa6c471c72774d3757434",
                 "shasum": ""
             },
             "require": {
@@ -1991,7 +1991,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2016-07-07 12:37:30"
+            "time": "2016-07-11 07:34:21"
         },
         {
             "name": "elgg/login_as",
@@ -2058,12 +2058,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/videolist.git",
-                "reference": "fb1d489154c420893a969b37310bb9315cf5c814"
+                "reference": "67c867945e2da343207e82e22f1631a3cf910ad8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/videolist/zipball/fb1d489154c420893a969b37310bb9315cf5c814",
-                "reference": "fb1d489154c420893a969b37310bb9315cf5c814",
+                "url": "https://api.github.com/repos/Elgg/videolist/zipball/67c867945e2da343207e82e22f1631a3cf910ad8",
+                "reference": "67c867945e2da343207e82e22f1631a3cf910ad8",
                 "shasum": ""
             },
             "require": {
@@ -2074,7 +2074,7 @@
             "license": [
                 "GPL-2.0"
             ],
-            "time": "2016-03-14 21:20:05"
+            "time": "2016-07-11 09:55:01"
         },
         {
             "name": "fortawesome/font-awesome",
@@ -3638,12 +3638,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/theme_sbw.git",
-                "reference": "08313112c9b7ce2264b190eadab2529a25d9622c"
+                "reference": "f9956488c27c7507a9eff54ad26718bf41237f80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/08313112c9b7ce2264b190eadab2529a25d9622c",
-                "reference": "08313112c9b7ce2264b190eadab2529a25d9622c",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/f9956488c27c7507a9eff54ad26718bf41237f80",
+                "reference": "f9956488c27c7507a9eff54ad26718bf41237f80",
                 "shasum": ""
             },
             "require": {
@@ -3657,7 +3657,7 @@
                 "source": "https://github.com/sbwtech/theme_sbw/tree/master",
                 "issues": "https://github.com/sbwtech/theme_sbw/issues"
             },
-            "time": "2016-07-10 19:19:08"
+            "time": "2016-07-11 10:56:09"
         },
         {
             "name": "simplepie/simplepie",
