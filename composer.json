@@ -6,6 +6,7 @@
   "minimum-stability": "dev",
   "repositories": [
     {"type": "vcs", "url": "https://github.com/sbwtech/amap_maps_api.git"},
+    {"type": "vcs", "url": "https://github.com/sbwtech/groupsmap.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/membersmap.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/theme_sbw.git"},
     {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"},
@@ -24,6 +25,7 @@
     "coldtrick/advanced_statistics": "dev-master",
     "coldtrick/analytics": "dev-master",
     "coldtrick/blog_tools": "dev-master",
+    "coldtrick/ckeditor_extended": "^2.0",
     "coldtrick/content_subscriptions": "dev-master",
     "coldtrick/csv_exporter": "dev-master",
     "coldtrick/digest": "dev-master",
@@ -38,6 +40,7 @@
     "coldtrick/target_blank": "dev-master",
     "coldtrick/translation_editor": "dev-master",
     "coldtrick/widget_manager": "dev-master",
+    "daltonmedia/elgg_cookieconsent": "^1.1",
     "elgg/dbvalidator": "dev-master",
     "elgg/elgg": "2.2.x-dev",
     "elgg/mentions": "dev-master",
@@ -57,12 +60,11 @@
     "juho-jaakkola/elgg-scheduling": "dev-master",
     "jumbojett/vroom": "dev-master",
     "nlybe/etherpad": "dev-master",
-    "nlybe/membersmap": "dev-master",
+    "nlybe/groupsmap": "dev-master",
     "nlybe/hypewall_extended": "dev-master",
+    "nlybe/membersmap": "dev-master",
     "sbw-dev/theme_sbw": "dev-master",
-    "thetruebumba/spam_login_filter": "dev-master",
-    "coldtrick/ckeditor_extended": "^2.0",
-    "daltonmedia/elgg_cookieconsent": "^1.1"
+    "thetruebumba/spam_login_filter": "dev-master"
   },
   "require-dev": {
     "srokap/code_review": "^1.0.5",
