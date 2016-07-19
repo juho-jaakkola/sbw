@@ -236,10 +236,13 @@
                 "composer/installers": ">=1.0.8"
             },
             "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
+            "support": {
+                "source": "https://github.com/beck24/embed_extender/tree/master",
+                "issues": "https://github.com/beck24/embed_extender/issues"
+            },
             "time": "2016-01-14 23:34:54"
         },
         {
@@ -304,6 +307,60 @@
                 "plugin"
             ],
             "time": "2015-09-24 07:30:12"
+        },
+        {
+            "name": "bower-asset/fullcalendar",
+            "version": "v2.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fullcalendar/fullcalendar.git",
+                "reference": "05938998f5b9fef9a3516572f33c141c0f792928"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fullcalendar/fullcalendar/zipball/05938998f5b9fef9a3516572f33c141c0f792928",
+                "reference": "05938998f5b9fef9a3516572f33c141c0f792928",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.7.1",
+                "bower-asset/moment": ">=2.5.0"
+            },
+            "require-dev": {
+                "bower-asset/bootstrap": "~3.2.0",
+                "bower-asset/jasmine-fixture": "~2.0.0",
+                "bower-asset/jasmine-jquery": "~2.1.1",
+                "bower-asset/jquery-mockjax": "~2.2.0",
+                "bower-asset/jquery-simulate": "~1.0.1",
+                "bower-asset/jquery-ui": ">=1.11.1",
+                "bower-asset/moment-timezone": "~0.2.1"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "dist/fullcalendar.js",
+                    "dist/fullcalendar.css"
+                ],
+                "bower-asset-ignore": [
+                    "*",
+                    "**/.*",
+                    "!/dist/**",
+                    "!/README.*",
+                    "!/LICENSE.*",
+                    "!/CHANGELOG.*",
+                    "!/CONTRIBUTING.*"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Full-sized drag & drop event calendar",
+            "keywords": [
+                "calendar",
+                "event",
+                "full-sized",
+                "jquery-plugin"
+            ]
         },
         {
             "name": "bower-asset/jquery",
@@ -423,16 +480,16 @@
         },
         {
             "name": "bower-asset/jquery-ui",
-            "version": "1.12.0",
+            "version": "1.12.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jqueryui.git",
-                "reference": "51d123ace890e283c7a6471c14ac14ad34ba988b"
+                "reference": "2c9359a9d199da254dd278bef3d4ced047d6581c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/jqueryui/zipball/51d123ace890e283c7a6471c14ac14ad34ba988b",
-                "reference": "51d123ace890e283c7a6471c14ac14ad34ba988b",
+                "url": "https://api.github.com/repos/components/jqueryui/zipball/2c9359a9d199da254dd278bef3d4ced047d6581c",
+                "reference": "2c9359a9d199da254dd278bef3d4ced047d6581c",
                 "shasum": ""
             },
             "require": {
@@ -444,6 +501,43 @@
                     "jquery-ui.js"
                 ],
                 "bower-asset-ignore": []
+            }
+        },
+        {
+            "name": "bower-asset/moment",
+            "version": "2.14.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moment/moment.git",
+                "reference": "227746b29044a4c2160ae7c597c7f24aacac2635"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moment/moment/zipball/227746b29044a4c2160ae7c597c7f24aacac2635",
+                "reference": "227746b29044a4c2160ae7c597c7f24aacac2635",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "moment.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "benchmarks",
+                    "bower_components",
+                    "meteor",
+                    "node_modules",
+                    "scripts",
+                    "tasks",
+                    "test",
+                    "component.json",
+                    "composer.json",
+                    "CONTRIBUTING.md",
+                    "ender.js",
+                    "Gruntfile.js",
+                    "Moment.js.nuspec",
+                    "package.js",
+                    "package.json"
+                ]
             }
         },
         {
@@ -770,15 +864,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/event_manager.git",
-                "reference": "7573887873b6d05756077f614b9cf96747c4e9d6"
+                "reference": "678cdb2ca7e879159884ef5bc261fa8570930b5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/7573887873b6d05756077f614b9cf96747c4e9d6",
-                "reference": "7573887873b6d05756077f614b9cf96747c4e9d6",
+                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/678cdb2ca7e879159884ef5bc261fa8570930b5b",
+                "reference": "678cdb2ca7e879159884ef5bc261fa8570930b5b",
                 "shasum": ""
             },
             "require": {
+                "bower-asset/fullcalendar": "^2.9.0",
                 "composer/installers": "^1.0.8",
                 "dompdf/dompdf": "0.6.*",
                 "ext-json": "*"
@@ -798,7 +893,7 @@
                 "events",
                 "plugin"
             ],
-            "time": "2016-06-16 07:44:43"
+            "time": "2016-07-18 14:47:20"
         },
         {
             "name": "coldtrick/file_tools",
@@ -870,12 +965,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "05211b06e41610b35fa9a5576f82a2b05049e1f8"
+                "reference": "c6097ffa0e1185eee9e1491ed875eaafd49044bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/05211b06e41610b35fa9a5576f82a2b05049e1f8",
-                "reference": "05211b06e41610b35fa9a5576f82a2b05049e1f8",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/c6097ffa0e1185eee9e1491ed875eaafd49044bc",
+                "reference": "c6097ffa0e1185eee9e1491ed875eaafd49044bc",
                 "shasum": ""
             },
             "require": {
@@ -896,7 +991,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2016-07-11 09:22:03"
+            "time": "2016-07-14 09:16:18"
         },
         {
             "name": "coldtrick/html_email_handler",
@@ -1065,12 +1160,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/translation_editor.git",
-                "reference": "ea4278b8951e705af9cd8bbe4c41bd9169f3b21a"
+                "reference": "d21c64e385c28bb8aff1ec7a72cb3d06bd9ab919"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/translation_editor/zipball/ea4278b8951e705af9cd8bbe4c41bd9169f3b21a",
-                "reference": "ea4278b8951e705af9cd8bbe4c41bd9169f3b21a",
+                "url": "https://api.github.com/repos/ColdTrick/translation_editor/zipball/d21c64e385c28bb8aff1ec7a72cb3d06bd9ab919",
+                "reference": "d21c64e385c28bb8aff1ec7a72cb3d06bd9ab919",
                 "shasum": ""
             },
             "require": {
@@ -1091,7 +1186,7 @@
                 "i18n",
                 "plugin"
             ],
-            "time": "2016-04-19 15:11:29"
+            "time": "2016-07-14 09:18:08"
         },
         {
             "name": "coldtrick/widget_manager",
@@ -1099,12 +1194,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/widget_manager.git",
-                "reference": "bced0c9189e7599be92c88be5d1333e3b7a5b0a6"
+                "reference": "86c45fe6cf648fd735fb99256dc1124099368f1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/bced0c9189e7599be92c88be5d1333e3b7a5b0a6",
-                "reference": "bced0c9189e7599be92c88be5d1333e3b7a5b0a6",
+                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/86c45fe6cf648fd735fb99256dc1124099368f1c",
+                "reference": "86c45fe6cf648fd735fb99256dc1124099368f1c",
                 "shasum": ""
             },
             "require": {
@@ -1126,7 +1221,7 @@
                 "plugin",
                 "widgets"
             ],
-            "time": "2016-06-16 08:54:12"
+            "time": "2016-07-14 07:46:03"
         },
         {
             "name": "composer/installers",
@@ -1937,12 +2032,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "e85b5214e5b93629e4b3c2091860736deaf4f1aa"
+                "reference": "5033d7c5691189ae8ce5d61ea8d570f0d0e008fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/e85b5214e5b93629e4b3c2091860736deaf4f1aa",
-                "reference": "e85b5214e5b93629e4b3c2091860736deaf4f1aa",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/5033d7c5691189ae8ce5d61ea8d570f0d0e008fb",
+                "reference": "5033d7c5691189ae8ce5d61ea8d570f0d0e008fb",
                 "shasum": ""
             },
             "require": {
@@ -1991,7 +2086,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2016-07-12 18:50:33"
+            "time": "2016-07-18 20:01:29"
         },
         {
             "name": "elgg/login_as",
@@ -2034,12 +2129,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/mentions.git",
-                "reference": "e0f345ec5249475531b16a592487de2fb1854bfe"
+                "reference": "53d08418f64d02eb1f7dedc4aceaa0293866fb46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/mentions/zipball/e0f345ec5249475531b16a592487de2fb1854bfe",
-                "reference": "e0f345ec5249475531b16a592487de2fb1854bfe",
+                "url": "https://api.github.com/repos/Elgg/mentions/zipball/53d08418f64d02eb1f7dedc4aceaa0293866fb46",
+                "reference": "53d08418f64d02eb1f7dedc4aceaa0293866fb46",
                 "shasum": ""
             },
             "require": {
@@ -2050,7 +2145,7 @@
             "license": [
                 "GPL-2.0"
             ],
-            "time": "2016-03-23 16:08:24"
+            "time": "2016-07-17 19:21:26"
         },
         {
             "name": "elgg/videolist",
@@ -2987,16 +3082,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.24",
+            "version": "1.0.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "9aca859a303fdca30370f42b8c611d9cf0dedf4b"
+                "reference": "a76afa4035931be0c78ca8efc6abf3902362f437"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/9aca859a303fdca30370f42b8c611d9cf0dedf4b",
-                "reference": "9aca859a303fdca30370f42b8c611d9cf0dedf4b",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a76afa4035931be0c78ca8efc6abf3902362f437",
+                "reference": "a76afa4035931be0c78ca8efc6abf3902362f437",
                 "shasum": ""
             },
             "require": {
@@ -3009,7 +3104,7 @@
                 "ext-fileinfo": "*",
                 "mockery/mockery": "~0.9",
                 "phpspec/phpspec": "^2.2",
-                "phpunit/phpunit": "~4.8 || ~5.0"
+                "phpunit/phpunit": "~4.8"
             },
             "suggest": {
                 "ext-fileinfo": "Required for MimeType",
@@ -3066,7 +3161,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-06-03 19:11:39"
+            "time": "2016-07-18 12:22:57"
         },
         {
             "name": "league/flysystem-memory",
@@ -3240,7 +3335,7 @@
                 "GPL-2.0"
             ],
             "support": {
-                "source": "https://github.com/sbwtech/amap_maps_api/tree/2.9.0",
+                "source": "https://github.com/sbwtech/amap_maps_api/tree/master",
                 "issues": "https://github.com/sbwtech/amap_maps_api/issues"
             },
             "time": "2016-06-19 00:40:48"
@@ -3547,12 +3642,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "96f1ef760845211c8acbb15970e706db1e4b2c5e"
+                "reference": "0d0256b49f34ace33580334859a6c8fa03f4bb8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/96f1ef760845211c8acbb15970e706db1e4b2c5e",
-                "reference": "96f1ef760845211c8acbb15970e706db1e4b2c5e",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0d0256b49f34ace33580334859a6c8fa03f4bb8c",
+                "reference": "0d0256b49f34ace33580334859a6c8fa03f4bb8c",
                 "shasum": ""
             },
             "conflict": {
@@ -3560,7 +3655,8 @@
                 "cakephp/cakephp": ">=3,<3.0.15|>=2,<2.4.99|>=2.5,<2.5.90|>=2.6,<2.6.12|>=1.3,<1.3.18|>=2.7,<2.7.6|>=3.1,<3.1.3",
                 "codeigniter/framework": "<3.0.3",
                 "composer/composer": "<=1.0.0-alpha11",
-                "contao/core": ">=2.11,<3|>=3,<3.1|>=3.1,<3.2|>=3.2,<3.2.19|>=3.3,<3.4|>=3.4,<3.4.4",
+                "contao-components/mediaelement": ">=2.14.2,<2.21.1",
+                "contao/core": ">=2.11,<3|>=3,<3.5.15",
                 "doctrine/annotations": ">=1,<1.2.7",
                 "doctrine/cache": ">=1,<1.3.2|>=1.4,<1.4.2",
                 "doctrine/common": ">=2,<2.4.3|>=2.5,<2.5.1",
@@ -3574,6 +3670,7 @@
                 "firebase/php-jwt": "<2",
                 "friendsofsymfony/rest-bundle": ">=1.2,<1.2.2",
                 "friendsofsymfony/user-bundle": ">=1.2,<1.3|>=1.3,<1.3.5",
+                "guzzlehttp/guzzle": ">=6,<6.2.1|>=4.0.0-rc2,<4.2.4|>=5,<5.3.1",
                 "illuminate/auth": ">=4,<4.0.99|>=4.1,<4.1.26",
                 "illuminate/database": ">=4,<4.0.99|>=4.1,<4.1.29",
                 "joomla/session": "<1.3.1",
@@ -3591,7 +3688,7 @@
                 "silverstripe/forum": "<=0.6.1|>=0.7,<=0.7.3",
                 "silverstripe/framework": ">=3,<3.1|>=3.1,<3.2|>=3.2,<3.3",
                 "silverstripe/userforms": "<3",
-                "simplesamlphp/simplesamlphp": "<=1.14.1",
+                "simplesamlphp/simplesamlphp": "<1.14.4",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "swiftmailer/swiftmailer": ">=4,<4.99.99|>=5,<5.2.1",
                 "symfony/dependency-injection": ">=2,<2.0.17",
@@ -3612,7 +3709,7 @@
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
                 "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
                 "twig/twig": "<1.20",
-                "typo3/cms": ">=6.2,<6.2.25|>=7,<7.1|>=7.1,<7.2|>=7.2,<7.3|>=7.3,<7.4|>=7.4,<7.5|>=7.5,<7.6|>=7.6,<7.6.8|>=8,<8.1.1",
+                "typo3/cms": ">=6.2,<6.2.25|>=7,<7.1|>=7.1,<7.2|>=7.2,<7.3|>=7.3,<7.4|>=7.6,<7.6.8|>=8,<8.1.1|>=7.4,<7.5|>=7.5,<7.6",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.7|>=3,<3.0.1",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
                 "willdurand/js-translation-bundle": "<2.1.1",
@@ -3638,7 +3735,7 @@
                 "zendframework/zend-view": ">=2,<2.2.7|>=2.3,<2.3.1",
                 "zendframework/zend-xmlrpc": ">=2.1,<2.1.6|>=2.2,<2.2.6",
                 "zendframework/zendframework": ">=2,<2.4.9|>=2.5,<2.5.1",
-                "zendframework/zendframework1": ">=1,<1.11.15|>=1.12,<1.12.18",
+                "zendframework/zendframework1": "<1.12.19",
                 "zendframework/zendopenid": ">=2,<2.0.2",
                 "zendframework/zendxml": ">=1,<1.0.1",
                 "zf-commons/zfc-user": "<1.2.2",
@@ -3658,7 +3755,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2016-05-25 05:33:34"
+            "time": "2016-07-19 07:03:30"
         },
         {
             "name": "sbw-dev/theme_sbw",
@@ -3666,12 +3763,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/theme_sbw.git",
-                "reference": "f9956488c27c7507a9eff54ad26718bf41237f80"
+                "reference": "2bd312833aba12d3dac8536a566ddd17b3ca79f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/f9956488c27c7507a9eff54ad26718bf41237f80",
-                "reference": "f9956488c27c7507a9eff54ad26718bf41237f80",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/2bd312833aba12d3dac8536a566ddd17b3ca79f3",
+                "reference": "2bd312833aba12d3dac8536a566ddd17b3ca79f3",
                 "shasum": ""
             },
             "require": {
@@ -3685,7 +3782,7 @@
                 "source": "https://github.com/sbwtech/theme_sbw/tree/master",
                 "issues": "https://github.com/sbwtech/theme_sbw/issues"
             },
-            "time": "2016-07-11 10:56:09"
+            "time": "2016-07-19 13:37:49"
         },
         {
             "name": "simplepie/simplepie",
