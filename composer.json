@@ -9,6 +9,7 @@
     {"type": "vcs", "url": "https://github.com/sbwtech/groupsmap.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/membersmap.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/theme_sbw.git"},
+	{"type": "vcs", "url": "https://github.com/sbwtech/sbw_attachments.git"},
     {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"},
     {"type": "vcs", "url": "https://github.com/nlybe/Elgg-Etherpad.git"}
   ],
@@ -48,6 +49,7 @@
     "hypejunction/hypedropzone": "dev-master",
     "hypejunction/hypescraper": "dev-master",
     "hypejunction/hypewall": "dev-master",
+	"hypejunction/hypeattachments": "dev-master",
     "iionly/elggx_badges": "dev-master",
     "iionly/elggx_fivestar": "dev-master",
     "iionly/elggx_userpoints": "dev-master",
@@ -64,6 +66,7 @@
     "nlybe/hypewall_extended": "dev-master",
     "nlybe/membersmap": "dev-master",
     "sbw-dev/theme_sbw": "dev-master",
+	"sbw-dev/sbw_attachments": "dev-master",
     "thetruebumba/spam_login_filter": "dev-master"
   },
   "require-dev": {
