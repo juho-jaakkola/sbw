@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "77b27ddfc3d271de73202be30ce3f969",
-    "content-hash": "ee9fff4ca8bf37b0aa53d37bf5e37404",
+    "hash": "085aa1f21339b368c75e1cda667ad6b7",
+    "content-hash": "48048869b0830f8e95395914af8ea891",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -4162,6 +4162,32 @@
             "time": "2016-05-18 14:26:46"
         },
         {
+            "name": "teamwebgalli/galliElggEmbed",
+            "version": "dev-elgg_1.9+",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sbwtech/galliElggEmbed.git",
+                "reference": "f9b2e1c529a0a5c28422f459c6f3c5fd1e580a74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sbwtech/galliElggEmbed/zipball/f9b2e1c529a0a5c28422f459c6f3c5fd1e580a74",
+                "reference": "f9b2e1c529a0a5c28422f459c6f3c5fd1e580a74",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "support": {
+                "source": "https://github.com/sbwtech/galliElggEmbed/tree/elgg_1.9+"
+            },
+            "time": "2016-07-31 09:08:48"
+        },
+        {
             "name": "tedivm/stash",
             "version": "v0.14.1",
             "source": {
@@ -5885,7 +5911,8 @@
         "nlybe/hypewall_extended": 20,
         "nlybe/membersmap": 20,
         "sbw-dev/theme_sbw": 20,
-        "thetruebumba/spam_login_filter": 20
+        "thetruebumba/spam_login_filter": 20,
+        "teamwebgalli/gallielggembed": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

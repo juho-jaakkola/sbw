@@ -6,6 +6,7 @@
   "minimum-stability": "dev",
   "repositories": [
     {"type": "vcs", "url": "https://github.com/sbwtech/amap_maps_api.git"},
+    {"type": "vcs", "url": "https://github.com/sbwtech/galliElggEmbed.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/groupsmap.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/membersmap.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/theme_sbw.git"},
@@ -67,6 +68,7 @@
     "nlybe/membersmap": "dev-master",
     "sbw-dev/theme_sbw": "dev-master",
 	"sbw-dev/sbw_attachments": "dev-master",
+    "teamwebgalli/galliElggEmbed": "dev-elgg_1.9+",
     "thetruebumba/spam_login_filter": "dev-master"
   },
   "require-dev": {
