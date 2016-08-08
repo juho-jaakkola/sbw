@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "085aa1f21339b368c75e1cda667ad6b7",
-    "content-hash": "48048869b0830f8e95395914af8ea891",
+    "hash": "1247f18a941f440b9283c5d3067994fe",
+    "content-hash": "22bd6b40e02c404aa9c02f5c6fe3fadd",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -2364,6 +2364,48 @@
             "time": "2016-01-12 12:19:25"
         },
         {
+            "name": "hypejunction/acl_builder_api",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/acl_builder_api.git",
+                "reference": "4be297b147310da8ca0743016c72a8abddb4d765"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/acl_builder_api/zipball/4be297b147310da8ca0743016c72a8abddb4d765",
+                "reference": "4be297b147310da8ca0743016c72a8abddb4d765",
+                "shasum": ""
+            },
+            "require-dev": {
+                "composer/installers": "1.*"
+            },
+            "type": "elgg-plugin",
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Utility for building access collections",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "access collections",
+                "elgg",
+                "plugin"
+            ],
+            "time": "2015-11-28 09:52:27"
+        },
+        {
             "name": "hypejunction/elgg_tokeninput",
             "version": "4.1.0",
             "source": {
@@ -2454,6 +2496,85 @@
                 "plugin"
             ],
             "time": "2016-01-06 12:18:20"
+        },
+        {
+            "name": "hypejunction/hypeattachments",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/hypeAttachments.git",
+                "reference": "36264871bc84ea9663c1cb56b662c09e60b0dbe6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/hypeAttachments/zipball/36264871bc84ea9663c1cb56b662c09e60b0dbe6",
+                "reference": "36264871bc84ea9663c1cb56b662c09e60b0dbe6",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "elgg/elgg": "~2.1",
+                "elgg/sniffs": "dev-master",
+                "phpdocumentor/reflection-docblock": "~2.0",
+                "phpunit/phpunit": "~4.1",
+                "simpletest/simpletest": "~1.1",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "elgg-plugin",
+            "autoload": {
+                "psr-0": {
+                    "hypeJunction/": "classes/hypeJunction/"
+                }
+            },
+            "autoload-dev": {
+                "psr-0": {
+                    "hypeJunction": "tests/phpunit/classes/hypeJunction/"
+                }
+            },
+            "scripts": {
+                "travis:install": [
+                    "phpenv rehash",
+                    "composer self-update",
+                    "composer global require \"fxp/composer-asset-plugin:~1.1.1\"",
+                    "composer install --prefer-source --optimize-autoloader"
+                ],
+                "lint": [
+                    "phpcs --standard=vendor/elgg/sniffs/elgg.xml -p --warning-severity=0 --ignore=*/tests/*,*/vendor/*,*/vendors/*,*/mod/* classes actions languages start.php",
+                    "composer validate --verbose"
+                ],
+                "test": [
+                    "phpunit --coverage-clover=coverage.clover"
+                ],
+                "clover": [
+                    "wget https://scrutinizer-ci.com/ocular.phar",
+                    "php ocular.phar code-coverage:upload --format=php-clover coverage.clover"
+                ]
+            },
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "File attachments for Elgg",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "attachments",
+                "elgg",
+                "files",
+                "plugin"
+            ],
+            "support": {
+                "source": "https://github.com/hypeJunction/hypeAttachments/tree/master",
+                "issues": "https://github.com/hypeJunction/hypeAttachments/issues"
+            },
+            "time": "2016-07-14 14:45:37"
         },
         {
             "name": "hypejunction/hypedropzone",
@@ -3756,6 +3877,54 @@
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
             "time": "2016-07-19 07:03:30"
+        },
+        {
+            "name": "sbw-dev/sbw_attachments",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sbwtech/sbw_attachments.git",
+                "reference": "b6cf47205296078df0e900a2803764154e97ae8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sbwtech/sbw_attachments/zipball/b6cf47205296078df0e900a2803764154e97ae8b",
+                "reference": "b6cf47205296078df0e900a2803764154e97ae8b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "hypejunction/acl_builder_api": "~1.0",
+                "php": ">=5.5"
+            },
+            "type": "elgg-plugin",
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "File attachments for Elgg",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "attachments",
+                "elgg",
+                "files",
+                "plugin"
+            ],
+            "support": {
+                "source": "https://github.com/sbwtech/sbw_attachments/tree/master",
+                "issues": "https://github.com/sbwtech/sbw_attachments/issues"
+            },
+            "time": "2016-07-26 11:18:23"
         },
         {
             "name": "sbw-dev/theme_sbw",
@@ -5895,6 +6064,7 @@
         "hypejunction/hypedropzone": 20,
         "hypejunction/hypescraper": 20,
         "hypejunction/hypewall": 20,
+        "hypejunction/hypeattachments": 20,
         "iionly/elggx_badges": 20,
         "iionly/elggx_fivestar": 20,
         "iionly/elggx_userpoints": 20,
@@ -5911,8 +6081,9 @@
         "nlybe/hypewall_extended": 20,
         "nlybe/membersmap": 20,
         "sbw-dev/theme_sbw": 20,
-        "thetruebumba/spam_login_filter": 20,
-        "teamwebgalli/gallielggembed": 20
+        "sbw-dev/sbw_attachments": 20,
+        "teamwebgalli/gallielggembed": 20,
+        "thetruebumba/spam_login_filter": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

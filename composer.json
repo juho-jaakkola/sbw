@@ -5,12 +5,13 @@
   "prefer-stable": true,
   "minimum-stability": "dev",
   "repositories": [
+    {"type": "vcs", "url": "https://github.com/hypeJunction/hypeAttachments.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/amap_maps_api.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/galliElggEmbed.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/groupsmap.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/membersmap.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/theme_sbw.git"},
-	{"type": "vcs", "url": "https://github.com/sbwtech/sbw_attachments.git"},
+    {"type": "vcs", "url": "https://github.com/sbwtech/sbw_attachments.git"},
     {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"},
     {"type": "vcs", "url": "https://github.com/nlybe/Elgg-Etherpad.git"}
   ],
