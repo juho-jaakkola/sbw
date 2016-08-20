@@ -6,6 +6,7 @@
   "minimum-stability": "dev",
   "repositories": [
     {"type": "vcs", "url": "https://github.com/hypeJunction/hypeAttachments.git"},
+    {"type": "vcs", "url": "https://github.com/manacim/Landr.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/amap_maps_api.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/galliElggEmbed.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/groupsmap.git"},
@@ -44,6 +45,7 @@
     "coldtrick/translation_editor": "dev-master",
     "coldtrick/widget_manager": "dev-master",
     "daltonmedia/elgg_cookieconsent": "^1.1",
+    "demyx/landr": "dev-master",
     "elgg/dbvalidator": "dev-master",
     "elgg/elgg": "2.2.x-dev",
     "elgg/mentions": "dev-master",

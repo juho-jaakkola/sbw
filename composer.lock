@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a4d4c60c6e250b3927b34f3c8ba5f419",
-    "content-hash": "22bd6b40e02c404aa9c02f5c6fe3fadd",
+    "hash": "b7a891292b96885e5e57023a6660deff",
+    "content-hash": "7065f00622d82b2bc39d2a9ebab7b47e",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -1389,6 +1389,33 @@
                 "plugin"
             ],
             "time": "2016-06-21 08:10:01"
+        },
+        {
+            "name": "demyx/landr",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/manacim/Landr.git",
+                "reference": "9d495802e581a94538a84aac67c4d3190deed504"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/manacim/Landr/zipball/9d495802e581a94538a84aac67c4d3190deed504",
+                "reference": "9d495802e581a94538a84aac67c4d3190deed504",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "support": {
+                "source": "https://github.com/manacim/Landr/tree/master",
+                "issues": "https://github.com/manacim/Landr/issues"
+            },
+            "time": "2016-08-07 10:16:35"
         },
         {
             "name": "doctrine/annotations",
@@ -6063,6 +6090,7 @@
         "coldtrick/target_blank": 20,
         "coldtrick/translation_editor": 20,
         "coldtrick/widget_manager": 20,
+        "demyx/landr": 20,
         "elgg/dbvalidator": 20,
         "elgg/elgg": 20,
         "elgg/mentions": 20,
