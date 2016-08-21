@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b7a891292b96885e5e57023a6660deff",
-    "content-hash": "7065f00622d82b2bc39d2a9ebab7b47e",
+    "hash": "8d8f8512882b4f4958c8142c0c7dcc54",
+    "content-hash": "4ed41ffbf09704c21bacb6b9a3a1d79e",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -2526,20 +2526,21 @@
         },
         {
             "name": "hypejunction/hypeattachments",
-            "version": "dev-master",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeAttachments.git",
-                "reference": "36264871bc84ea9663c1cb56b662c09e60b0dbe6"
+                "reference": "2fee38bb1ee7d6b38fe6d3457c393b8d99183820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeAttachments/zipball/36264871bc84ea9663c1cb56b662c09e60b0dbe6",
-                "reference": "36264871bc84ea9663c1cb56b662c09e60b0dbe6",
+                "url": "https://api.github.com/repos/hypeJunction/hypeAttachments/zipball/2fee38bb1ee7d6b38fe6d3457c393b8d99183820",
+                "reference": "2fee38bb1ee7d6b38fe6d3457c393b8d99183820",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
+                "hypejunction/acl_builder_api": "~1.0",
                 "php": ">=5.5"
             },
             "require-dev": {
@@ -2551,6 +2552,9 @@
                 "squizlabs/php_codesniffer": "~1.5"
             },
             "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "hypeAttachments"
+            },
             "autoload": {
                 "psr-0": {
                     "hypeJunction/": "classes/hypeJunction/"
@@ -2598,10 +2602,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/hypeAttachments/tree/master",
+                "source": "https://github.com/hypeJunction/hypeAttachments/tree/2.0.2",
                 "issues": "https://github.com/hypeJunction/hypeAttachments/issues"
             },
-            "time": "2016-07-14 14:45:37"
+            "time": "2016-08-17 17:06:02"
         },
         {
             "name": "hypejunction/hypedropzone",
@@ -3917,17 +3921,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/sbw_attachments.git",
-                "reference": "b6cf47205296078df0e900a2803764154e97ae8b"
+                "reference": "128535c8ec7dfc63888f05e5cf0b17def270d755"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/sbw_attachments/zipball/b6cf47205296078df0e900a2803764154e97ae8b",
-                "reference": "b6cf47205296078df0e900a2803764154e97ae8b",
+                "url": "https://api.github.com/repos/sbwtech/sbw_attachments/zipball/128535c8ec7dfc63888f05e5cf0b17def270d755",
+                "reference": "128535c8ec7dfc63888f05e5cf0b17def270d755",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
-                "hypejunction/acl_builder_api": "~1.0",
+                "hypejunction/hypeattachments": "~2.0",
                 "php": ">=5.5"
             },
             "type": "elgg-plugin",
@@ -3957,7 +3961,7 @@
                 "source": "https://github.com/sbwtech/sbw_attachments/tree/master",
                 "issues": "https://github.com/sbwtech/sbw_attachments/issues"
             },
-            "time": "2016-07-26 11:18:23"
+            "time": "2016-08-17 11:49:37"
         },
         {
             "name": "sbw-dev/theme_sbw",
@@ -6098,7 +6102,6 @@
         "hypejunction/hypedropzone": 20,
         "hypejunction/hypescraper": 20,
         "hypejunction/hypewall": 20,
-        "hypejunction/hypeattachments": 20,
         "iionly/elggx_badges": 20,
         "iionly/elggx_fivestar": 20,
         "iionly/elggx_userpoints": 20,
