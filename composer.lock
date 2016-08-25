@@ -627,18 +627,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/advanced_statistics.git",
-                "reference": "8186de775a23e0880ac7a36b29a9868bd42b8c20"
+                "reference": "0a3decb5dbfaf735b6bdefa84bb2887896b609a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/advanced_statistics/zipball/8186de775a23e0880ac7a36b29a9868bd42b8c20",
-                "reference": "8186de775a23e0880ac7a36b29a9868bd42b8c20",
+                "url": "https://api.github.com/repos/ColdTrick/advanced_statistics/zipball/0a3decb5dbfaf735b6bdefa84bb2887896b609a3",
+                "reference": "0a3decb5dbfaf735b6bdefa84bb2887896b609a3",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.8"
             },
             "require-dev": {
+                "coldtrick/releases": "dev-master",
                 "coldtrick/sniffs": "dev-master"
             },
             "type": "elgg-plugin",
@@ -653,7 +654,7 @@
                 "statistics",
                 "stats"
             ],
-            "time": "2016-03-04 12:43:14"
+            "time": "2016-08-23 13:57:06"
         },
         {
             "name": "coldtrick/analytics",
@@ -864,12 +865,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/event_manager.git",
-                "reference": "5caa772a4fce590748e66661635c9568f58248c4"
+                "reference": "c34256cc95e7d59edde9dc9f60e0da06d3031c39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/5caa772a4fce590748e66661635c9568f58248c4",
-                "reference": "5caa772a4fce590748e66661635c9568f58248c4",
+                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/c34256cc95e7d59edde9dc9f60e0da06d3031c39",
+                "reference": "c34256cc95e7d59edde9dc9f60e0da06d3031c39",
                 "shasum": ""
             },
             "require": {
@@ -893,7 +894,7 @@
                 "events",
                 "plugin"
             ],
-            "time": "2016-08-05 14:35:33"
+            "time": "2016-08-25 12:21:00"
         },
         {
             "name": "coldtrick/file_tools",
@@ -965,12 +966,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "c015436c4ae3cbe1d6d981bce78a1f347b68ae09"
+                "reference": "021118d1990f3e3d02de4cc34289076d296abadb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/c015436c4ae3cbe1d6d981bce78a1f347b68ae09",
-                "reference": "c015436c4ae3cbe1d6d981bce78a1f347b68ae09",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/021118d1990f3e3d02de4cc34289076d296abadb",
+                "reference": "021118d1990f3e3d02de4cc34289076d296abadb",
                 "shasum": ""
             },
             "require": {
@@ -991,7 +992,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2016-08-01 06:58:41"
+            "time": "2016-08-23 12:42:11"
         },
         {
             "name": "coldtrick/html_email_handler",
@@ -1059,12 +1060,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/profile_manager.git",
-                "reference": "edadd10a3c7447e5ff8aa17c74340acb8c5b3046"
+                "reference": "4224c8b8f9f335bc2da4b672593fe3089f9b8fbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/profile_manager/zipball/edadd10a3c7447e5ff8aa17c74340acb8c5b3046",
-                "reference": "edadd10a3c7447e5ff8aa17c74340acb8c5b3046",
+                "url": "https://api.github.com/repos/ColdTrick/profile_manager/zipball/4224c8b8f9f335bc2da4b672593fe3089f9b8fbf",
+                "reference": "4224c8b8f9f335bc2da4b672593fe3089f9b8fbf",
                 "shasum": ""
             },
             "require": {
@@ -1086,7 +1087,7 @@
                 "plugin",
                 "profile"
             ],
-            "time": "2016-08-05 09:12:24"
+            "time": "2016-08-25 15:03:37"
         },
         {
             "name": "coldtrick/tag_tools",
@@ -1094,12 +1095,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/tag_tools.git",
-                "reference": "cb47c365b670e7901d65067726e297670ac7fca8"
+                "reference": "a1c4d4d0bfecc211ac714f8adfcbdb71ba5ac896"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/tag_tools/zipball/cb47c365b670e7901d65067726e297670ac7fca8",
-                "reference": "cb47c365b670e7901d65067726e297670ac7fca8",
+                "url": "https://api.github.com/repos/ColdTrick/tag_tools/zipball/a1c4d4d0bfecc211ac714f8adfcbdb71ba5ac896",
+                "reference": "a1c4d4d0bfecc211ac714f8adfcbdb71ba5ac896",
                 "shasum": ""
             },
             "require": {
@@ -1119,7 +1120,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-06-16 08:52:31"
+            "time": "2016-08-22 11:55:24"
         },
         {
             "name": "coldtrick/target_blank",
@@ -2059,12 +2060,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "139bb14c8743143271b5d7e27404342f23fc9856"
+                "reference": "7ccf5fe1f64b04aaa34742bfd93074267cf211f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/139bb14c8743143271b5d7e27404342f23fc9856",
-                "reference": "139bb14c8743143271b5d7e27404342f23fc9856",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/7ccf5fe1f64b04aaa34742bfd93074267cf211f8",
+                "reference": "7ccf5fe1f64b04aaa34742bfd93074267cf211f8",
                 "shasum": ""
             },
             "require": {
@@ -2113,7 +2114,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2016-08-11 02:04:09"
+            "time": "2016-08-23 15:42:33"
         },
         {
             "name": "elgg/login_as",
@@ -2526,16 +2527,16 @@
         },
         {
             "name": "hypejunction/hypeattachments",
-            "version": "2.0.2",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeAttachments.git",
-                "reference": "2fee38bb1ee7d6b38fe6d3457c393b8d99183820"
+                "reference": "316068e68721803068c3b4ec2f5a20a89a288871"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeAttachments/zipball/2fee38bb1ee7d6b38fe6d3457c393b8d99183820",
-                "reference": "2fee38bb1ee7d6b38fe6d3457c393b8d99183820",
+                "url": "https://api.github.com/repos/hypeJunction/hypeAttachments/zipball/316068e68721803068c3b4ec2f5a20a89a288871",
+                "reference": "316068e68721803068c3b4ec2f5a20a89a288871",
                 "shasum": ""
             },
             "require": {
@@ -2602,10 +2603,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/hypeAttachments/tree/2.0.2",
+                "source": "https://github.com/hypeJunction/hypeAttachments/tree/2.0.4",
                 "issues": "https://github.com/hypeJunction/hypeAttachments/issues"
             },
-            "time": "2016-08-17 17:06:02"
+            "time": "2016-08-24 10:31:25"
         },
         {
             "name": "hypejunction/hypedropzone",
