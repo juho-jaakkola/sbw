@@ -309,6 +309,34 @@
             "time": "2015-09-24 07:30:12"
         },
         {
+            "name": "bower-asset/dropzone",
+            "version": "v4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/enyo/dropzone.git",
+                "reference": "d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/enyo/dropzone/zipball/d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e",
+                "reference": "d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "dist/min/dropzone.min.css",
+                    "dist/min/dropzone.min.js"
+                ],
+                "bower-asset-ignore": [
+                    "*",
+                    "!dist",
+                    "!dist/**/*"
+                ]
+            },
+            "description": "Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress bars."
+        },
+        {
             "name": "bower-asset/fullcalendar",
             "version": "v2.9.1",
             "source": {
@@ -627,12 +655,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/advanced_statistics.git",
-                "reference": "0a3decb5dbfaf735b6bdefa84bb2887896b609a3"
+                "reference": "d6dd5751f85bc47c0e57a9d348d286a7883ae2ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/advanced_statistics/zipball/0a3decb5dbfaf735b6bdefa84bb2887896b609a3",
-                "reference": "0a3decb5dbfaf735b6bdefa84bb2887896b609a3",
+                "url": "https://api.github.com/repos/ColdTrick/advanced_statistics/zipball/d6dd5751f85bc47c0e57a9d348d286a7883ae2ae",
+                "reference": "d6dd5751f85bc47c0e57a9d348d286a7883ae2ae",
                 "shasum": ""
             },
             "require": {
@@ -654,7 +682,7 @@
                 "statistics",
                 "stats"
             ],
-            "time": "2016-08-23 13:57:06"
+            "time": "2016-08-26 14:44:25"
         },
         {
             "name": "coldtrick/analytics",
@@ -865,12 +893,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/event_manager.git",
-                "reference": "c34256cc95e7d59edde9dc9f60e0da06d3031c39"
+                "reference": "1f613887374d42058655d72bbfe95a6f3df079c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/c34256cc95e7d59edde9dc9f60e0da06d3031c39",
-                "reference": "c34256cc95e7d59edde9dc9f60e0da06d3031c39",
+                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/1f613887374d42058655d72bbfe95a6f3df079c6",
+                "reference": "1f613887374d42058655d72bbfe95a6f3df079c6",
                 "shasum": ""
             },
             "require": {
@@ -894,7 +922,7 @@
                 "events",
                 "plugin"
             ],
-            "time": "2016-08-25 12:21:00"
+            "time": "2016-08-29 14:10:49"
         },
         {
             "name": "coldtrick/file_tools",
@@ -966,12 +994,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "021118d1990f3e3d02de4cc34289076d296abadb"
+                "reference": "ac63a651cafba8178acceb7aa0ad9b8b14f7d231"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/021118d1990f3e3d02de4cc34289076d296abadb",
-                "reference": "021118d1990f3e3d02de4cc34289076d296abadb",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/ac63a651cafba8178acceb7aa0ad9b8b14f7d231",
+                "reference": "ac63a651cafba8178acceb7aa0ad9b8b14f7d231",
                 "shasum": ""
             },
             "require": {
@@ -992,7 +1020,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2016-08-23 12:42:11"
+            "time": "2016-08-29 12:20:37"
         },
         {
             "name": "coldtrick/html_email_handler",
@@ -1000,12 +1028,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/html_email_handler.git",
-                "reference": "ba169a40b58a42228c602a8b9556550374d552cf"
+                "reference": "76494b4e983691d8dadd80d07315b00d1ff2037c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/html_email_handler/zipball/ba169a40b58a42228c602a8b9556550374d552cf",
-                "reference": "ba169a40b58a42228c602a8b9556550374d552cf",
+                "url": "https://api.github.com/repos/ColdTrick/html_email_handler/zipball/76494b4e983691d8dadd80d07315b00d1ff2037c",
+                "reference": "76494b4e983691d8dadd80d07315b00d1ff2037c",
                 "shasum": ""
             },
             "require": {
@@ -1028,7 +1056,7 @@
                 "notification",
                 "plugin"
             ],
-            "time": "2016-08-02 13:31:15"
+            "time": "2016-08-29 14:12:19"
         },
         {
             "name": "coldtrick/language_selector",
@@ -1195,12 +1223,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/widget_manager.git",
-                "reference": "86c45fe6cf648fd735fb99256dc1124099368f1c"
+                "reference": "16051a9340c4bef07adc11c6c2644735aac1b733"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/86c45fe6cf648fd735fb99256dc1124099368f1c",
-                "reference": "86c45fe6cf648fd735fb99256dc1124099368f1c",
+                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/16051a9340c4bef07adc11c6c2644735aac1b733",
+                "reference": "16051a9340c4bef07adc11c6c2644735aac1b733",
                 "shasum": ""
             },
             "require": {
@@ -1222,7 +1250,7 @@
                 "plugin",
                 "widgets"
             ],
-            "time": "2016-07-14 07:46:03"
+            "time": "2016-08-26 14:58:45"
         },
         {
             "name": "composer/installers",
@@ -2060,12 +2088,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "7ccf5fe1f64b04aaa34742bfd93074267cf211f8"
+                "reference": "5398f0e72a49138e7c651681bca6e5d1b5b3aaba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/7ccf5fe1f64b04aaa34742bfd93074267cf211f8",
-                "reference": "7ccf5fe1f64b04aaa34742bfd93074267cf211f8",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/5398f0e72a49138e7c651681bca6e5d1b5b3aaba",
+                "reference": "5398f0e72a49138e7c651681bca6e5d1b5b3aaba",
                 "shasum": ""
             },
             "require": {
@@ -2114,7 +2142,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2016-08-23 15:42:33"
+            "time": "2016-08-30 02:21:49"
         },
         {
             "name": "elgg/login_as",
@@ -2614,15 +2642,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeDropzone.git",
-                "reference": "d3031e38fd1fbb13c9ce44a305194aca3a5de850"
+                "reference": "942336815988bb5bfc1d53582cb7cd17fd8f4dfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeDropzone/zipball/d3031e38fd1fbb13c9ce44a305194aca3a5de850",
-                "reference": "d3031e38fd1fbb13c9ce44a305194aca3a5de850",
+                "url": "https://api.github.com/repos/hypeJunction/hypeDropzone/zipball/942336815988bb5bfc1d53582cb7cd17fd8f4dfe",
+                "reference": "942336815988bb5bfc1d53582cb7cd17fd8f4dfe",
                 "shasum": ""
             },
-            "require-dev": {
+            "require": {
                 "bower-asset/dropzone": "~4.0",
                 "composer/installers": "~1.0",
                 "php": ">=5.5"
@@ -2655,7 +2683,7 @@
                 "plugin",
                 "upload"
             ],
-            "time": "2016-08-17 11:29:21"
+            "time": "2016-08-30 17:45:05"
         },
         {
             "name": "hypejunction/hypescraper",
@@ -3971,12 +3999,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/theme_sbw.git",
-                "reference": "4b87444722a473fe01ba027160442f38e61d0ec6"
+                "reference": "c9acb3c0bc1a6327d83b387439e863cc6e2ec336"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/4b87444722a473fe01ba027160442f38e61d0ec6",
-                "reference": "4b87444722a473fe01ba027160442f38e61d0ec6",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/c9acb3c0bc1a6327d83b387439e863cc6e2ec336",
+                "reference": "c9acb3c0bc1a6327d83b387439e863cc6e2ec336",
                 "shasum": ""
             },
             "require": {
@@ -3990,7 +4018,7 @@
                 "source": "https://github.com/sbwtech/theme_sbw/tree/master",
                 "issues": "https://github.com/sbwtech/theme_sbw/issues"
             },
-            "time": "2016-08-20 10:57:47"
+            "time": "2016-08-29 19:54:38"
         },
         {
             "name": "simplepie/simplepie",
