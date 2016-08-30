@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8d8f8512882b4f4958c8142c0c7dcc54",
-    "content-hash": "4ed41ffbf09704c21bacb6b9a3a1d79e",
+    "hash": "c25be0fdd91916a186911085a02d11f4",
+    "content-hash": "2405ed736b5c4e5088589d8929b463a0",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -2684,6 +2684,55 @@
                 "upload"
             ],
             "time": "2016-08-30 17:45:05"
+        },
+        {
+            "name": "hypejunction/hypelists",
+            "version": "4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/hypeLists.git",
+                "reference": "005d34abe85052c34ef28104da4446db75f31829"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/hypeLists/zipball/005d34abe85052c34ef28104da4446db75f31829",
+                "reference": "005d34abe85052c34ef28104da4446db75f31829",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "hypeLists"
+            },
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "AJAX lists for Elgg",
+            "homepage": "http://hypejunction.com/",
+            "keywords": [
+                "Lists",
+                "ajax",
+                "elgg",
+                "hypeJunction",
+                "hypelist",
+                "plugin"
+            ],
+            "time": "2016-07-08 16:54:25"
         },
         {
             "name": "hypejunction/hypescraper",
