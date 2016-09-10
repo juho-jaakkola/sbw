@@ -50,7 +50,7 @@
     "elgg/elgg": "2.2.x-dev",
     "elgg/mentions": "dev-master",
     "elgg/videolist": "dev-master",
-    "hypejunction/hypedropzone": "dev-master",
+    "hypejunction/hypedropzone": "~5.0",
     "hypejunction/hypelists": "^4.0",
     "hypejunction/hypescraper": "dev-master",
     "hypejunction/hypewall": "dev-master",

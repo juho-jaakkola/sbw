@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c25be0fdd91916a186911085a02d11f4",
-    "content-hash": "2405ed736b5c4e5088589d8929b463a0",
+    "hash": "a64d7bf08226d6b71ef434143a48398d",
+    "content-hash": "619b208126189533a7c46842f0eb68ab",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -570,16 +570,16 @@
         },
         {
             "name": "bower-asset/requirejs",
-            "version": "2.2.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/requirejs/requirejs-bower.git",
-                "reference": "f50aa125e93710c10bb43cf452a97f2abeb144cb"
+                "reference": "732f62fa312d6f1fa7fa25105c02fad176c966b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/requirejs/requirejs-bower/zipball/f50aa125e93710c10bb43cf452a97f2abeb144cb",
-                "reference": "f50aa125e93710c10bb43cf452a97f2abeb144cb",
+                "url": "https://api.github.com/repos/requirejs/requirejs-bower/zipball/732f62fa312d6f1fa7fa25105c02fad176c966b3",
+                "reference": "732f62fa312d6f1fa7fa25105c02fad176c966b3",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -825,12 +825,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/csv_exporter.git",
-                "reference": "cc2e06540e25ce4e74756756e815f1bd695d23bf"
+                "reference": "91c5edf67acaf0c60e5f07a3c5ec20305cefe9e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/csv_exporter/zipball/cc2e06540e25ce4e74756756e815f1bd695d23bf",
-                "reference": "cc2e06540e25ce4e74756756e815f1bd695d23bf",
+                "url": "https://api.github.com/repos/ColdTrick/csv_exporter/zipball/91c5edf67acaf0c60e5f07a3c5ec20305cefe9e3",
+                "reference": "91c5edf67acaf0c60e5f07a3c5ec20305cefe9e3",
                 "shasum": ""
             },
             "require": {
@@ -851,7 +851,7 @@
                 "export",
                 "plugin"
             ],
-            "time": "2016-06-23 07:54:23"
+            "time": "2016-09-06 09:05:38"
         },
         {
             "name": "coldtrick/digest",
@@ -893,12 +893,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/event_manager.git",
-                "reference": "1f613887374d42058655d72bbfe95a6f3df079c6"
+                "reference": "1c84ea25a0f5e63c82a894f982cfe8e45cd14f0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/1f613887374d42058655d72bbfe95a6f3df079c6",
-                "reference": "1f613887374d42058655d72bbfe95a6f3df079c6",
+                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/1c84ea25a0f5e63c82a894f982cfe8e45cd14f0b",
+                "reference": "1c84ea25a0f5e63c82a894f982cfe8e45cd14f0b",
                 "shasum": ""
             },
             "require": {
@@ -922,7 +922,7 @@
                 "events",
                 "plugin"
             ],
-            "time": "2016-08-29 14:10:49"
+            "time": "2016-09-06 14:21:51"
         },
         {
             "name": "coldtrick/file_tools",
@@ -1088,12 +1088,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/profile_manager.git",
-                "reference": "4224c8b8f9f335bc2da4b672593fe3089f9b8fbf"
+                "reference": "7d91a0a944effcf88e079e9739cbd9463a35ab09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/profile_manager/zipball/4224c8b8f9f335bc2da4b672593fe3089f9b8fbf",
-                "reference": "4224c8b8f9f335bc2da4b672593fe3089f9b8fbf",
+                "url": "https://api.github.com/repos/ColdTrick/profile_manager/zipball/7d91a0a944effcf88e079e9739cbd9463a35ab09",
+                "reference": "7d91a0a944effcf88e079e9739cbd9463a35ab09",
                 "shasum": ""
             },
             "require": {
@@ -1115,7 +1115,7 @@
                 "plugin",
                 "profile"
             ],
-            "time": "2016-08-25 15:03:37"
+            "time": "2016-09-01 10:01:49"
         },
         {
             "name": "coldtrick/tag_tools",
@@ -1725,16 +1725,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.5.4",
+            "version": "v2.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "abbdfd1cff43a7b99d027af3be709bc8fc7d4769"
+                "reference": "9f8c05cd5225a320d56d4bfdb4772f10d045a0c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/abbdfd1cff43a7b99d027af3be709bc8fc7d4769",
-                "reference": "abbdfd1cff43a7b99d027af3be709bc8fc7d4769",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/9f8c05cd5225a320d56d4bfdb4772f10d045a0c9",
+                "reference": "9f8c05cd5225a320d56d4bfdb4772f10d045a0c9",
                 "shasum": ""
             },
             "require": {
@@ -1743,7 +1743,7 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "4.*",
-                "symfony/console": "2.*"
+                "symfony/console": "2.*||^3.0"
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
@@ -1792,7 +1792,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2016-01-05 22:11:12"
+            "time": "2016-09-09 19:13:33"
         },
         {
             "name": "doctrine/inflector",
@@ -2088,12 +2088,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "5398f0e72a49138e7c651681bca6e5d1b5b3aaba"
+                "reference": "65d63d85e506656bcd285c0487e0133f25e09715"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/5398f0e72a49138e7c651681bca6e5d1b5b3aaba",
-                "reference": "5398f0e72a49138e7c651681bca6e5d1b5b3aaba",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/65d63d85e506656bcd285c0487e0133f25e09715",
+                "reference": "65d63d85e506656bcd285c0487e0133f25e09715",
                 "shasum": ""
             },
             "require": {
@@ -2142,7 +2142,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2016-08-30 02:21:49"
+            "time": "2016-09-08 22:06:55"
         },
         {
             "name": "elgg/login_as",
@@ -2369,16 +2369,16 @@
         },
         {
             "name": "hybridauth/hybridauth",
-            "version": "v2.6.0",
+            "version": "v2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hybridauth/hybridauth.git",
-                "reference": "45e52d12dccc00d4de25dc534961ab46204a15cf"
+                "reference": "d4e5bc34008e8c187c302eb4e94200ee4a208c63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/45e52d12dccc00d4de25dc534961ab46204a15cf",
-                "reference": "45e52d12dccc00d4de25dc534961ab46204a15cf",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/d4e5bc34008e8c187c302eb4e94200ee4a208c63",
+                "reference": "d4e5bc34008e8c187c302eb4e94200ee4a208c63",
                 "shasum": ""
             },
             "require": {
@@ -2417,7 +2417,7 @@
                 "twitter",
                 "yahoo"
             ],
-            "time": "2016-01-12 12:19:25"
+            "time": "2016-09-05 03:02:22"
         },
         {
             "name": "hypejunction/acl_builder_api",
@@ -2638,7 +2638,7 @@
         },
         {
             "name": "hypejunction/hypedropzone",
-            "version": "dev-master",
+            "version": "5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeDropzone.git",
@@ -3874,19 +3874,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "d954a95c1be04118dbbda88f3524424695dd886f"
+                "reference": "15b8f286a8a0ffe7c19c7c09344b7707c66ac233"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/d954a95c1be04118dbbda88f3524424695dd886f",
-                "reference": "d954a95c1be04118dbbda88f3524424695dd886f",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/15b8f286a8a0ffe7c19c7c09344b7707c66ac233",
+                "reference": "15b8f286a8a0ffe7c19c7c09344b7707c66ac233",
                 "shasum": ""
             },
             "conflict": {
                 "amphp/artax": ">=2,<2.0.4|>0.7.1,<1.0.4",
                 "aws/aws-sdk-php": ">=3,<3.2.1",
                 "bugsnag/bugsnag-laravel": ">=2,<2.0.2",
-                "cakephp/cakephp": ">=3,<3.0.15|>=2,<2.4.99|>=2.5,<2.5.90|>=2.6,<2.6.12|>=1.3,<1.3.18|>=2.7,<2.7.6|>=3.1,<3.1.3",
+                "cakephp/cakephp": ">=3,<3.0.15|>=2,<2.4.99|>=2.5,<2.5.99|>=2.6,<2.6.12|>=1.3,<1.3.18|>=2.7,<2.7.6|>=3.1,<3.1.4",
+                "cartalyst/sentry": "<2.1",
                 "codeigniter/framework": "<3.0.3",
                 "composer/composer": "<=1.0.0-alpha11",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
@@ -3972,7 +3973,7 @@
                 "zendframework/zend-view": ">=2,<2.2.7|>=2.3,<2.3.1",
                 "zendframework/zend-xmlrpc": ">=2.1,<2.1.6|>=2.2,<2.2.6",
                 "zendframework/zendframework": ">=2,<2.4.9|>=2.5,<2.5.1",
-                "zendframework/zendframework1": "<1.12.19",
+                "zendframework/zendframework1": "<1.12.20",
                 "zendframework/zendopenid": ">=2,<2.0.2",
                 "zendframework/zendxml": ">=1,<1.0.1",
                 "zf-commons/zfc-user": "<1.2.2",
@@ -3992,7 +3993,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2016-07-29 12:29:36"
+            "time": "2016-09-08 18:37:03"
         },
         {
             "name": "sbw-dev/sbw_attachments",
@@ -4160,7 +4161,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.1.3",
+            "version": "v3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -4220,16 +4221,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.8.9",
+            "version": "v2.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "f20bea598906c990eebe3c70a63ca5ed18cdbc11"
+                "reference": "1d4ab8de2215e44e57fddc1e6b5d122546769e7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/f20bea598906c990eebe3c70a63ca5ed18cdbc11",
-                "reference": "f20bea598906c990eebe3c70a63ca5ed18cdbc11",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/1d4ab8de2215e44e57fddc1e6b5d122546769e7d",
+                "reference": "1d4ab8de2215e44e57fddc1e6b5d122546769e7d",
                 "shasum": ""
             },
             "require": {
@@ -4271,7 +4272,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-30 07:20:35"
+            "time": "2016-09-06 10:55:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -4675,16 +4676,16 @@
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.3.5",
+            "version": "1.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "b1d59735b672865dbeb930805029c24f226e3e77"
+                "reference": "a60da179c37f2c4e44ef734d0b92824a58943f7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/b1d59735b672865dbeb930805029c24f226e3e77",
-                "reference": "b1d59735b672865dbeb930805029c24f226e3e77",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/a60da179c37f2c4e44ef734d0b92824a58943f7f",
+                "reference": "a60da179c37f2c4e44ef734d0b92824a58943f7f",
                 "shasum": ""
             },
             "require": {
@@ -4695,7 +4696,7 @@
                 "psr/http-message-implementation": "~1.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.6",
+                "phpunit/phpunit": "^4.6 || ^5.5",
                 "squizlabs/php_codesniffer": "^2.3.1"
             },
             "type": "library",
@@ -4721,7 +4722,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2016-03-17 18:02:05"
+            "time": "2016-09-07 17:57:29"
         },
         {
             "name": "zendframework/zend-loader",
@@ -6048,16 +6049,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.1.3",
+            "version": "v3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "1819adf2066880c7967df7180f4f662b6f0567ac"
+                "reference": "f291ed25eb1435bddbe8a96caaef16469c2a092d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/1819adf2066880c7967df7180f4f662b6f0567ac",
-                "reference": "1819adf2066880c7967df7180f4f662b6f0567ac",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/f291ed25eb1435bddbe8a96caaef16469c2a092d",
+                "reference": "f291ed25eb1435bddbe8a96caaef16469c2a092d",
                 "shasum": ""
             },
             "require": {
@@ -6093,7 +6094,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-17 14:02:08"
+            "time": "2016-09-02 02:12:52"
         },
         {
             "name": "webmozart/assert",
@@ -6179,7 +6180,6 @@
         "elgg/elgg": 20,
         "elgg/mentions": 20,
         "elgg/videolist": 20,
-        "hypejunction/hypedropzone": 20,
         "hypejunction/hypescraper": 20,
         "hypejunction/hypewall": 20,
         "iionly/elggx_badges": 20,
