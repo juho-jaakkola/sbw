@@ -4049,12 +4049,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/theme_sbw.git",
-                "reference": "c9acb3c0bc1a6327d83b387439e863cc6e2ec336"
+                "reference": "27a83ec282d80820626585fe97006af098b50718"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/c9acb3c0bc1a6327d83b387439e863cc6e2ec336",
-                "reference": "c9acb3c0bc1a6327d83b387439e863cc6e2ec336",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/27a83ec282d80820626585fe97006af098b50718",
+                "reference": "27a83ec282d80820626585fe97006af098b50718",
                 "shasum": ""
             },
             "require": {
@@ -4068,7 +4068,7 @@
                 "source": "https://github.com/sbwtech/theme_sbw/tree/master",
                 "issues": "https://github.com/sbwtech/theme_sbw/issues"
             },
-            "time": "2016-08-29 19:54:38"
+            "time": "2016-09-11 12:03:12"
         },
         {
             "name": "simplepie/simplepie",
