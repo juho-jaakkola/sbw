@@ -533,16 +533,16 @@
         },
         {
             "name": "bower-asset/moment",
-            "version": "2.14.1",
+            "version": "2.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "227746b29044a4c2160ae7c597c7f24aacac2635"
+                "reference": "c587bf0063c18214238ca83f3f9c6170daf25bed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/227746b29044a4c2160ae7c597c7f24aacac2635",
-                "reference": "227746b29044a4c2160ae7c597c7f24aacac2635",
+                "url": "https://api.github.com/repos/moment/moment/zipball/c587bf0063c18214238ca83f3f9c6170daf25bed",
+                "reference": "c587bf0063c18214238ca83f3f9c6170daf25bed",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -1425,12 +1425,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/manacim/Landr.git",
-                "reference": "9d495802e581a94538a84aac67c4d3190deed504"
+                "reference": "ce315e9b95b1e08b0cc657f2aca2aa7b5b3d8c37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/manacim/Landr/zipball/9d495802e581a94538a84aac67c4d3190deed504",
-                "reference": "9d495802e581a94538a84aac67c4d3190deed504",
+                "url": "https://api.github.com/repos/manacim/Landr/zipball/ce315e9b95b1e08b0cc657f2aca2aa7b5b3d8c37",
+                "reference": "ce315e9b95b1e08b0cc657f2aca2aa7b5b3d8c37",
                 "shasum": ""
             },
             "require": {
@@ -1444,7 +1444,7 @@
                 "source": "https://github.com/manacim/Landr/tree/master",
                 "issues": "https://github.com/manacim/Landr/issues"
             },
-            "time": "2016-08-07 10:16:35"
+            "time": "2016-09-12 04:19:11"
         },
         {
             "name": "doctrine/annotations",
@@ -2687,16 +2687,16 @@
         },
         {
             "name": "hypejunction/hypelists",
-            "version": "4.0.4",
+            "version": "4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeLists.git",
-                "reference": "005d34abe85052c34ef28104da4446db75f31829"
+                "reference": "b2202c44d7e6f92beb726c52ee41c52316cddf80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeLists/zipball/005d34abe85052c34ef28104da4446db75f31829",
-                "reference": "005d34abe85052c34ef28104da4446db75f31829",
+                "url": "https://api.github.com/repos/hypeJunction/hypeLists/zipball/b2202c44d7e6f92beb726c52ee41c52316cddf80",
+                "reference": "b2202c44d7e6f92beb726c52ee41c52316cddf80",
                 "shasum": ""
             },
             "require": {
@@ -2732,7 +2732,7 @@
                 "hypelist",
                 "plugin"
             ],
-            "time": "2016-07-08 16:54:25"
+            "time": "2016-09-12 15:07:09"
         },
         {
             "name": "hypejunction/hypescraper",
@@ -2790,12 +2790,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeWall.git",
-                "reference": "c116e99c5bc6a2a59608426950d6806950134259"
+                "reference": "bab0015be43b9beb29b0ccc082ca958727497489"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeWall/zipball/c116e99c5bc6a2a59608426950d6806950134259",
-                "reference": "c116e99c5bc6a2a59608426950d6806950134259",
+                "url": "https://api.github.com/repos/hypeJunction/hypeWall/zipball/bab0015be43b9beb29b0ccc082ca958727497489",
+                "reference": "bab0015be43b9beb29b0ccc082ca958727497489",
                 "shasum": ""
             },
             "require": {
@@ -2832,7 +2832,7 @@
                 "posts",
                 "wall"
             ],
-            "time": "2016-02-09 13:47:09"
+            "time": "2016-09-11 15:52:14"
         },
         {
             "name": "igorw/get-in",
@@ -4049,12 +4049,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/theme_sbw.git",
-                "reference": "27a83ec282d80820626585fe97006af098b50718"
+                "reference": "4bc87363e40ed19b911aba7a0a35cf2d1f4a021d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/27a83ec282d80820626585fe97006af098b50718",
-                "reference": "27a83ec282d80820626585fe97006af098b50718",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/4bc87363e40ed19b911aba7a0a35cf2d1f4a021d",
+                "reference": "4bc87363e40ed19b911aba7a0a35cf2d1f4a021d",
                 "shasum": ""
             },
             "require": {
@@ -4068,7 +4068,7 @@
                 "source": "https://github.com/sbwtech/theme_sbw/tree/master",
                 "issues": "https://github.com/sbwtech/theme_sbw/issues"
             },
-            "time": "2016-09-11 12:03:12"
+            "time": "2016-09-12 19:26:15"
         },
         {
             "name": "simplepie/simplepie",
