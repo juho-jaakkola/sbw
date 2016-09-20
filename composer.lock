@@ -508,16 +508,16 @@
         },
         {
             "name": "bower-asset/jquery-ui",
-            "version": "1.12.0.1",
+            "version": "1.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jqueryui.git",
-                "reference": "2c9359a9d199da254dd278bef3d4ced047d6581c"
+                "reference": "44ecf3794cc56b65954cc19737234a3119d036cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/jqueryui/zipball/2c9359a9d199da254dd278bef3d4ced047d6581c",
-                "reference": "2c9359a9d199da254dd278bef3d4ced047d6581c",
+                "url": "https://api.github.com/repos/components/jqueryui/zipball/44ecf3794cc56b65954cc19737234a3119d036cc",
+                "reference": "44ecf3794cc56b65954cc19737234a3119d036cc",
                 "shasum": ""
             },
             "require": {
@@ -529,7 +529,10 @@
                     "jquery-ui.js"
                 ],
                 "bower-asset-ignore": []
-            }
+            },
+            "license": [
+                "MIT"
+            ]
         },
         {
             "name": "bower-asset/moment",
@@ -570,16 +573,16 @@
         },
         {
             "name": "bower-asset/requirejs",
-            "version": "2.3.1",
+            "version": "2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/requirejs/requirejs-bower.git",
-                "reference": "732f62fa312d6f1fa7fa25105c02fad176c966b3"
+                "reference": "ccebb20d187a88aef04c643b2d61325e469902a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/requirejs/requirejs-bower/zipball/732f62fa312d6f1fa7fa25105c02fad176c966b3",
-                "reference": "732f62fa312d6f1fa7fa25105c02fad176c966b3",
+                "url": "https://api.github.com/repos/requirejs/requirejs-bower/zipball/ccebb20d187a88aef04c643b2d61325e469902a8",
+                "reference": "ccebb20d187a88aef04c643b2d61325e469902a8",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -825,12 +828,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/csv_exporter.git",
-                "reference": "91c5edf67acaf0c60e5f07a3c5ec20305cefe9e3"
+                "reference": "4c8a2ae42c97c2ad9c278f8e479f371cfc22ac51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/csv_exporter/zipball/91c5edf67acaf0c60e5f07a3c5ec20305cefe9e3",
-                "reference": "91c5edf67acaf0c60e5f07a3c5ec20305cefe9e3",
+                "url": "https://api.github.com/repos/ColdTrick/csv_exporter/zipball/4c8a2ae42c97c2ad9c278f8e479f371cfc22ac51",
+                "reference": "4c8a2ae42c97c2ad9c278f8e479f371cfc22ac51",
                 "shasum": ""
             },
             "require": {
@@ -851,7 +854,7 @@
                 "export",
                 "plugin"
             ],
-            "time": "2016-09-06 09:05:38"
+            "time": "2016-09-15 12:50:24"
         },
         {
             "name": "coldtrick/digest",
@@ -893,12 +896,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/event_manager.git",
-                "reference": "1c84ea25a0f5e63c82a894f982cfe8e45cd14f0b"
+                "reference": "03c8c4b79fc0c21ef714c4c542d94cfe10e07338"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/1c84ea25a0f5e63c82a894f982cfe8e45cd14f0b",
-                "reference": "1c84ea25a0f5e63c82a894f982cfe8e45cd14f0b",
+                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/03c8c4b79fc0c21ef714c4c542d94cfe10e07338",
+                "reference": "03c8c4b79fc0c21ef714c4c542d94cfe10e07338",
                 "shasum": ""
             },
             "require": {
@@ -922,7 +925,7 @@
                 "events",
                 "plugin"
             ],
-            "time": "2016-09-06 14:21:51"
+            "time": "2016-09-15 07:21:35"
         },
         {
             "name": "coldtrick/file_tools",
@@ -1223,12 +1226,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/widget_manager.git",
-                "reference": "1d75309df46dfba69b4a3a35951bccff0ad8d1ac"
+                "reference": "ecfe9b63d022fc47ad724b33890b31810906bf71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/1d75309df46dfba69b4a3a35951bccff0ad8d1ac",
-                "reference": "1d75309df46dfba69b4a3a35951bccff0ad8d1ac",
+                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/ecfe9b63d022fc47ad724b33890b31810906bf71",
+                "reference": "ecfe9b63d022fc47ad724b33890b31810906bf71",
                 "shasum": ""
             },
             "require": {
@@ -1250,7 +1253,7 @@
                 "plugin",
                 "widgets"
             ],
-            "time": "2016-09-14 12:25:51"
+            "time": "2016-09-20 10:42:17"
         },
         {
             "name": "composer/installers",
@@ -2088,12 +2091,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "65d63d85e506656bcd285c0487e0133f25e09715"
+                "reference": "7a8d79651b5793765083f3a496588bec24f2c0bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/65d63d85e506656bcd285c0487e0133f25e09715",
-                "reference": "65d63d85e506656bcd285c0487e0133f25e09715",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/7a8d79651b5793765083f3a496588bec24f2c0bc",
+                "reference": "7a8d79651b5793765083f3a496588bec24f2c0bc",
                 "shasum": ""
             },
             "require": {
@@ -2142,7 +2145,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2016-09-08 22:06:55"
+            "time": "2016-09-16 12:40:33"
         },
         {
             "name": "elgg/login_as",
@@ -2687,16 +2690,16 @@
         },
         {
             "name": "hypejunction/hypelists",
-            "version": "4.1.1",
+            "version": "4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeLists.git",
-                "reference": "b2202c44d7e6f92beb726c52ee41c52316cddf80"
+                "reference": "648f0f6c40ac3c59279f061e48bf71a9043862b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeLists/zipball/b2202c44d7e6f92beb726c52ee41c52316cddf80",
-                "reference": "b2202c44d7e6f92beb726c52ee41c52316cddf80",
+                "url": "https://api.github.com/repos/hypeJunction/hypeLists/zipball/648f0f6c40ac3c59279f061e48bf71a9043862b8",
+                "reference": "648f0f6c40ac3c59279f061e48bf71a9043862b8",
                 "shasum": ""
             },
             "require": {
@@ -2732,7 +2735,7 @@
                 "hypelist",
                 "plugin"
             ],
-            "time": "2016-09-12 15:07:09"
+            "time": "2016-09-15 12:48:43"
         },
         {
             "name": "hypejunction/hypescraper",
@@ -2790,12 +2793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeWall.git",
-                "reference": "bab0015be43b9beb29b0ccc082ca958727497489"
+                "reference": "9107f01240558b4cccdafd68d77daf3b25028621"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeWall/zipball/bab0015be43b9beb29b0ccc082ca958727497489",
-                "reference": "bab0015be43b9beb29b0ccc082ca958727497489",
+                "url": "https://api.github.com/repos/hypeJunction/hypeWall/zipball/9107f01240558b4cccdafd68d77daf3b25028621",
+                "reference": "9107f01240558b4cccdafd68d77daf3b25028621",
                 "shasum": ""
             },
             "require": {
@@ -2832,7 +2835,7 @@
                 "posts",
                 "wall"
             ],
-            "time": "2016-09-11 15:52:14"
+            "time": "2016-09-20 15:53:51"
         },
         {
             "name": "igorw/get-in",
@@ -3181,12 +3184,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iionly/tidypics.git",
-                "reference": "33c9bb7797f7e396a7862a4256e8b2d32a72ccd4"
+                "reference": "7b369a518764ca7ec51f3f707816d1b19eaa855e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iionly/tidypics/zipball/33c9bb7797f7e396a7862a4256e8b2d32a72ccd4",
-                "reference": "33c9bb7797f7e396a7862a4256e8b2d32a72ccd4",
+                "url": "https://api.github.com/repos/iionly/tidypics/zipball/7b369a518764ca7ec51f3f707816d1b19eaa855e",
+                "reference": "7b369a518764ca7ec51f3f707816d1b19eaa855e",
                 "shasum": ""
             },
             "require": {
@@ -3210,7 +3213,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-07-31 11:15:39"
+            "time": "2016-09-18 09:01:07"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -3874,12 +3877,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "47fb3db6d52143730a2269f0a50f5e2a46bfb9c1"
+                "reference": "a73923249fdfe996f2b625c3f3fcb311e84e3447"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/47fb3db6d52143730a2269f0a50f5e2a46bfb9c1",
-                "reference": "47fb3db6d52143730a2269f0a50f5e2a46bfb9c1",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a73923249fdfe996f2b625c3f3fcb311e84e3447",
+                "reference": "a73923249fdfe996f2b625c3f3fcb311e84e3447",
                 "shasum": ""
             },
             "conflict": {
@@ -3888,10 +3891,10 @@
                 "bugsnag/bugsnag-laravel": ">=2,<2.0.2",
                 "cakephp/cakephp": ">=3,<3.0.15|>=2,<2.4.99|>=2.5,<2.5.99|>=2.6,<2.6.12|>=1.3,<1.3.18|>=2.7,<2.7.6|>=3.1,<3.1.4",
                 "cartalyst/sentry": "<2.1",
-                "codeigniter/framework": "<3.0.3",
+                "codeigniter/framework": "<=3.0.6",
                 "composer/composer": "<=1.0.0-alpha11",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
-                "contao/core": ">=2.11,<3|>=3,<3.5.15",
+                "contao/core": ">=2.11,<3.5.15",
                 "doctrine/annotations": ">=1,<1.2.7",
                 "doctrine/cache": ">=1,<1.3.2|>=1.4,<1.4.2",
                 "doctrine/common": ">=2,<2.4.3|>=2.5,<2.5.1",
@@ -3902,18 +3905,18 @@
                 "doctrine/mongodb-odm-bundle": ">=2,<3.0.1",
                 "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1",
                 "dompdf/dompdf": ">=0.6,<0.6.2",
-                "drupal/core": ">=8,<8.1|>=8.1,<8.1.7",
-                "drupal/drupal": ">=8,<8.1|>=8.1,<8.1.7",
+                "drupal/core": ">=8,<8.1.7",
+                "drupal/drupal": ">=8,<8.1.7",
                 "firebase/php-jwt": "<2",
                 "friendsofsymfony/rest-bundle": ">=1.2,<1.2.2",
-                "friendsofsymfony/user-bundle": ">=1.2,<1.3|>=1.3,<1.3.5",
+                "friendsofsymfony/user-bundle": ">=1.2,<1.3.5",
                 "guzzlehttp/guzzle": ">=6,<6.2.1|>=4.0.0-rc2,<4.2.4|>=5,<5.3.1",
                 "illuminate/auth": ">=4,<4.0.99|>=4.1,<4.1.26",
                 "illuminate/database": ">=4,<4.0.99|>=4.1,<4.1.29",
                 "joomla/session": "<1.3.1",
                 "laravel/framework": ">=4,<4.0.99|>=4.1,<4.1.29",
                 "laravel/socialite": ">=1,<1.0.99|>=2,<2.0.10",
-                "magento/magento2ce": ">=2,<2.1|>=2.1,<2.2",
+                "magento/magento2ce": ">=2,<2.2",
                 "monolog/monolog": ">=1.8,<1.12",
                 "namshi/jose": "<2.2",
                 "oro/crm": ">=1.7,<1.7.4",
@@ -3921,33 +3924,33 @@
                 "phpmailer/phpmailer": ">=5,<5.2.14",
                 "pusher/pusher-php-server": "<2.2.1",
                 "sabre/dav": ">=1.6,<1.6.99|>=1.7,<1.7.11|>=1.8,<1.8.9",
-                "shopware/shopware": "<4.3.7|>=5,<5.1|>=5.1,<5.1.5",
+                "shopware/shopware": "<4.3.7|>=5,<5.1.5",
                 "silverstripe/cms": ">=3.1,<3.1.11|>=3,<=3.0.11",
                 "silverstripe/forum": "<=0.6.1|>=0.7,<=0.7.3",
-                "silverstripe/framework": ">=3,<3.1|>=3.1,<3.2|>=3.2,<3.3",
+                "silverstripe/framework": ">=3,<3.3",
                 "silverstripe/userforms": "<3",
                 "simplesamlphp/simplesamlphp": "<1.14.4",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "swiftmailer/swiftmailer": ">=4,<4.99.99|>=5,<5.2.1",
                 "symfony/dependency-injection": ">=2,<2.0.17",
-                "symfony/form": ">=2.3,<2.3.35|>=2.4,<2.5|>=2.5,<2.6|>=2.6,<2.6.12|>=2.7,<2.7.7",
-                "symfony/framework-bundle": ">=2,<2.1|>=2.1,<2.2|>=2.2,<2.3|>=2.3,<2.3.18|>=2.4,<2.4.8|>=2.5,<2.5.2",
-                "symfony/http-foundation": ">=2,<2.1|>=2.1,<2.2|>=2.2,<2.3|>=2.3,<2.3.27|>=2.4,<2.5|>=2.5,<2.5.11|>=2.6,<2.6.6",
-                "symfony/http-kernel": ">=2,<2.1|>=2.1,<2.2|>=2.2,<2.3|>=2.3,<2.3.29|>=2.4,<2.5|>=2.5,<2.5.12|>=2.6,<2.6.8",
+                "symfony/form": ">=2.3,<2.3.35|>=2.4,<2.6.12|>=2.7,<2.7.7",
+                "symfony/framework-bundle": ">=2,<2.3.18|>=2.4,<2.4.8|>=2.5,<2.5.2",
+                "symfony/http-foundation": ">=2,<2.3.27|>=2.4,<2.5.11|>=2.6,<2.6.6",
+                "symfony/http-kernel": ">=2,<2.3.29|>=2.4,<2.5.12|>=2.6,<2.6.8",
                 "symfony/routing": ">=2,<2.0.19",
-                "symfony/security": ">=2.3,<2.3.37|>=2.4,<2.5|>=2.5,<2.6|>=2.6,<2.6.13|>=2.7,<2.7.9|>=2,<2.0.25|>=2.1,<2.1.13|>=2.2,<2.2.9",
-                "symfony/security-core": ">=2.8,<2.8.6|>=3,<3.0.6|>=2.4,<2.5|>=2.5,<2.6|>=2.6,<2.6.13|>=2.7,<2.7.9",
-                "symfony/security-http": ">=2.4,<2.5|>=2.5,<2.6|>=2.6,<2.7|>=2.7,<2.7.13|>=2.3,<2.3.41|>=2.8,<2.8.6|>=3,<3.0.6",
+                "symfony/security": ">=2.3,<2.3.37|>=2.4,<2.6.13|>=2.7,<2.7.9|>=2,<2.0.25|>=2.1,<2.1.13|>=2.2,<2.2.9",
+                "symfony/security-core": ">=2.8,<2.8.6|>=3,<3.0.6|>=2.4,<2.6.13|>=2.7,<2.7.9",
+                "symfony/security-http": ">=2.4,<2.7.13|>=2.3,<2.3.41|>=2.8,<2.8.6|>=3,<3.0.6",
                 "symfony/serializer": ">=2,<2.0.11",
-                "symfony/symfony": ">=2,<2.1|>=2.1,<2.2|>=2.2,<2.3|>=2.3,<2.3.41|>=2.4,<2.5|>=2.5,<2.6|>=2.6,<2.7|>=2.7,<2.7.13|>=2.8,<2.8.6|>=3,<3.0.6",
+                "symfony/symfony": ">=2,<2.3.41|>=2.4,<2.7.13|>=2.8,<2.8.6|>=3,<3.0.6",
                 "symfony/translation": ">=2,<2.0.17",
                 "symfony/validator": ">=2,<2.0.24|>=2.1,<2.1.12|>=2.2,<2.2.5|>=2.3,<2.3.3",
-                "symfony/web-profiler-bundle": ">=2,<2.1|>=2.1,<2.2|>=2.2,<2.3|>=2.3,<2.3.19|>=2.4,<2.4.9|>=2.5,<2.5.4",
+                "symfony/web-profiler-bundle": ">=2,<2.3.19|>=2.4,<2.4.9|>=2.5,<2.5.4",
                 "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
                 "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
                 "twig/twig": "<1.20",
-                "typo3/cms": ">=6.2,<6.2.27|>=8,<8.2|>=8.2,<8.3|>=7.6,<7.6.11|>=7,<7.1|>=7.1,<7.2|>=7.2,<7.3|>=7.3,<7.4|>=7.4,<7.5|>=7.5,<7.6|>=8.3,<8.3.1",
+                "typo3/cms": ">=6.2,<6.2.27|>=8,<8.3.1|>=7,<7.6.11",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.7|>=3,<3.0.1",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
                 "willdurand/js-translation-bundle": "<2.1.1",
@@ -3993,7 +3996,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2016-09-14 19:35:46"
+            "time": "2016-09-16 14:00:30"
         },
         {
             "name": "sbw-dev/sbw_attachments",
@@ -4049,12 +4052,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/theme_sbw.git",
-                "reference": "80cc79fb7610eedc247acb508e91362fe3a7c323"
+                "reference": "9a56bee6143bfa60b8264d6f80baf0bc2fd31997"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/80cc79fb7610eedc247acb508e91362fe3a7c323",
-                "reference": "80cc79fb7610eedc247acb508e91362fe3a7c323",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/9a56bee6143bfa60b8264d6f80baf0bc2fd31997",
+                "reference": "9a56bee6143bfa60b8264d6f80baf0bc2fd31997",
                 "shasum": ""
             },
             "require": {
@@ -4068,7 +4071,7 @@
                 "source": "https://github.com/sbwtech/theme_sbw/tree/master",
                 "issues": "https://github.com/sbwtech/theme_sbw/issues"
             },
-            "time": "2016-09-14 20:27:12"
+            "time": "2016-09-20 19:24:34"
         },
         {
             "name": "simplepie/simplepie",
