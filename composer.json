@@ -47,7 +47,7 @@
     "daltonmedia/elgg_cookieconsent": "^1.1",
     "demyx/landr": "dev-master",
     "elgg/dbvalidator": "dev-master",
-    "elgg/elgg": "2.2.x-dev",
+    "elgg/elgg": "2.2.*",
     "elgg/mentions": "dev-master",
     "elgg/videolist": "dev-master",
     "hypejunction/hypedropzone": "~5.0",

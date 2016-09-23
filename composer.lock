@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a64d7bf08226d6b71ef434143a48398d",
-    "content-hash": "619b208126189533a7c46842f0eb68ab",
+    "hash": "577757c0f1e09afd8b2867683968f12a",
+    "content-hash": "96aada97691a129456e1d0dc5e41fe89",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -251,17 +251,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/beck24/granular_access.git",
-                "reference": "1e6c7fcac2d52c724629783f66b6b179a820f605"
+                "reference": "d6c17be4eead3503d2aa57d8161e92772a91dbf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beck24/granular_access/zipball/1e6c7fcac2d52c724629783f66b6b179a820f605",
-                "reference": "1e6c7fcac2d52c724629783f66b6b179a820f605",
+                "url": "https://api.github.com/repos/beck24/granular_access/zipball/d6c17be4eead3503d2aa57d8161e92772a91dbf8",
+                "reference": "d6c17be4eead3503d2aa57d8161e92772a91dbf8",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": ">=1.0.8",
-                "hypejunction/elgg_tokeninput": "4.1.0",
+                "hypejunction/elgg_tokeninput": "4.1.*",
                 "jumbojett/vroom": "dev-master"
             },
             "type": "elgg-plugin",
@@ -269,7 +269,7 @@
             "license": [
                 "GPL-2.0"
             ],
-            "time": "2016-07-08 22:00:11"
+            "time": "2016-09-20 21:11:11"
         },
         {
             "name": "beck24/image_proxy",
@@ -536,16 +536,16 @@
         },
         {
             "name": "bower-asset/moment",
-            "version": "2.15.0",
+            "version": "2.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "c587bf0063c18214238ca83f3f9c6170daf25bed"
+                "reference": "986dba9497b7c173760d1d7bc85606c574ed2c44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/c587bf0063c18214238ca83f3f9c6170daf25bed",
-                "reference": "c587bf0063c18214238ca83f3f9c6170daf25bed",
+                "url": "https://api.github.com/repos/moment/moment/zipball/986dba9497b7c173760d1d7bc85606c574ed2c44",
+                "reference": "986dba9497b7c173760d1d7bc85606c574ed2c44",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -569,7 +569,10 @@
                     "package.js",
                     "package.json"
                 ]
-            }
+            },
+            "license": [
+                "MIT"
+            ]
         },
         {
             "name": "bower-asset/requirejs",
@@ -997,12 +1000,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "ac63a651cafba8178acceb7aa0ad9b8b14f7d231"
+                "reference": "0c4857d1d399808e32610e1d84d04481ca9e4763"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/ac63a651cafba8178acceb7aa0ad9b8b14f7d231",
-                "reference": "ac63a651cafba8178acceb7aa0ad9b8b14f7d231",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/0c4857d1d399808e32610e1d84d04481ca9e4763",
+                "reference": "0c4857d1d399808e32610e1d84d04481ca9e4763",
                 "shasum": ""
             },
             "require": {
@@ -1023,7 +1026,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2016-08-29 12:20:37"
+            "time": "2016-09-22 10:04:31"
         },
         {
             "name": "coldtrick/html_email_handler",
@@ -1226,17 +1229,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/widget_manager.git",
-                "reference": "ecfe9b63d022fc47ad724b33890b31810906bf71"
+                "reference": "0dea7d014e3a91c27633ce11107db1a8c26aefba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/ecfe9b63d022fc47ad724b33890b31810906bf71",
-                "reference": "ecfe9b63d022fc47ad724b33890b31810906bf71",
+                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/0dea7d014e3a91c27633ce11107db1a8c26aefba",
+                "reference": "0dea7d014e3a91c27633ce11107db1a8c26aefba",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "^1.0.8",
-                "simplepie/simplepie": "1.3.1"
+                "composer/installers": "^1.0.8"
             },
             "require-dev": {
                 "coldtrick/releases": "dev-master",
@@ -1253,7 +1255,7 @@
                 "plugin",
                 "widgets"
             ],
-            "time": "2016-09-20 10:42:17"
+            "time": "2016-09-22 15:12:44"
         },
         {
             "name": "composer/installers",
@@ -2087,16 +2089,16 @@
         },
         {
             "name": "elgg/elgg",
-            "version": "2.2.x-dev",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "7a8d79651b5793765083f3a496588bec24f2c0bc"
+                "reference": "52cafa0063a75d7c909219ea5ec84a9c1bf45ff7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/7a8d79651b5793765083f3a496588bec24f2c0bc",
-                "reference": "7a8d79651b5793765083f3a496588bec24f2c0bc",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/52cafa0063a75d7c909219ea5ec84a9c1bf45ff7",
+                "reference": "52cafa0063a75d7c909219ea5ec84a9c1bf45ff7",
                 "shasum": ""
             },
             "require": {
@@ -2145,7 +2147,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2016-09-16 12:40:33"
+            "time": "2016-08-06 01:32:50"
         },
         {
             "name": "elgg/login_as",
@@ -2424,22 +2426,19 @@
         },
         {
             "name": "hypejunction/acl_builder_api",
-            "version": "1.0.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hypeJunction/acl_builder_api.git",
-                "reference": "4be297b147310da8ca0743016c72a8abddb4d765"
+                "url": "https://github.com/hypeJunction/Elgg-acl_builder_api.git",
+                "reference": "24044707ba40e8e28a5da8c56c3303675a2bed45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/acl_builder_api/zipball/4be297b147310da8ca0743016c72a8abddb4d765",
-                "reference": "4be297b147310da8ca0743016c72a8abddb4d765",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-acl_builder_api/zipball/24044707ba40e8e28a5da8c56c3303675a2bed45",
+                "reference": "24044707ba40e8e28a5da8c56c3303675a2bed45",
                 "shasum": ""
             },
-            "require-dev": {
-                "composer/installers": "1.*"
-            },
-            "type": "elgg-plugin",
+            "type": "library",
             "autoload": {
                 "psr-0": {
                     "": "classes/"
@@ -2462,20 +2461,20 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2015-11-28 09:52:27"
+            "time": "2016-09-22 20:08:12"
         },
         {
             "name": "hypejunction/elgg_tokeninput",
-            "version": "4.1.0",
+            "version": "4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/elgg_tokeninput.git",
-                "reference": "b49f90770ef82871bcb09f41d04bb2ab976ac984"
+                "reference": "bc31f290b45559f94620ef39f5d3e06fb9cf4121"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/elgg_tokeninput/zipball/b49f90770ef82871bcb09f41d04bb2ab976ac984",
-                "reference": "b49f90770ef82871bcb09f41d04bb2ab976ac984",
+                "url": "https://api.github.com/repos/hypeJunction/elgg_tokeninput/zipball/bc31f290b45559f94620ef39f5d3e06fb9cf4121",
+                "reference": "bc31f290b45559f94620ef39f5d3e06fb9cf4121",
                 "shasum": ""
             },
             "require": {
@@ -2503,7 +2502,7 @@
                 "plugin",
                 "search"
             ],
-            "time": "2016-02-09 15:33:03"
+            "time": "2016-08-03 16:58:06"
         },
         {
             "name": "hypejunction/hypeapps",
@@ -2558,16 +2557,16 @@
         },
         {
             "name": "hypejunction/hypeattachments",
-            "version": "2.0.4",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeAttachments.git",
-                "reference": "316068e68721803068c3b4ec2f5a20a89a288871"
+                "reference": "506492d16eed5c5d3b31236c4f4d0066cae97ee2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeAttachments/zipball/316068e68721803068c3b4ec2f5a20a89a288871",
-                "reference": "316068e68721803068c3b4ec2f5a20a89a288871",
+                "url": "https://api.github.com/repos/hypeJunction/hypeAttachments/zipball/506492d16eed5c5d3b31236c4f4d0066cae97ee2",
+                "reference": "506492d16eed5c5d3b31236c4f4d0066cae97ee2",
                 "shasum": ""
             },
             "require": {
@@ -2575,46 +2574,14 @@
                 "hypejunction/acl_builder_api": "~1.0",
                 "php": ">=5.5"
             },
-            "require-dev": {
-                "elgg/elgg": "~2.1",
-                "elgg/sniffs": "dev-master",
-                "phpdocumentor/reflection-docblock": "~2.0",
-                "phpunit/phpunit": "~4.1",
-                "simpletest/simpletest": "~1.1",
-                "squizlabs/php_codesniffer": "~1.5"
-            },
             "type": "elgg-plugin",
             "extra": {
                 "installer-name": "hypeAttachments"
             },
             "autoload": {
                 "psr-0": {
-                    "hypeJunction/": "classes/hypeJunction/"
+                    "": "classes/"
                 }
-            },
-            "autoload-dev": {
-                "psr-0": {
-                    "hypeJunction": "tests/phpunit/classes/hypeJunction/"
-                }
-            },
-            "scripts": {
-                "travis:install": [
-                    "phpenv rehash",
-                    "composer self-update",
-                    "composer global require \"fxp/composer-asset-plugin:~1.1.1\"",
-                    "composer install --prefer-source --optimize-autoloader"
-                ],
-                "lint": [
-                    "phpcs --standard=vendor/elgg/sniffs/elgg.xml -p --warning-severity=0 --ignore=*/tests/*,*/vendor/*,*/vendors/*,*/mod/* classes actions languages start.php",
-                    "composer validate --verbose"
-                ],
-                "test": [
-                    "phpunit --coverage-clover=coverage.clover"
-                ],
-                "clover": [
-                    "wget https://scrutinizer-ci.com/ocular.phar",
-                    "php ocular.phar code-coverage:upload --format=php-clover coverage.clover"
-                ]
             },
             "license": [
                 "GPL-2.0"
@@ -2634,10 +2601,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/hypeAttachments/tree/2.0.4",
+                "source": "https://github.com/hypeJunction/hypeAttachments/tree/2.1.2",
                 "issues": "https://github.com/hypeJunction/hypeAttachments/issues"
             },
-            "time": "2016-08-24 10:31:25"
+            "time": "2016-09-22 20:17:14"
         },
         {
             "name": "hypejunction/hypedropzone",
@@ -2690,16 +2657,16 @@
         },
         {
             "name": "hypejunction/hypelists",
-            "version": "4.1.2",
+            "version": "4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeLists.git",
-                "reference": "648f0f6c40ac3c59279f061e48bf71a9043862b8"
+                "reference": "fafd7354e433239b2db90ae8567dc7751fa4c597"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeLists/zipball/648f0f6c40ac3c59279f061e48bf71a9043862b8",
-                "reference": "648f0f6c40ac3c59279f061e48bf71a9043862b8",
+                "url": "https://api.github.com/repos/hypeJunction/hypeLists/zipball/fafd7354e433239b2db90ae8567dc7751fa4c597",
+                "reference": "fafd7354e433239b2db90ae8567dc7751fa4c597",
                 "shasum": ""
             },
             "require": {
@@ -2735,7 +2702,7 @@
                 "hypelist",
                 "plugin"
             ],
-            "time": "2016-09-15 12:48:43"
+            "time": "2016-09-21 12:14:40"
         },
         {
             "name": "hypejunction/hypescraper",
@@ -4052,12 +4019,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/theme_sbw.git",
-                "reference": "9a56bee6143bfa60b8264d6f80baf0bc2fd31997"
+                "reference": "c4f6c88384d0648b48e4e71c642bce2d4b5a85ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/9a56bee6143bfa60b8264d6f80baf0bc2fd31997",
-                "reference": "9a56bee6143bfa60b8264d6f80baf0bc2fd31997",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/c4f6c88384d0648b48e4e71c642bce2d4b5a85ce",
+                "reference": "c4f6c88384d0648b48e4e71c642bce2d4b5a85ce",
                 "shasum": ""
             },
             "require": {
@@ -4071,7 +4038,7 @@
                 "source": "https://github.com/sbwtech/theme_sbw/tree/master",
                 "issues": "https://github.com/sbwtech/theme_sbw/issues"
             },
-            "time": "2016-09-20 19:24:34"
+            "time": "2016-09-23 15:32:10"
         },
         {
             "name": "simplepie/simplepie",
@@ -6180,7 +6147,6 @@
         "coldtrick/widget_manager": 20,
         "demyx/landr": 20,
         "elgg/dbvalidator": 20,
-        "elgg/elgg": 20,
         "elgg/mentions": 20,
         "elgg/videolist": 20,
         "hypejunction/hypescraper": 20,
