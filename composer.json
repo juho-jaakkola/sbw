@@ -50,6 +50,7 @@
     "elgg/elgg": "2.2.*",
     "elgg/mentions": "dev-master",
     "elgg/videolist": "dev-master",
+    "hypejunction/hypediscovery": "^2.0",
     "hypejunction/hypedropzone": "~5.0",
     "hypejunction/hypelists": "^4.0",
     "hypejunction/hypescraper": "dev-master",
@@ -70,7 +71,7 @@
     "nlybe/hypewall_extended": "dev-master",
     "nlybe/membersmap": "dev-master",
     "sbw-dev/theme_sbw": "dev-master",
-	"sbw-dev/sbw_attachments": "dev-master",
+    "sbw-dev/sbw_attachments": "dev-master",
     "teamwebgalli/galliElggEmbed": "dev-elgg_1.9+",
     "thetruebumba/spam_login_filter": "dev-master"
   },

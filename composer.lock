@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "577757c0f1e09afd8b2867683968f12a",
-    "content-hash": "96aada97691a129456e1d0dc5e41fe89",
+    "hash": "7b761fc2fe36788ac630bafd0fae09b0",
+    "content-hash": "39f89a3d52109d95a44a2d398cc2821c",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -2607,6 +2607,57 @@
             "time": "2016-09-22 20:17:14"
         },
         {
+            "name": "hypejunction/hypediscovery",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/hypeDiscovery.git",
+                "reference": "5a2d9cdf89dc0ea52ed627f5f303a5b6fcff8106"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/hypeDiscovery/zipball/5a2d9cdf89dc0ea52ed627f5f303a5b6fcff8106",
+                "reference": "5a2d9cdf89dc0ea52ed627f5f303a5b6fcff8106",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "mrclay/elgg-url-sniffer": "~2.0",
+                "php": ">=5.5"
+            },
+            "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "hypeDiscovery"
+            },
+            "autoload": {
+                "psr-0": {
+                    "hypeJunction/": "classes/hypeJunction/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Enhanced social presence and discovery of Elgg content in the social eco-system.",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "discovery",
+                "elgg",
+                "facebook",
+                "oembed",
+                "open graph",
+                "plugin",
+                "twitter cards"
+            ],
+            "time": "2016-08-24 20:24:37"
+        },
+        {
             "name": "hypejunction/hypedropzone",
             "version": "5.0.1",
             "source": {
@@ -3465,6 +3516,54 @@
                 "markdown"
             ],
             "time": "2015-12-24 01:37:31"
+        },
+        {
+            "name": "mrclay/elgg-url-sniffer",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrclay/elgg-url-sniffer.git",
+                "reference": "30268a538aacf51cdbb9288c661119eadadcbeb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrclay/elgg-url-sniffer/zipball/30268a538aacf51cdbb9288c661119eadadcbeb9",
+                "reference": "30268a538aacf51cdbb9288c661119eadadcbeb9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Url.php",
+                    "Result.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Clay",
+                    "email": "steve@mrclay.org",
+                    "homepage": "http://www.mrclay.org/"
+                }
+            ],
+            "description": "Analyze a URL to see if it's within an Elgg site, is an action/page, likely represents a GUID, etc.",
+            "keywords": [
+                "analyze",
+                "elgg",
+                "routing",
+                "sniff",
+                "url"
+            ],
+            "time": "2016-07-29 14:42:28"
         },
         {
             "name": "mrclay/minify",
