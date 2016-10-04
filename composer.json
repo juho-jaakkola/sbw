@@ -56,6 +56,7 @@
     "hypejunction/hypelists": "^4.0",
     "hypejunction/hypescraper": "dev-master",
     "hypejunction/hypewall": "dev-master",
+    "hypejunction/hypeinbox": "^6.0",
     "iionly/elggx_badges": "dev-master",
     "iionly/elggx_fivestar": "dev-master",
     "iionly/elggx_userpoints": "dev-master",

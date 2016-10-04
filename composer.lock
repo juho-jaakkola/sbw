@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8d70f854fb9c8fb1527b207ff99835b0",
-    "content-hash": "0ef6671ad4faf75ba76c0204c6e2928f",
+    "hash": "aa6a742dd32cc8658575b4ebc8613344",
+    "content-hash": "67438232f05db6aec316fdfcd1e95a9e",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -2753,6 +2753,55 @@
                 "upload"
             ],
             "time": "2016-08-30 17:45:05"
+        },
+        {
+            "name": "hypejunction/hypeinbox",
+            "version": "6.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/hypeInbox.git",
+                "reference": "a019faf658b7a5aff4fd8997a48847623a98fff4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/hypeInbox/zipball/a019faf658b7a5aff4fd8997a48847623a98fff4",
+                "reference": "a019faf658b7a5aff4fd8997a48847623a98fff4",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "hypejunction/acl_builder_api": "*",
+                "hypejunction/elgg_tokeninput": "*",
+                "hypejunction/hypelists": "*"
+            },
+            "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "hypeInbox"
+            },
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Enhanced messaging capabilities",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "elgg",
+                "inbox",
+                "messages",
+                "plugin"
+            ],
+            "time": "2016-09-22 20:15:03"
         },
         {
             "name": "hypejunction/hypeinteractions",
