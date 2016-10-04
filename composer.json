@@ -30,7 +30,6 @@
     "coldtrick/blog_tools": "dev-master",
     "coldtrick/ckeditor_extended": "^2.0",
     "coldtrick/csv_exporter": "dev-master",
-    "coldtrick/digest": "dev-master",
     "coldtrick/event_manager": "dev-master",
     "coldtrick/file_tools": "dev-master",
     "coldtrick/friend_request": "^4.1",

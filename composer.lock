@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "42af6acc0aefdf889a868e228f0a3f28",
-    "content-hash": "2b6196a2d04721e8c7ae8f4e85382863",
+    "hash": "1d022a178f0d45263042a305a93f7af6",
+    "content-hash": "f7c49bb93de450fa2b4a2308977d9897",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -792,40 +792,6 @@
                 "plugin"
             ],
             "time": "2016-09-15 12:50:24"
-        },
-        {
-            "name": "coldtrick/digest",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ColdTrick/digest.git",
-                "reference": "bfb044f2ad2b26bbd53e3e0356f9253ac178807f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/digest/zipball/bfb044f2ad2b26bbd53e3e0356f9253ac178807f",
-                "reference": "bfb044f2ad2b26bbd53e3e0356f9253ac178807f",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0.8"
-            },
-            "require-dev": {
-                "coldtrick/sniffs": "dev-master"
-            },
-            "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "description": "Sends out a digest mail for site and group activity",
-            "keywords": [
-                "elgg",
-                "email",
-                "notification",
-                "plugin"
-            ],
-            "time": "2015-12-17 08:33:55"
         },
         {
             "name": "coldtrick/event_manager",
@@ -6440,7 +6406,6 @@
         "coldtrick/analytics": 20,
         "coldtrick/blog_tools": 20,
         "coldtrick/csv_exporter": 20,
-        "coldtrick/digest": 20,
         "coldtrick/event_manager": 20,
         "coldtrick/file_tools": 20,
         "coldtrick/group_tools": 20,
