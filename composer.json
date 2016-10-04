@@ -73,7 +73,8 @@
     "sbw-dev/theme_sbw": "dev-master",
     "sbw-dev/sbw_attachments": "dev-master",
     "teamwebgalli/galliElggEmbed": "dev-elgg_1.9+",
-    "thetruebumba/spam_login_filter": "dev-master"
+    "thetruebumba/spam_login_filter": "dev-master",
+    "hypejunction/ui_tabs": "^1.1"
   },
   "require-dev": {
     "srokap/code_review": "^1.0.5",

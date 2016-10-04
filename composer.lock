@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "12080f79be6197ce2d1309f39c64cbd9",
-    "content-hash": "f2e57b65141b586ac48410bcf7189146",
+    "hash": "21d8b01cec7bc15cd3ea29af0973cafe",
+    "content-hash": "e472213a06063f9038629777a38dc61b",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -2940,6 +2940,45 @@
                 "ui"
             ],
             "time": "2016-01-22 10:54:06"
+        },
+        {
+            "name": "hypejunction/ui_tabs",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/Elgg-ui_tabs.git",
+                "reference": "59c1229b253cd4bea8cec23d8488446d3d6c1f97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-ui_tabs/zipball/59c1229b253cd4bea8cec23d8488446d3d6c1f97",
+                "reference": "59c1229b253cd4bea8cec23d8488446d3d6c1f97",
+                "shasum": ""
+            },
+            "require-dev": {
+                "composer/installers": "1.*"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "AJAX Tabs component for Elgg",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "ajax",
+                "elgg",
+                "plugin",
+                "tabs",
+                "ui"
+            ],
+            "time": "2016-08-11 13:06:07"
         },
         {
             "name": "igorw/get-in",
