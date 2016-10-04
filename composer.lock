@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "25ad450bf3e3aebc8db6e37d0db0d974",
-    "content-hash": "a2e2f143ea0299594d250ab4e53328b6",
+    "hash": "491246195c5c6e61608a77f01a277d57",
+    "content-hash": "ec0175c1a300ff9c25cf8cb360db25d8",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -3051,6 +3051,45 @@
                 "wall"
             ],
             "time": "2016-09-20 15:53:51"
+        },
+        {
+            "name": "hypejunction/ui_responsive_tabs",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/Elgg-ui_responsive_tabs.git",
+                "reference": "77b21be30ef1d4d3d43b92e1ebb3c6a50d82b3d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-ui_responsive_tabs/zipball/77b21be30ef1d4d3d43b92e1ebb3c6a50d82b3d5",
+                "reference": "77b21be30ef1d4d3d43b92e1ebb3c6a50d82b3d5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.*",
+                "php": ">=5.5"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Responsive tabs for Elgg",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "elgg",
+                "plugin",
+                "tabs",
+                "ui"
+            ],
+            "time": "2016-01-22 10:54:06"
         },
         {
             "name": "hypejunction/ui_tabs",
