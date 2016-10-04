@@ -29,7 +29,6 @@
     "coldtrick/analytics": "dev-master",
     "coldtrick/blog_tools": "dev-master",
     "coldtrick/ckeditor_extended": "^2.0",
-    "coldtrick/content_subscriptions": "dev-master",
     "coldtrick/csv_exporter": "dev-master",
     "coldtrick/digest": "dev-master",
     "coldtrick/event_manager": "dev-master",

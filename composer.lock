@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "157dba0f1ec837a03db301ef5c5e1950",
-    "content-hash": "f3a530b020937c9d2337c29b94f39928",
+    "hash": "42af6acc0aefdf889a868e228f0a3f28",
+    "content-hash": "2b6196a2d04721e8c7ae8f4e85382863",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -758,40 +758,6 @@
                 "wysiwyg"
             ],
             "time": "2016-01-05 14:30:37"
-        },
-        {
-            "name": "coldtrick/content_subscriptions",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ColdTrick/content_subscriptions.git",
-                "reference": "3448a9680edadea9bc9e42969bf85ba1a190b7f3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/content_subscriptions/zipball/3448a9680edadea9bc9e42969bf85ba1a190b7f3",
-                "reference": "3448a9680edadea9bc9e42969bf85ba1a190b7f3",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0.8"
-            },
-            "require-dev": {
-                "coldtrick/releases": "dev-master",
-                "coldtrick/sniffs": "dev-master"
-            },
-            "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "description": "Offers the ability to follow a discussion and get notified about new comments",
-            "keywords": [
-                "elgg",
-                "notification",
-                "plugin"
-            ],
-            "time": "2016-09-28 13:04:23"
         },
         {
             "name": "coldtrick/csv_exporter",
@@ -6473,7 +6439,6 @@
         "coldtrick/advanced_statistics": 20,
         "coldtrick/analytics": 20,
         "coldtrick/blog_tools": 20,
-        "coldtrick/content_subscriptions": 20,
         "coldtrick/csv_exporter": 20,
         "coldtrick/digest": 20,
         "coldtrick/event_manager": 20,
