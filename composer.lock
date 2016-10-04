@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7b761fc2fe36788ac630bafd0fae09b0",
-    "content-hash": "39f89a3d52109d95a44a2d398cc2821c",
+    "hash": "8d70f854fb9c8fb1527b207ff99835b0",
+    "content-hash": "0ef6671ad4faf75ba76c0204c6e2928f",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -2658,6 +2658,54 @@
             "time": "2016-08-24 20:24:37"
         },
         {
+            "name": "hypejunction/hypediscussions",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/hypeDiscussions.git",
+                "reference": "73591f7f82532ad48465d66c6cd81c2f580fe7aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/hypeDiscussions/zipball/73591f7f82532ad48465d66c6cd81c2f580fe7aa",
+                "reference": "73591f7f82532ad48465d66c6cd81c2f580fe7aa",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "hypejunction/hypeinteractions": "*",
+                "php": ">=5.5"
+            },
+            "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "hypeDiscussions"
+            },
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Discussion threads for Elgg",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "discussions",
+                "elgg",
+                "groups",
+                "plugin"
+            ],
+            "time": "2016-10-03 12:08:10"
+        },
+        {
             "name": "hypejunction/hypedropzone",
             "version": "5.0.1",
             "source": {
@@ -2705,6 +2753,56 @@
                 "upload"
             ],
             "time": "2016-08-30 17:45:05"
+        },
+        {
+            "name": "hypejunction/hypeinteractions",
+            "version": "4.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/hypeInteractions.git",
+                "reference": "25c6799a09c01a090694746396a46477ada56196"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/hypeInteractions/zipball/25c6799a09c01a090694746396a46477ada56196",
+                "reference": "25c6799a09c01a090694746396a46477ada56196",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "hypejunction/hypelists": ">=3.5"
+            },
+            "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "hypeInteractions"
+            },
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Real time likes and comments",
+            "homepage": "http://hypejunction.com/",
+            "keywords": [
+                "ajax",
+                "comments",
+                "elgg",
+                "feed",
+                "likes",
+                "plugin",
+                "stream"
+            ],
+            "time": "2016-10-03 12:06:23"
         },
         {
             "name": "hypejunction/hypelists",

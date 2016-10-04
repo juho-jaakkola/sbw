@@ -51,6 +51,7 @@
     "elgg/mentions": "dev-master",
     "elgg/videolist": "dev-master",
     "hypejunction/hypediscovery": "^2.0",
+    "hypejunction/hypediscussions": "^1.2",
     "hypejunction/hypedropzone": "~5.0",
     "hypejunction/hypelists": "^4.0",
     "hypejunction/hypescraper": "dev-master",
