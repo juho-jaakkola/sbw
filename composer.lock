@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "491246195c5c6e61608a77f01a277d57",
-    "content-hash": "ec0175c1a300ff9c25cf8cb360db25d8",
+    "hash": "157dba0f1ec837a03db301ef5c5e1950",
+    "content-hash": "f3a530b020937c9d2337c29b94f39928",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -622,38 +622,6 @@
             "license": [
                 "MIT"
             ]
-        },
-        {
-            "name": "centillien/metatags",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Centillien/metatags.git",
-                "reference": "e7e19c274867f90673bf5ef468f3ad0fe74daf68"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Centillien/metatags/zipball/e7e19c274867f90673bf5ef468f3ad0fe74daf68",
-                "reference": "e7e19c274867f90673bf5ef468f3ad0fe74daf68",
-                "shasum": ""
-            },
-            "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Gerard Kanters",
-                    "email": "gkanters@netcare.nl"
-                }
-            ],
-            "description": "Add SEO tags to your Elgg site.",
-            "keywords": [
-                "elgg",
-                "plugin"
-            ],
-            "time": "2016-06-29 10:24:46"
         },
         {
             "name": "coldtrick/advanced_statistics",
@@ -6502,7 +6470,6 @@
         "beck24/embed_extender": 20,
         "beck24/granular_access": 20,
         "beck24/image_proxy": 20,
-        "centillien/metatags": 20,
         "coldtrick/advanced_statistics": 20,
         "coldtrick/analytics": 20,
         "coldtrick/blog_tools": 20,
