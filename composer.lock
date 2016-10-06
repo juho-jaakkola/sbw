@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e72b965857b832389326d11c801b8f41",
-    "content-hash": "56d370bd850ccd46f2e5b27e9210b90b",
+    "hash": "e2fbce99359fb300b5c716bfec923a0b",
+    "content-hash": "d27e471822cfed7a2d715afab17a6f37",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -2779,6 +2779,56 @@
                 "stream"
             ],
             "time": "2016-10-03 12:06:23"
+        },
+        {
+            "name": "hypejunction/hypeinvite",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/hypeInvite.git",
+                "reference": "7f2e802e2a00e355b559007db441e1b251ea47c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/hypeInvite/zipball/7f2e802e2a00e355b559007db441e1b251ea47c4",
+                "reference": "7f2e802e2a00e355b559007db441e1b251ea47c4",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "hypejunction/elgg_tokeninput": "~4.0",
+                "hypejunction/ui_tabs": "*",
+                "php": ">=5.5"
+            },
+            "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "hypeInvite"
+            },
+            "autoload": {
+                "psr-0": {
+                    "hypeJunction": "classes/hypeJunction/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "An interface for inviting new users to the site",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "Invite",
+                "elgg",
+                "invite code",
+                "invite only network",
+                "plugin"
+            ],
+            "time": "2016-10-01 10:45:42"
         },
         {
             "name": "hypejunction/hypelists",
@@ -6397,6 +6447,7 @@
         "elgg/dbvalidator": 20,
         "elgg/mentions": 20,
         "elgg/videolist": 20,
+        "elggzone/river_addon": 20,
         "hypejunction/hypescraper": 20,
         "hypejunction/hypewall": 20,
         "iionly/elggx_badges": 20,
@@ -6417,8 +6468,7 @@
         "sbw-dev/theme_sbw": 20,
         "sbw-dev/sbw_attachments": 20,
         "teamwebgalli/gallielggembed": 20,
-        "thetruebumba/spam_login_filter": 20,
-        "elggzone/river_addon": 20
+        "thetruebumba/spam_login_filter": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

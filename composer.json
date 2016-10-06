@@ -53,6 +53,7 @@
     "hypejunction/hypediscussions": "^1.2",
     "hypejunction/hypedropzone": "~5.0",
     "hypejunction/hypeinbox": "^6.0",
+    "hypejunction/hypeinvite": "^1.0",
     "hypejunction/hypelists": "^4.0",
     "hypejunction/hypescraper": "dev-master",
     "hypejunction/hypewall": "dev-master",
