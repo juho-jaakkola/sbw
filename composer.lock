@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "21d8b01cec7bc15cd3ea29af0973cafe",
-    "content-hash": "e472213a06063f9038629777a38dc61b",
+    "hash": "e72b965857b832389326d11c801b8f41",
+    "content-hash": "56d370bd850ccd46f2e5b27e9210b90b",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -2131,6 +2131,33 @@
                 "GPL-2.0"
             ],
             "time": "2016-07-11 09:55:01"
+        },
+        {
+            "name": "elggzone/river_addon",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Elggzone/River-Addon.git",
+                "reference": "bb5a581f111cfc5109331ce621e1d0791e40b5ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Elggzone/River-Addon/zipball/bb5a581f111cfc5109331ce621e1d0791e40b5ca",
+                "reference": "bb5a581f111cfc5109331ce621e1d0791e40b5ca",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "support": {
+                "source": "https://github.com/Elggzone/River-Addon/tree/master",
+                "issues": "https://github.com/Elggzone/River-Addon/issues"
+            },
+            "time": "2016-04-10 18:12:57"
         },
         {
             "name": "fortawesome/font-awesome",
@@ -6390,7 +6417,8 @@
         "sbw-dev/theme_sbw": 20,
         "sbw-dev/sbw_attachments": 20,
         "teamwebgalli/gallielggembed": 20,
-        "thetruebumba/spam_login_filter": 20
+        "thetruebumba/spam_login_filter": 20,
+        "elggzone/river_addon": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

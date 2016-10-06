@@ -5,6 +5,7 @@
   "prefer-stable": true,
   "minimum-stability": "dev",
   "repositories": [
+    {"type": "vcs", "url": "https://github.com/Elggzone/River-Addon.git"},
     {"type": "vcs", "url": "https://github.com/hypeJunction/hypeAttachments.git"},
     {"type": "vcs", "url": "https://github.com/manacim/Landr.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/amap_maps_api.git"},
@@ -47,6 +48,7 @@
     "elgg/elgg": "2.2.*",
     "elgg/mentions": "dev-master",
     "elgg/videolist": "dev-master",
+    "elggzone/river_addon": "dev-master",
     "hypejunction/hypediscovery": "^2.0",
     "hypejunction/hypediscussions": "^1.2",
     "hypejunction/hypedropzone": "~5.0",
