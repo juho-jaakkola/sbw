@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e2fbce99359fb300b5c716bfec923a0b",
-    "content-hash": "d27e471822cfed7a2d715afab17a6f37",
+    "hash": "812ef6aedfa6412ecef97ea2f5ad96ed",
+    "content-hash": "6be6e822f9b1f2ecdaa44b0b1768f06c",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -697,16 +697,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/blog_tools.git",
-                "reference": "7e549811de01dd00701d619a448574ae2f27fe20"
+                "reference": "be55a4ca046cffe7c454c9f341613eee57e670e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/blog_tools/zipball/7e549811de01dd00701d619a448574ae2f27fe20",
-                "reference": "7e549811de01dd00701d619a448574ae2f27fe20",
+                "url": "https://api.github.com/repos/ColdTrick/blog_tools/zipball/be55a4ca046cffe7c454c9f341613eee57e670e7",
+                "reference": "be55a4ca046cffe7c454c9f341613eee57e670e7",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<2.2"
             },
             "require-dev": {
                 "coldtrick/releases": "dev-master",
@@ -723,26 +726,27 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-10-04 10:00:15"
+            "time": "2016-10-06 13:02:45"
         },
         {
             "name": "coldtrick/ckeditor_extended",
-            "version": "v2.0",
+            "version": "v2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/ckeditor_extended.git",
-                "reference": "1318fd868a32eecbb736ef1d0a57312cedfc763e"
+                "reference": "241e9415699f504a7280c2ce33f20e91965938b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/ckeditor_extended/zipball/1318fd868a32eecbb736ef1d0a57312cedfc763e",
-                "reference": "1318fd868a32eecbb736ef1d0a57312cedfc763e",
+                "url": "https://api.github.com/repos/ColdTrick/ckeditor_extended/zipball/241e9415699f504a7280c2ce33f20e91965938b4",
+                "reference": "241e9415699f504a7280c2ce33f20e91965938b4",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.8"
             },
             "require-dev": {
+                "coldtrick/releases": "dev-master",
                 "coldtrick/sniffs": "dev-master"
             },
             "type": "elgg-plugin",
@@ -757,7 +761,7 @@
                 "plugin",
                 "wysiwyg"
             ],
-            "time": "2016-01-05 14:30:37"
+            "time": "2016-10-05 07:53:21"
         },
         {
             "name": "coldtrick/csv_exporter",
@@ -799,19 +803,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/event_manager.git",
-                "reference": "ed2f6f53bd0ff20f857d892de81c4c06be26e406"
+                "reference": "9a6b95a0de923b9b1a309c9c6b7be730f6f78b33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/ed2f6f53bd0ff20f857d892de81c4c06be26e406",
-                "reference": "ed2f6f53bd0ff20f857d892de81c4c06be26e406",
+                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/9a6b95a0de923b9b1a309c9c6b7be730f6f78b33",
+                "reference": "9a6b95a0de923b9b1a309c9c6b7be730f6f78b33",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/fullcalendar": "^2.9.0",
+                "bower-asset/fullcalendar": "~2.9.0",
                 "composer/installers": "^1.0.8",
-                "dompdf/dompdf": "0.6.*",
+                "dompdf/dompdf": "~0.6.0",
                 "ext-json": "*"
+            },
+            "conflict": {
+                "elgg/elgg": "<2.2"
             },
             "require-dev": {
                 "coldtrick/releases": "dev-master",
@@ -828,7 +835,7 @@
                 "events",
                 "plugin"
             ],
-            "time": "2016-09-29 13:35:13"
+            "time": "2016-10-06 13:08:49"
         },
         {
             "name": "coldtrick/file_tools",
@@ -900,16 +907,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "21e21288b6be1b112b7dd82851365b9510ef5946"
+                "reference": "9e2b3876988b5c159d6140f6d0a4edd88e75edff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/21e21288b6be1b112b7dd82851365b9510ef5946",
-                "reference": "21e21288b6be1b112b7dd82851365b9510ef5946",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/9e2b3876988b5c159d6140f6d0a4edd88e75edff",
+                "reference": "9e2b3876988b5c159d6140f6d0a4edd88e75edff",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<2.2"
             },
             "require-dev": {
                 "coldtrick/releases": "dev-master",
@@ -926,7 +936,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2016-10-03 12:22:52"
+            "time": "2016-10-06 13:10:07"
         },
         {
             "name": "coldtrick/html_email_handler",
@@ -1029,16 +1039,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/tag_tools.git",
-                "reference": "c82019ce3fdb017dfe126c40fceea36803381b5a"
+                "reference": "c4529ec8e86ec594c273fc20635c8f23c6b0824c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/tag_tools/zipball/c82019ce3fdb017dfe126c40fceea36803381b5a",
-                "reference": "c82019ce3fdb017dfe126c40fceea36803381b5a",
+                "url": "https://api.github.com/repos/ColdTrick/tag_tools/zipball/c4529ec8e86ec594c273fc20635c8f23c6b0824c",
+                "reference": "c4529ec8e86ec594c273fc20635c8f23c6b0824c",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<1.9"
             },
             "require-dev": {
                 "coldtrick/releases": "dev-master",
@@ -1054,7 +1067,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-10-03 14:32:02"
+            "time": "2016-10-06 13:14:27"
         },
         {
             "name": "coldtrick/target_blank",
@@ -1095,16 +1108,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/translation_editor.git",
-                "reference": "d21c64e385c28bb8aff1ec7a72cb3d06bd9ab919"
+                "reference": "a713fd18e02daa84205f12bf4868de6a03644a39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/translation_editor/zipball/d21c64e385c28bb8aff1ec7a72cb3d06bd9ab919",
-                "reference": "d21c64e385c28bb8aff1ec7a72cb3d06bd9ab919",
+                "url": "https://api.github.com/repos/ColdTrick/translation_editor/zipball/a713fd18e02daa84205f12bf4868de6a03644a39",
+                "reference": "a713fd18e02daa84205f12bf4868de6a03644a39",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<2.0"
             },
             "require-dev": {
                 "coldtrick/releases": "dev-master",
@@ -1121,7 +1137,7 @@
                 "i18n",
                 "plugin"
             ],
-            "time": "2016-07-14 09:18:08"
+            "time": "2016-10-06 13:17:01"
         },
         {
             "name": "coldtrick/widget_manager",
@@ -1129,16 +1145,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/widget_manager.git",
-                "reference": "dc942e9df536f8812aa7e82941ad69f68a522eef"
+                "reference": "df844f33ad7fdb3d928f858712af7fce9a897d73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/dc942e9df536f8812aa7e82941ad69f68a522eef",
-                "reference": "dc942e9df536f8812aa7e82941ad69f68a522eef",
+                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/df844f33ad7fdb3d928f858712af7fce9a897d73",
+                "reference": "df844f33ad7fdb3d928f858712af7fce9a897d73",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<2.1"
             },
             "require-dev": {
                 "coldtrick/releases": "dev-master",
@@ -1155,7 +1174,7 @@
                 "plugin",
                 "widgets"
             ],
-            "time": "2016-10-04 11:29:55"
+            "time": "2016-10-06 13:19:54"
         },
         {
             "name": "composer/installers",
