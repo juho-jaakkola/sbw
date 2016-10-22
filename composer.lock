@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/arckinteractive/elgg_hybridauth.git",
-                "reference": "7d50cec57515d146d9d5fb0371b5f7c19b50f2f0"
+                "reference": "8def9c551ee6ddf7fec8808856451cf1bbae36a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arckinteractive/elgg_hybridauth/zipball/7d50cec57515d146d9d5fb0371b5f7c19b50f2f0",
-                "reference": "7d50cec57515d146d9d5fb0371b5f7c19b50f2f0",
+                "url": "https://api.github.com/repos/arckinteractive/elgg_hybridauth/zipball/8def9c551ee6ddf7fec8808856451cf1bbae36a7",
+                "reference": "8def9c551ee6ddf7fec8808856451cf1bbae36a7",
                 "shasum": ""
             },
             "require": {
@@ -60,7 +60,7 @@
                 "twitter",
                 "yahoo"
             ],
-            "time": "2016-01-28 19:11:07"
+            "time": "2016-10-20 13:24:34"
         },
         {
             "name": "au/au_group_tag_menu",
@@ -1154,12 +1154,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/widget_manager.git",
-                "reference": "639514e5ff86613dca06df42a310bbd0ad3fde4c"
+                "reference": "2ab28d38bc29e3435c9467b51cc9a8e4781d90d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/639514e5ff86613dca06df42a310bbd0ad3fde4c",
-                "reference": "639514e5ff86613dca06df42a310bbd0ad3fde4c",
+                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/2ab28d38bc29e3435c9467b51cc9a8e4781d90d1",
+                "reference": "2ab28d38bc29e3435c9467b51cc9a8e4781d90d1",
                 "shasum": ""
             },
             "require": {
@@ -1183,7 +1183,7 @@
                 "plugin",
                 "widgets"
             ],
-            "time": "2016-10-07 15:07:02"
+            "time": "2016-10-19 11:36:18"
         },
         {
             "name": "composer/installers",
@@ -2188,53 +2188,6 @@
             "time": "2016-04-10 18:12:57"
         },
         {
-            "name": "fire015/flintstone",
-            "version": "v2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fire015/flintstone.git",
-                "reference": "60e978df8f547063b627b55492f8ece5a38e2bd0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fire015/flintstone/zipball/60e978df8f547063b627b55492f8ece5a38e2bd0",
-                "reference": "60e978df8f547063b627b55492f8ece5a38e2bd0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Flintstone\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jason M",
-                    "email": "emailfire@gmail.com"
-                }
-            ],
-            "description": "A key/value database store using flat files for PHP",
-            "homepage": "http://www.xeweb.net/flintstone/",
-            "keywords": [
-                "cache",
-                "database",
-                "files",
-                "flintstone",
-                "memory"
-            ],
-            "time": "2016-01-21 09:50:52"
-        },
-        {
             "name": "fortawesome/font-awesome",
             "version": "v4.6.3",
             "source": {
@@ -2284,40 +2237,66 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.2.2",
+            "version": "v3.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "ebf29dee597f02f09f4d5bbecc68230ea9b08f60"
+                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ebf29dee597f02f09f4d5bbecc68230ea9b08f60",
-                "reference": "ebf29dee597f02f09f4d5bbecc68230ea9b08f60",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
+                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/promises": "^1.0",
-                "guzzlehttp/psr7": "^1.3.1",
-                "php": ">=5.5"
+                "ext-curl": "*",
+                "php": ">=5.3.3",
+                "symfony/event-dispatcher": ">=2.1"
+            },
+            "replace": {
+                "guzzle/batch": "self.version",
+                "guzzle/cache": "self.version",
+                "guzzle/common": "self.version",
+                "guzzle/http": "self.version",
+                "guzzle/inflection": "self.version",
+                "guzzle/iterator": "self.version",
+                "guzzle/log": "self.version",
+                "guzzle/parser": "self.version",
+                "guzzle/plugin": "self.version",
+                "guzzle/plugin-async": "self.version",
+                "guzzle/plugin-backoff": "self.version",
+                "guzzle/plugin-cache": "self.version",
+                "guzzle/plugin-cookie": "self.version",
+                "guzzle/plugin-curlauth": "self.version",
+                "guzzle/plugin-error-response": "self.version",
+                "guzzle/plugin-history": "self.version",
+                "guzzle/plugin-log": "self.version",
+                "guzzle/plugin-md5": "self.version",
+                "guzzle/plugin-mock": "self.version",
+                "guzzle/plugin-oauth": "self.version",
+                "guzzle/service": "self.version",
+                "guzzle/stream": "self.version"
             },
             "require-dev": {
-                "ext-curl": "*",
-                "phpunit/phpunit": "^4.0",
-                "psr/log": "^1.0"
+                "doctrine/cache": "*",
+                "monolog/monolog": "1.*",
+                "phpunit/phpunit": "3.7.*",
+                "psr/log": "1.0.*",
+                "symfony/class-loader": "*",
+                "zendframework/zend-cache": "<2.3",
+                "zendframework/zend-log": "<2.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.2-dev"
+                    "dev-master": "3.8-dev"
                 }
             },
             "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
-                "psr-4": {
-                    "GuzzleHttp\\": "src/"
+                "psr-0": {
+                    "Guzzle": "src/",
+                    "Guzzle\\Tests": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2329,9 +2308,13 @@
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Guzzle Community",
+                    "homepage": "https://github.com/guzzle/guzzle/contributors"
                 }
             ],
-            "description": "Guzzle is a PHP HTTP client library",
+            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
             "homepage": "http://guzzlephp.org/",
             "keywords": [
                 "client",
@@ -2342,116 +2325,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-10-08 15:01:37"
-        },
-        {
-            "name": "guzzlehttp/promises",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/promises.git",
-                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/c10d860e2a9595f8883527fa0021c7da9e65f579",
-                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Promise\\": "src/"
-                },
-                "files": [
-                    "src/functions_include.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "Guzzle promises library",
-            "keywords": [
-                "promise"
-            ],
-            "time": "2016-05-18 16:56:05"
-        },
-        {
-            "name": "guzzlehttp/psr7",
-            "version": "1.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/psr7.git",
-                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
-                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0",
-                "psr/http-message": "~1.0"
-            },
-            "provide": {
-                "psr/http-message-implementation": "1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
-                "files": [
-                    "src/functions_include.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "PSR-7 message implementation",
-            "keywords": [
-                "http",
-                "message",
-                "stream",
-                "uri"
-            ],
-            "time": "2016-06-24 23:00:38"
+            "time": "2014-01-28 22:29:15"
         },
         {
             "name": "hybridauth/hybridauth",
@@ -2584,55 +2458,6 @@
                 "search"
             ],
             "time": "2016-08-03 16:58:06"
-        },
-        {
-            "name": "hypejunction/http-parser",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hypeJunction/http-parser.git",
-                "reference": "2ef2462c5ae998532be555246f7d7c00d83f4764"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/http-parser/zipball/2ef2462c5ae998532be555246f7d7c00d83f4764",
-                "reference": "2ef2462c5ae998532be555246f7d7c00d83f4764",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "~6.0",
-                "php": ">=5.5"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Ismayil Khayredinov",
-                    "email": "info@hypejunction.com"
-                }
-            ],
-            "description": "A tool for scraping URL resources",
-            "homepage": "http://hypejunction.com",
-            "keywords": [
-                "card",
-                "elgg",
-                "open graph",
-                "plugin",
-                "scraper",
-                "twitter tags"
-            ],
-            "time": "2016-10-14 18:08:23"
         },
         {
             "name": "hypejunction/hypeapps",
@@ -3088,19 +2913,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeScraper.git",
-                "reference": "bdf060ab48045876ef082892a5172f85b5dceead"
+                "reference": "757359d7b2f203d34e1c32f0868f489f69aba94c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeScraper/zipball/bdf060ab48045876ef082892a5172f85b5dceead",
-                "reference": "bdf060ab48045876ef082892a5172f85b5dceead",
+                "url": "https://api.github.com/repos/hypeJunction/hypeScraper/zipball/757359d7b2f203d34e1c32f0868f489f69aba94c",
+                "reference": "757359d7b2f203d34e1c32f0868f489f69aba94c",
                 "shasum": ""
             },
             "require": {
+                "guzzlehttp/guzzle": "~3.0"
+            },
+            "require-dev": {
                 "composer/installers": "~1.0",
-                "fire015/flintstone": "^2.0",
-                "hypejunction/http-parser": "dev-master",
-                "php": ">=5.5"
+                "hypejunction/hypeapps": "~4.0"
             },
             "type": "elgg-plugin",
             "extra": {
@@ -3129,7 +2955,7 @@
                 "extract",
                 "plugin"
             ],
-            "time": "2016-10-16 16:39:44"
+            "time": "2016-09-26 16:24:43"
         },
         {
             "name": "hypejunction/hypewall",
@@ -3738,16 +3564,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.30",
+            "version": "1.0.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "75138bb14160f3ba963750aa95e08d1d394fb198"
+                "reference": "1b5c4a0031697f46e779a9d1b309c2e1b24daeab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/75138bb14160f3ba963750aa95e08d1d394fb198",
-                "reference": "75138bb14160f3ba963750aa95e08d1d394fb198",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/1b5c4a0031697f46e779a9d1b309c2e1b24daeab",
+                "reference": "1b5c4a0031697f46e779a9d1b309c2e1b24daeab",
                 "shasum": ""
             },
             "require": {
@@ -3817,7 +3643,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-10-18 16:20:02"
+            "time": "2016-10-19 20:38:46"
         },
         {
             "name": "league/flysystem-memory",
@@ -4523,12 +4349,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/theme_sbw.git",
-                "reference": "6e8efe34b9183d7819f9f56fec00c207b41fd91d"
+                "reference": "1acdb1dd6f5a09589a8781108744bb4c580862c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/6e8efe34b9183d7819f9f56fec00c207b41fd91d",
-                "reference": "6e8efe34b9183d7819f9f56fec00c207b41fd91d",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/1acdb1dd6f5a09589a8781108744bb4c580862c4",
+                "reference": "1acdb1dd6f5a09589a8781108744bb4c580862c4",
                 "shasum": ""
             },
             "require": {
@@ -4542,7 +4368,7 @@
                 "source": "https://github.com/sbwtech/theme_sbw/tree/master",
                 "issues": "https://github.com/sbwtech/theme_sbw/issues"
             },
-            "time": "2016-10-18 18:30:39"
+            "time": "2016-10-18 19:15:36"
         },
         {
             "name": "simplepie/simplepie",
@@ -4632,6 +4458,66 @@
             "description": "An open-source PHP library for image manipulation. (With namespaces, PHP 5.3+)",
             "homepage": "http://wideimage.sourceforge.net",
             "time": "2016-05-16 20:00:28"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v3.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
+                "reference": "c0c00c80b3a69132c4e55c3e7db32b4a387615e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/c0c00c80b3a69132c4e55c3e7db32b4a387615e5",
+                "reference": "c0c00c80b3a69132c4e55c3e7db32b4a387615e5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~2.8|~3.0",
+                "symfony/dependency-injection": "~2.8|~3.0",
+                "symfony/expression-language": "~2.8|~3.0",
+                "symfony/stopwatch": "~2.8|~3.0"
+            },
+            "suggest": {
+                "symfony/dependency-injection": "",
+                "symfony/http-kernel": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\EventDispatcher\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony EventDispatcher Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-07-19 10:45:57"
         },
         {
             "name": "symfony/http-foundation",
