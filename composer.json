@@ -6,10 +6,8 @@
   "minimum-stability": "dev",
   "repositories": [
     {"type": "vcs", "url": "https://github.com/Elggzone/River-Addon.git"},
-    {"type": "vcs", "url": "https://github.com/hypeJunction/hypeAttachments.git"},
-    {"type": "vcs", "url": "https://github.com/sbwtech/hypeWall_Extended"},
     {"type": "vcs", "url": "https://github.com/sbwtech/galliElggEmbed.git"},
-    {"type": "vcs", "url": "https://github.com/sbwtech/groupsmap.git"},
+    {"type": "vcs", "url": "https://github.com/sbwtech/Elgg-MapsAPI.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/theme_sbw.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/sbw_attachments.git"},
     {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"}
@@ -67,7 +65,7 @@
     "jumbojett/vroom": "dev-master",
     "nlybe/etherpad": "dev-master",
     "nlybe/groupsmap": "dev-master",
-    "nlybe/hypewall_extended": "dev-hypewall_version",
+    "nlybe/hypewall_extended": "dev-master",
     "nlybe/membersmap": "dev-master",
     "sbw-dev/theme_sbw": "dev-master",
     "sbw-dev/sbw_attachments": "dev-master",
