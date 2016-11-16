@@ -10,6 +10,7 @@
     {"type": "vcs", "url": "https://github.com/sbwtech/Elgg-MapsAPI.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/theme_sbw.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/sbw_attachments.git"},
+    {"type": "vcs", "url": "https://github.com/sbwtech/sbw_campaigns.git"},
     {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"}
   ],
   "require": {
@@ -71,7 +72,8 @@
     "sbw-dev/sbw_attachments": "dev-master",
     "teamwebgalli/galliElggEmbed": "dev-elgg_1.9+",
     "thetruebumba/spam_login_filter": "dev-master",
-    "hypejunction/ui_tabs": "^1.1"
+    "hypejunction/ui_tabs": "^1.1",
+    "sbwtech/sbw_campaigns": "dev-master"
   },
   "require-dev": {
     "srokap/code_review": "^1.0.5",

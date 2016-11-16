@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7fef5c2c5e777b4fa35ea47fdc375ab0",
-    "content-hash": "daaa4088eeb49255c21ebd7fccb0c99d",
+    "hash": "dce6e49057b97234a92e89594787b457",
+    "content-hash": "ff05c25b09ecde67f755e2ebe3d42cb0",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -2560,6 +2560,45 @@
             "time": "2016-09-22 20:08:12"
         },
         {
+            "name": "hypejunction/countries",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/Elgg-countries.git",
+                "reference": "bedb50dd59b4068a568205c01f6de8a09f9e99c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-countries/zipball/bedb50dd59b4068a568205c01f6de8a09f9e99c2",
+                "reference": "bedb50dd59b4068a568205c01f6de8a09f9e99c2",
+                "shasum": ""
+            },
+            "type": "elgg-plugin",
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Countries for Elgg",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "countries",
+                "elgg",
+                "plugin"
+            ],
+            "time": "2016-01-24 08:44:30"
+        },
+        {
             "name": "hypejunction/elgg_tokeninput",
             "version": "4.1.2",
             "source": {
@@ -3144,6 +3183,189 @@
                 "wall"
             ],
             "time": "2016-10-25 12:47:23"
+        },
+        {
+            "name": "hypejunction/payments",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/Elgg-payments.git",
+                "reference": "d64ee255a900a06d446e0d737c4a1f8917790a66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments/zipball/d64ee255a900a06d446e0d737c4a1f8917790a66",
+                "reference": "d64ee255a900a06d446e0d737c4a1f8917790a66",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.6",
+                "sebastian/money": "~1.6"
+            },
+            "type": "elgg-plugin",
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Payments API for Elgg",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "elgg",
+                "payments",
+                "plugin"
+            ],
+            "time": "2016-11-15 22:33:23"
+        },
+        {
+            "name": "hypejunction/payments_paypal_api",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/Elgg-payments_paypal_api.git",
+                "reference": "4f61a04d9e96ded4cc2351874009519badabe89d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_paypal_api/zipball/4f61a04d9e96ded4cc2351874009519badabe89d",
+                "reference": "4f61a04d9e96ded4cc2351874009519badabe89d",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "hypejunction/payments": "~2.0",
+                "paypal/rest-api-sdk-php": "~1.10"
+            },
+            "type": "elgg-plugin",
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "PayPal API Payments for Elgg",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "PayPal API",
+                "elgg",
+                "payments",
+                "paypal",
+                "plugin"
+            ],
+            "time": "2016-11-15 22:39:09"
+        },
+        {
+            "name": "hypejunction/payments_stripe",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/Elgg-payments_stripe.git",
+                "reference": "e8eb6b36d0d4a159936af0552d30756e9d9b4dcc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_stripe/zipball/e8eb6b36d0d4a159936af0552d30756e9d9b4dcc",
+                "reference": "e8eb6b36d0d4a159936af0552d30756e9d9b4dcc",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "hypejunction/countries": "*",
+                "hypejunction/payments": "~2.0",
+                "php": ">=5.6",
+                "stripe/stripe-php": "~4.1"
+            },
+            "type": "elgg-plugin",
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Stripe payments integration",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "elgg",
+                "payments",
+                "plugin",
+                "stripe"
+            ],
+            "time": "2016-11-16 08:46:35"
+        },
+        {
+            "name": "hypejunction/payments_wire",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/Elgg-payments_wire.git",
+                "reference": "61720b808bef6a5393e3533c4a36de9a9c11f620"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_wire/zipball/61720b808bef6a5393e3533c4a36de9a9c11f620",
+                "reference": "61720b808bef6a5393e3533c4a36de9a9c11f620",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "hypejunction/payments": "~2.0",
+                "php": ">=5.6"
+            },
+            "type": "elgg-plugin",
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Interface for logging payments via bank transfer",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "bank transfer",
+                "elgg",
+                "payments",
+                "plugin",
+                "wire"
+            ],
+            "time": "2016-11-15 22:42:21"
         },
         {
             "name": "hypejunction/ui_responsive_tabs",
@@ -4110,6 +4332,55 @@
             "time": "2016-09-01 09:28:01"
         },
         {
+            "name": "paypal/rest-api-sdk-php",
+            "version": "1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paypal/PayPal-PHP-SDK.git",
+                "reference": "f87c4306cccf31be9acea71a55c4978a7f77afcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paypal/PayPal-PHP-SDK/zipball/f87c4306cccf31be9acea71a55c4978a7f77afcf",
+                "reference": "f87c4306cccf31be9acea71a55c4978a7f77afcf",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0",
+                "psr/log": "^1.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PayPal": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "PayPal",
+                    "homepage": "https://github.com/paypal/rest-api-sdk-php/contributors"
+                }
+            ],
+            "description": "PayPal's PHP SDK for REST APIs",
+            "homepage": "http://paypal.github.io/PayPal-PHP-SDK/",
+            "keywords": [
+                "payments",
+                "paypal",
+                "rest",
+                "sdk"
+            ],
+            "time": "2016-10-27 21:14:38"
+        },
+        {
             "name": "pelago/emogrifier",
             "version": "v0.1.1",
             "source": {
@@ -4294,6 +4565,53 @@
                 "response"
             ],
             "time": "2016-08-06 14:39:51"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "roave/security-advisories",
@@ -4500,6 +4818,106 @@
             "time": "2016-11-09 19:12:25"
         },
         {
+            "name": "sbwtech/sbw_campaigns",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sbwtech/sbw_campaigns.git",
+                "reference": "a9f55edfdb16ade277aae08a80b562f9c9267ee7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sbwtech/sbw_campaigns/zipball/a9f55edfdb16ade277aae08a80b562f9c9267ee7",
+                "reference": "a9f55edfdb16ade277aae08a80b562f9c9267ee7",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/moment": "~2.15",
+                "composer/installers": "~1.0",
+                "hypejunction/countries": "~1.0",
+                "hypejunction/payments": "~2.0",
+                "hypejunction/payments_paypal_api": "~1.0",
+                "hypejunction/payments_stripe": "~1.0",
+                "hypejunction/payments_wire": "~1.0"
+            },
+            "type": "elgg-plugin",
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Crowdfunding campaigns",
+            "homepage": "http://socialbusinessworld.org",
+            "keywords": [
+                "campaigns",
+                "crowdfunding",
+                "donations",
+                "elgg",
+                "plugin"
+            ],
+            "support": {
+                "source": "https://github.com/sbwtech/sbw_campaigns/tree/master",
+                "issues": "https://github.com/sbwtech/sbw_campaigns/issues"
+            },
+            "time": "2016-11-16 09:25:01"
+        },
+        {
+            "name": "sebastian/money",
+            "version": "v1.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/money.git",
+                "reference": "80fbed3202d7c515386d1866b4c242ba417c284f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/money/zipball/80fbed3202d7c515386d1866b4c242ba417c284f",
+                "reference": "80fbed3202d7c515386d1866b4c242ba417c284f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-intl": "*",
+                "php": "^5.4|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Value Object that represents a monetary value (using a currency's smallest unit)",
+            "homepage": "http://www.github.com/sebastianbergmann/money",
+            "keywords": [
+                "money"
+            ],
+            "abandoned": "mathiasverraes/money",
+            "time": "2016-04-17 14:19:15"
+        },
+        {
             "name": "simplepie/simplepie",
             "version": "1.3.1",
             "source": {
@@ -4587,6 +5005,61 @@
             "description": "An open-source PHP library for image manipulation. (With namespaces, PHP 5.3+)",
             "homepage": "http://wideimage.sourceforge.net",
             "time": "2016-11-13 13:03:08"
+        },
+        {
+            "name": "stripe/stripe-php",
+            "version": "v4.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stripe/stripe-php.git",
+                "reference": "a3c940bd90f0ca1bad07c93ff31900ca4b99af64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/a3c940bd90f0ca1bad07c93ff31900ca4b99af64",
+                "reference": "a3c940bd90f0ca1bad07c93ff31900ca4b99af64",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "~0.6.1",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stripe\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stripe and contributors",
+                    "homepage": "https://github.com/stripe/stripe-php/contributors"
+                }
+            ],
+            "description": "Stripe PHP Library",
+            "homepage": "https://stripe.com/",
+            "keywords": [
+                "api",
+                "payment processing",
+                "stripe"
+            ],
+            "time": "2016-10-21 18:25:10"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -6613,7 +7086,8 @@
         "sbw-dev/theme_sbw": 20,
         "sbw-dev/sbw_attachments": 20,
         "teamwebgalli/gallielggembed": 20,
-        "thetruebumba/spam_login_filter": 20
+        "thetruebumba/spam_login_filter": 20,
+        "sbwtech/sbw_campaigns": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
