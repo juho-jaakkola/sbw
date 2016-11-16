@@ -7,10 +7,8 @@
   "repositories": [
     {"type": "vcs", "url": "https://github.com/Elggzone/River-Addon.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/galliElggEmbed.git"},
-    {"type": "vcs", "url": "https://github.com/sbwtech/Elgg-MapsAPI.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/theme_sbw.git"},
-    {"type": "vcs", "url": "https://github.com/sbwtech/sbw_attachments.git"},
-    {"type": "vcs", "url": "https://github.com/sbwtech/sbw_campaigns.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/sbw_campaigns.git"},
     {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"}
   ],
   "require": {

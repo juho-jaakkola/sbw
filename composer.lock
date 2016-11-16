@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dce6e49057b97234a92e89594787b457",
-    "content-hash": "ff05c25b09ecde67f755e2ebe3d42cb0",
+    "hash": "3095634653a0407f72300c75b51b783d",
+    "content-hash": "ab05769f3ac290b798abc93b61c3633c",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -4205,12 +4205,12 @@
             "version": "2.9.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sbwtech/Elgg-MapsAPI.git",
+                "url": "https://github.com/nlybe/Elgg-MapsAPI.git",
                 "reference": "0a45bcb17420df9172d3ca68ea8ae90d3ff8f4e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/Elgg-MapsAPI/zipball/0a45bcb17420df9172d3ca68ea8ae90d3ff8f4e5",
+                "url": "https://api.github.com/repos/nlybe/Elgg-MapsAPI/zipball/0a45bcb17420df9172d3ca68ea8ae90d3ff8f4e5",
                 "reference": "0a45bcb17420df9172d3ca68ea8ae90d3ff8f4e5",
                 "shasum": ""
             },
@@ -4822,7 +4822,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sbwtech/sbw_campaigns.git",
+                "url": "git@bitbucket.org:sbw-dev/sbw_campaigns.git",
                 "reference": "a9f55edfdb16ade277aae08a80b562f9c9267ee7"
             },
             "dist": {
@@ -6355,16 +6355,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "1.4.8",
+            "version": "1.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da"
+                "reference": "3b402f65a4cc90abf6e1104e388b896ce209631b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da",
-                "reference": "3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/3b402f65a4cc90abf6e1104e388b896ce209631b",
+                "reference": "3b402f65a4cc90abf6e1104e388b896ce209631b",
                 "shasum": ""
             },
             "require": {
@@ -6400,7 +6400,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2015-09-15 10:49:45"
+            "time": "2016-11-15 14:06:22"
         },
         {
             "name": "phpunit/phpunit",
