@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3095634653a0407f72300c75b51b783d",
-    "content-hash": "ab05769f3ac290b798abc93b61c3633c",
+    "hash": "fbd511fed1ee632851259fb72ed9f7d4",
+    "content-hash": "3833f8edbfca88a6dc06e83c0e8e6ccf",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -2099,16 +2099,16 @@
         },
         {
             "name": "elgg/elgg",
-            "version": "2.2.3",
+            "version": "2.3.0-rc.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "3dcc5efa7961db5dc1c8befbb220b41becc10895"
+                "reference": "d6d5f56137cf74b1f5660f05af192aa244b53b26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/3dcc5efa7961db5dc1c8befbb220b41becc10895",
-                "reference": "3dcc5efa7961db5dc1c8befbb220b41becc10895",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/d6d5f56137cf74b1f5660f05af192aa244b53b26",
+                "reference": "d6d5f56137cf74b1f5660f05af192aa244b53b26",
                 "shasum": ""
             },
             "require": {
@@ -2126,11 +2126,13 @@
                 "ext-pdo": "*",
                 "ext-xml": "*",
                 "fortawesome/font-awesome": "^4.3",
+                "imagine/imagine": "^0.6.3",
                 "league/flysystem": "~1.0",
                 "league/flysystem-memory": "^1.0",
                 "michelf/php-markdown": "^1.5.0",
+                "misd/linkify": "~1.1.2",
                 "mrclay/minify": "~2.0",
-                "php": ">=5.5",
+                "php": ">=5.6",
                 "roave/security-advisories": "dev-master",
                 "symfony/http-foundation": "~2.6",
                 "tedivm/stash": "0.14.*",
@@ -2157,7 +2159,7 @@
                 "GPL-2.0"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2016-11-08 19:54:02"
+            "time": "2016-11-09 11:38:51"
         },
         {
             "name": "elgg/login_as",
@@ -3824,6 +3826,63 @@
             "time": "2016-11-02 18:51:39"
         },
         {
+            "name": "imagine/imagine",
+            "version": "v0.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avalanche123/Imagine.git",
+                "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/149041d2a1b517107bfe270ca2b1a17aa341715d",
+                "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "sami/sami": "dev-master"
+            },
+            "suggest": {
+                "ext-gd": "to use the GD implementation",
+                "ext-gmagick": "to use the Gmagick implementation",
+                "ext-imagick": "to use the Imagick implementation"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Imagine": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bulat Shakirzyanov",
+                    "email": "mallluhuct@gmail.com",
+                    "homepage": "http://avalanche123.com"
+                }
+            ],
+            "description": "Image processing for PHP 5.3",
+            "homepage": "http://imagine.readthedocs.org/",
+            "keywords": [
+                "drawing",
+                "graphics",
+                "image manipulation",
+                "image processing"
+            ],
+            "time": "2015-09-19 16:54:05"
+        },
+        {
             "name": "ircmaxell/password-compat",
             "version": "v1.0.4",
             "source": {
@@ -4106,6 +4165,57 @@
                 "markdown"
             ],
             "time": "2016-10-29 18:58:20"
+        },
+        {
+            "name": "misd/linkify",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/misd-service-development/php-linkify.git",
+                "reference": "4dbe3e9f966e446a257d0f60a91f39e0b7f4f4d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/misd-service-development/php-linkify/zipball/4dbe3e9f966e446a257d0f60a91f39e0b7f4f4d6",
+                "reference": "4dbe3e9f966e446a257d0f60a91f39e0b7f4f4d6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Misd\\Linkify\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Wilkinson",
+                    "email": "chris.wilkinson@admin.cam.ac.uk"
+                }
+            ],
+            "description": "Converts URLs and email addresses in text into HTML links",
+            "homepage": "https://github.com/misd-service-development/php-linkify",
+            "keywords": [
+                "convert",
+                "email address",
+                "link",
+                "url"
+            ],
+            "time": "2014-05-12 11:52:18"
         },
         {
             "name": "mrclay/elgg-url-sniffer",
