@@ -8,6 +8,7 @@
     {"type": "vcs", "url": "https://github.com/Elggzone/River-Addon.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/galliElggEmbed.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/theme_sbw.git"},
+    {"type": "vcs", "url": "https://github.com/sbwtech/elggx_badges.git"},
     {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/sbw_campaigns.git"},
     {"type": "vcs", "url": "https://github.com/jumbojett/vroom.git"}
   ],
@@ -51,7 +52,7 @@
     "hypejunction/hypelists": "^4.0",
     "hypejunction/hypescraper": "^4.2",
     "hypejunction/ui_responsive_tabs": "^1.0",
-    "iionly/elggx_badges": "dev-master",
+    "iionly/elggx_badges": "dev-remove_td_tags",
     "iionly/elggx_fivestar": "dev-master",
     "iionly/elggx_userpoints": "dev-master",
     "iionly/faq": "dev-master",

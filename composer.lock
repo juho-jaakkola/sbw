@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fbd511fed1ee632851259fb72ed9f7d4",
-    "content-hash": "3833f8edbfca88a6dc06e83c0e8e6ccf",
+    "hash": "46eee047b35d95e34fb2fe781dfccb29",
+    "content-hash": "ab47dd6026f51d70b5c1ee8f96d48a8e",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -928,12 +928,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/file_tools.git",
-                "reference": "a37ebe28baec249560c807bbee83ff603399aa34"
+                "reference": "fbb6af695fef6f4cfe1874cea30617827b4ae2c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/file_tools/zipball/a37ebe28baec249560c807bbee83ff603399aa34",
-                "reference": "a37ebe28baec249560c807bbee83ff603399aa34",
+                "url": "https://api.github.com/repos/ColdTrick/file_tools/zipball/fbb6af695fef6f4cfe1874cea30617827b4ae2c1",
+                "reference": "fbb6af695fef6f4cfe1874cea30617827b4ae2c1",
                 "shasum": ""
             },
             "require": {
@@ -959,7 +959,7 @@
                 "plugin",
                 "tools"
             ],
-            "time": "2016-11-10 10:22:34"
+            "time": "2016-11-17 13:48:31"
         },
         {
             "name": "coldtrick/friend_request",
@@ -3494,23 +3494,22 @@
         },
         {
             "name": "iionly/elggx_badges",
-            "version": "dev-master",
+            "version": "dev-remove_td_tags",
             "source": {
                 "type": "git",
-                "url": "https://github.com/iionly/elggx_badges.git",
-                "reference": "7120cd51f78258088fa29e802d9e966e4ae84259"
+                "url": "https://github.com/sbwtech/elggx_badges.git",
+                "reference": "feb915b24c8073e9bd37b7ea39cfd6406ba7ef52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iionly/elggx_badges/zipball/7120cd51f78258088fa29e802d9e966e4ae84259",
-                "reference": "7120cd51f78258088fa29e802d9e966e4ae84259",
+                "url": "https://api.github.com/repos/sbwtech/elggx_badges/zipball/feb915b24c8073e9bd37b7ea39cfd6406ba7ef52",
+                "reference": "feb915b24c8073e9bd37b7ea39cfd6406ba7ef52",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": ">=1.0.8"
             },
             "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -3527,7 +3526,11 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2015-10-10 19:52:26"
+            "support": {
+                "issues": "https://github.com/iionly/elggx_badges/issues",
+                "source": "https://github.com/sbwtech/elggx_badges/tree/remove_td_tags"
+            },
+            "time": "2016-11-15 16:56:36"
         },
         {
             "name": "iionly/elggx_fivestar",
@@ -6642,16 +6645,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "937efb279bd37a375bcadf584dec0726f84dbf22"
+                "reference": "ce2bda23a56456f19e35d98241446b581f648c14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/937efb279bd37a375bcadf584dec0726f84dbf22",
-                "reference": "937efb279bd37a375bcadf584dec0726f84dbf22",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/ce2bda23a56456f19e35d98241446b581f648c14",
+                "reference": "ce2bda23a56456f19e35d98241446b581f648c14",
                 "shasum": ""
             },
             "require": {
@@ -6702,7 +6705,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2015-07-26 15:48:44"
+            "time": "2016-11-17 14:39:37"
         },
         {
             "name": "sebastian/diff",
