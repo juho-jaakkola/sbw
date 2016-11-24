@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46eee047b35d95e34fb2fe781dfccb29",
-    "content-hash": "ab47dd6026f51d70b5c1ee8f96d48a8e",
+    "hash": "43fa22b952bd9ffcc98040ac254ac9ff",
+    "content-hash": "1f4eeb1fe28a9ffe1cd6ee2e4120c035",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
-            "version": "dev-master",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/arckinteractive/elgg_hybridauth.git",
-                "reference": "8def9c551ee6ddf7fec8808856451cf1bbae36a7"
+                "reference": "43bd1ca47eb185b08b6fd56fe5ca7185d7927c9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arckinteractive/elgg_hybridauth/zipball/8def9c551ee6ddf7fec8808856451cf1bbae36a7",
-                "reference": "8def9c551ee6ddf7fec8808856451cf1bbae36a7",
+                "url": "https://api.github.com/repos/arckinteractive/elgg_hybridauth/zipball/43bd1ca47eb185b08b6fd56fe5ca7185d7927c9a",
+                "reference": "43bd1ca47eb185b08b6fd56fe5ca7185d7927c9a",
                 "shasum": ""
             },
             "require": {
@@ -60,11 +60,11 @@
                 "twitter",
                 "yahoo"
             ],
-            "time": "2016-10-20 13:24:34"
+            "time": "2015-10-15 11:59:11"
         },
         {
             "name": "au/au_group_tag_menu",
-            "version": "dev-master",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AU-Landing-Project/au_group_tag_menu.git",
@@ -619,16 +619,16 @@
         },
         {
             "name": "bower-asset/moment",
-            "version": "2.16.0",
+            "version": "2.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "73f3c91174406b24fe66f19600958a6f43f2acd8"
+                "reference": "4710a7935cb347d8b2cf50f5befccfea8180619d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/73f3c91174406b24fe66f19600958a6f43f2acd8",
-                "reference": "73f3c91174406b24fe66f19600958a6f43f2acd8",
+                "url": "https://api.github.com/repos/moment/moment/zipball/4710a7935cb347d8b2cf50f5befccfea8180619d",
+                "reference": "4710a7935cb347d8b2cf50f5befccfea8180619d",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -745,22 +745,26 @@
         },
         {
             "name": "coldtrick/analytics",
-            "version": "v3.1",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/analytics.git",
-                "reference": "92f024cbf5e35927b6fe5abb425531497d673f2f"
+                "reference": "b4f2b6b7fa8fd1c187de5ec51a9d94ee03437ffb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/analytics/zipball/92f024cbf5e35927b6fe5abb425531497d673f2f",
-                "reference": "92f024cbf5e35927b6fe5abb425531497d673f2f",
+                "url": "https://api.github.com/repos/ColdTrick/analytics/zipball/b4f2b6b7fa8fd1c187de5ec51a9d94ee03437ffb",
+                "reference": "b4f2b6b7fa8fd1c187de5ec51a9d94ee03437ffb",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0.8"
             },
+            "conflict": {
+                "elgg/elgg": "<1.9"
+            },
             "require-dev": {
+                "coldtrick/releases": "dev-master",
                 "coldtrick/sniffs": "dev-master"
             },
             "type": "elgg-plugin",
@@ -774,20 +778,20 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2015-12-18 13:50:40"
+            "time": "2016-11-22 14:05:16"
         },
         {
             "name": "coldtrick/blog_tools",
-            "version": "v6.0",
+            "version": "v6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/blog_tools.git",
-                "reference": "be55a4ca046cffe7c454c9f341613eee57e670e7"
+                "reference": "ad1167612708221c1b31a9dd871dc3eab27b3c7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/blog_tools/zipball/be55a4ca046cffe7c454c9f341613eee57e670e7",
-                "reference": "be55a4ca046cffe7c454c9f341613eee57e670e7",
+                "url": "https://api.github.com/repos/ColdTrick/blog_tools/zipball/ad1167612708221c1b31a9dd871dc3eab27b3c7e",
+                "reference": "ad1167612708221c1b31a9dd871dc3eab27b3c7e",
                 "shasum": ""
             },
             "require": {
@@ -811,7 +815,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-10-06 13:02:45"
+            "time": "2016-11-18 13:02:13"
         },
         {
             "name": "coldtrick/ckeditor_extended",
@@ -888,12 +892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/event_manager.git",
-                "reference": "24151a32780d33d52a759a634db4fffdd6fed265"
+                "reference": "1df3ac8e036eb4f085fd4fdb0b46e7a705c0b7e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/24151a32780d33d52a759a634db4fffdd6fed265",
-                "reference": "24151a32780d33d52a759a634db4fffdd6fed265",
+                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/1df3ac8e036eb4f085fd4fdb0b46e7a705c0b7e7",
+                "reference": "1df3ac8e036eb4f085fd4fdb0b46e7a705c0b7e7",
                 "shasum": ""
             },
             "require": {
@@ -920,20 +924,20 @@
                 "events",
                 "plugin"
             ],
-            "time": "2016-11-15 11:24:22"
+            "time": "2016-11-18 13:07:09"
         },
         {
             "name": "coldtrick/file_tools",
-            "version": "dev-master",
+            "version": "v3.0.0-rc.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/file_tools.git",
-                "reference": "fbb6af695fef6f4cfe1874cea30617827b4ae2c1"
+                "reference": "751eccb6db1062adeab0912ed33940dc351d7163"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/file_tools/zipball/fbb6af695fef6f4cfe1874cea30617827b4ae2c1",
-                "reference": "fbb6af695fef6f4cfe1874cea30617827b4ae2c1",
+                "url": "https://api.github.com/repos/ColdTrick/file_tools/zipball/751eccb6db1062adeab0912ed33940dc351d7163",
+                "reference": "751eccb6db1062adeab0912ed33940dc351d7163",
                 "shasum": ""
             },
             "require": {
@@ -959,7 +963,7 @@
                 "plugin",
                 "tools"
             ],
-            "time": "2016-11-17 13:48:31"
+            "time": "2016-11-22 14:16:58"
         },
         {
             "name": "coldtrick/friend_request",
@@ -2330,6 +2334,53 @@
             "time": "2016-11-15 14:34:16"
         },
         {
+            "name": "fire015/flintstone",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fire015/flintstone.git",
+                "reference": "60e978df8f547063b627b55492f8ece5a38e2bd0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fire015/flintstone/zipball/60e978df8f547063b627b55492f8ece5a38e2bd0",
+                "reference": "60e978df8f547063b627b55492f8ece5a38e2bd0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Flintstone\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jason M",
+                    "email": "emailfire@gmail.com"
+                }
+            ],
+            "description": "A key/value database store using flat files for PHP",
+            "homepage": "http://www.xeweb.net/flintstone/",
+            "keywords": [
+                "cache",
+                "database",
+                "files",
+                "flintstone",
+                "memory"
+            ],
+            "time": "2016-01-21 09:50:52"
+        },
+        {
             "name": "fortawesome/font-awesome",
             "version": "v4.7.0",
             "source": {
@@ -2379,66 +2430,40 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "v3.8.1",
+            "version": "6.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba"
+                "reference": "ebf29dee597f02f09f4d5bbecc68230ea9b08f60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
-                "reference": "4de0618a01b34aa1c8c33a3f13f396dcd3882eba",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ebf29dee597f02f09f4d5bbecc68230ea9b08f60",
+                "reference": "ebf29dee597f02f09f4d5bbecc68230ea9b08f60",
                 "shasum": ""
             },
             "require": {
-                "ext-curl": "*",
-                "php": ">=5.3.3",
-                "symfony/event-dispatcher": ">=2.1"
-            },
-            "replace": {
-                "guzzle/batch": "self.version",
-                "guzzle/cache": "self.version",
-                "guzzle/common": "self.version",
-                "guzzle/http": "self.version",
-                "guzzle/inflection": "self.version",
-                "guzzle/iterator": "self.version",
-                "guzzle/log": "self.version",
-                "guzzle/parser": "self.version",
-                "guzzle/plugin": "self.version",
-                "guzzle/plugin-async": "self.version",
-                "guzzle/plugin-backoff": "self.version",
-                "guzzle/plugin-cache": "self.version",
-                "guzzle/plugin-cookie": "self.version",
-                "guzzle/plugin-curlauth": "self.version",
-                "guzzle/plugin-error-response": "self.version",
-                "guzzle/plugin-history": "self.version",
-                "guzzle/plugin-log": "self.version",
-                "guzzle/plugin-md5": "self.version",
-                "guzzle/plugin-mock": "self.version",
-                "guzzle/plugin-oauth": "self.version",
-                "guzzle/service": "self.version",
-                "guzzle/stream": "self.version"
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.3.1",
+                "php": ">=5.5"
             },
             "require-dev": {
-                "doctrine/cache": "*",
-                "monolog/monolog": "1.*",
-                "phpunit/phpunit": "3.7.*",
-                "psr/log": "1.0.*",
-                "symfony/class-loader": "*",
-                "zendframework/zend-cache": "<2.3",
-                "zendframework/zend-log": "<2.3"
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.0",
+                "psr/log": "^1.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.8-dev"
+                    "dev-master": "6.2-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Guzzle": "src/",
-                    "Guzzle\\Tests": "tests/"
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2450,13 +2475,9 @@
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
-                },
-                {
-                    "name": "Guzzle Community",
-                    "homepage": "https://github.com/guzzle/guzzle/contributors"
                 }
             ],
-            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+            "description": "Guzzle is a PHP HTTP client library",
             "homepage": "http://guzzlephp.org/",
             "keywords": [
                 "client",
@@ -2467,7 +2488,116 @@
                 "rest",
                 "web service"
             ],
-            "time": "2014-01-28 22:29:15"
+            "time": "2016-10-08 15:01:37"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "2693c101803ca78b27972d84081d027fca790a1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/2693c101803ca78b27972d84081d027fca790a1e",
+                "reference": "2693c101803ca78b27972d84081d027fca790a1e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2016-11-18 17:47:58"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
+                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "PSR-7 message implementation",
+            "keywords": [
+                "http",
+                "message",
+                "stream",
+                "uri"
+            ],
+            "time": "2016-06-24 23:00:38"
         },
         {
             "name": "hybridauth/hybridauth",
@@ -2640,6 +2770,55 @@
                 "search"
             ],
             "time": "2016-08-03 16:58:06"
+        },
+        {
+            "name": "hypejunction/http-parser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/http-parser.git",
+                "reference": "2ef2462c5ae998532be555246f7d7c00d83f4764"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/http-parser/zipball/2ef2462c5ae998532be555246f7d7c00d83f4764",
+                "reference": "2ef2462c5ae998532be555246f7d7c00d83f4764",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~6.0",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "A tool for scraping URL resources",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "card",
+                "elgg",
+                "open graph",
+                "plugin",
+                "scraper",
+                "twitter tags"
+            ],
+            "time": "2016-10-14 18:08:23"
         },
         {
             "name": "hypejunction/hypeapps",
@@ -3088,24 +3267,23 @@
         },
         {
             "name": "hypejunction/hypescraper",
-            "version": "4.2.2",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeScraper.git",
-                "reference": "5d88a3a09c0381a729587ce63626449c22237fa6"
+                "reference": "a542ca852c1d475d1982a7cae35c5d4780debee4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeScraper/zipball/5d88a3a09c0381a729587ce63626449c22237fa6",
-                "reference": "5d88a3a09c0381a729587ce63626449c22237fa6",
+                "url": "https://api.github.com/repos/hypeJunction/hypeScraper/zipball/a542ca852c1d475d1982a7cae35c5d4780debee4",
+                "reference": "a542ca852c1d475d1982a7cae35c5d4780debee4",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/guzzle": "~3.0"
-            },
-            "require-dev": {
                 "composer/installers": "~1.0",
-                "hypejunction/hypeapps": "~4.0"
+                "fire015/flintstone": "^2.0",
+                "hypejunction/http-parser": "dev-master",
+                "php": ">=5.5"
             },
             "type": "elgg-plugin",
             "extra": {
@@ -3134,7 +3312,7 @@
                 "extract",
                 "plugin"
             ],
-            "time": "2016-01-06 21:30:04"
+            "time": "2016-11-16 10:22:04"
         },
         {
             "name": "hypejunction/hypewall",
@@ -3188,16 +3366,16 @@
         },
         {
             "name": "hypejunction/payments",
-            "version": "2.0.0",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/Elgg-payments.git",
-                "reference": "d64ee255a900a06d446e0d737c4a1f8917790a66"
+                "reference": "09f4cc515374425043b66932f20db7dbf7216c33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments/zipball/d64ee255a900a06d446e0d737c4a1f8917790a66",
-                "reference": "d64ee255a900a06d446e0d737c4a1f8917790a66",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments/zipball/09f4cc515374425043b66932f20db7dbf7216c33",
+                "reference": "09f4cc515374425043b66932f20db7dbf7216c33",
                 "shasum": ""
             },
             "require": {
@@ -3228,20 +3406,20 @@
                 "payments",
                 "plugin"
             ],
-            "time": "2016-11-15 22:33:23"
+            "time": "2016-11-24 11:51:46"
         },
         {
             "name": "hypejunction/payments_paypal_api",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/Elgg-payments_paypal_api.git",
-                "reference": "4f61a04d9e96ded4cc2351874009519badabe89d"
+                "reference": "f704e73e312d9f8a4c02481ecc26d4dc24cd5d1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_paypal_api/zipball/4f61a04d9e96ded4cc2351874009519badabe89d",
-                "reference": "4f61a04d9e96ded4cc2351874009519badabe89d",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_paypal_api/zipball/f704e73e312d9f8a4c02481ecc26d4dc24cd5d1a",
+                "reference": "f704e73e312d9f8a4c02481ecc26d4dc24cd5d1a",
                 "shasum": ""
             },
             "require": {
@@ -3274,20 +3452,68 @@
                 "paypal",
                 "plugin"
             ],
-            "time": "2016-11-15 22:39:09"
+            "time": "2016-11-24 11:57:59"
         },
         {
-            "name": "hypejunction/payments_stripe",
+            "name": "hypejunction/payments_sofort",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hypeJunction/Elgg-payments_stripe.git",
-                "reference": "e8eb6b36d0d4a159936af0552d30756e9d9b4dcc"
+                "url": "https://github.com/hypeJunction/Elgg-payments_sofort.git",
+                "reference": "3f4e0ef384752ea7ebaa647b6fc5c2a2349fc028"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_stripe/zipball/e8eb6b36d0d4a159936af0552d30756e9d9b4dcc",
-                "reference": "e8eb6b36d0d4a159936af0552d30756e9d9b4dcc",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_sofort/zipball/3f4e0ef384752ea7ebaa647b6fc5c2a2349fc028",
+                "reference": "3f4e0ef384752ea7ebaa647b6fc5c2a2349fc028",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "hypejunction/payments": "~2.0",
+                "sofort/sofortlib-php": "3.1.0"
+            },
+            "type": "elgg-plugin",
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Sofort Payments for Elgg",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "elgg",
+                "payments",
+                "plugin",
+                "sofort"
+            ],
+            "support": {
+                "source": "https://github.com/hypeJunction/Elgg-payments_sofort/tree/1.0.0",
+                "issues": "https://github.com/hypeJunction/Elgg-payments_sofort/issues"
+            },
+            "time": "2016-11-24 11:55:12"
+        },
+        {
+            "name": "hypejunction/payments_stripe",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/Elgg-payments_stripe.git",
+                "reference": "c32405e0ba66a1fd0a42dc8c8576c92e6a1a8430"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_stripe/zipball/c32405e0ba66a1fd0a42dc8c8576c92e6a1a8430",
+                "reference": "c32405e0ba66a1fd0a42dc8c8576c92e6a1a8430",
                 "shasum": ""
             },
             "require": {
@@ -3321,20 +3547,20 @@
                 "plugin",
                 "stripe"
             ],
-            "time": "2016-11-16 08:46:35"
+            "time": "2016-11-24 14:56:53"
         },
         {
             "name": "hypejunction/payments_wire",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/Elgg-payments_wire.git",
-                "reference": "61720b808bef6a5393e3533c4a36de9a9c11f620"
+                "reference": "9fcbb3b5e2ba2eb7dedaf3e7f119d9311f924368"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_wire/zipball/61720b808bef6a5393e3533c4a36de9a9c11f620",
-                "reference": "61720b808bef6a5393e3533c4a36de9a9c11f620",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_wire/zipball/9fcbb3b5e2ba2eb7dedaf3e7f119d9311f924368",
+                "reference": "9fcbb3b5e2ba2eb7dedaf3e7f119d9311f924368",
                 "shasum": ""
             },
             "require": {
@@ -3367,7 +3593,7 @@
                 "plugin",
                 "wire"
             ],
-            "time": "2016-11-15 22:42:21"
+            "time": "2016-11-24 11:52:59"
         },
         {
             "name": "hypejunction/ui_responsive_tabs",
@@ -4348,12 +4574,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nlybe/Elgg-Etherpad.git",
-                "reference": "d5f9c3f18f0b11166256690e021d8d915496e2fd"
+                "reference": "88a5ec30d0a2942a3e7358ca83b667b84d0c9ed7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nlybe/Elgg-Etherpad/zipball/d5f9c3f18f0b11166256690e021d8d915496e2fd",
-                "reference": "d5f9c3f18f0b11166256690e021d8d915496e2fd",
+                "url": "https://api.github.com/repos/nlybe/Elgg-Etherpad/zipball/88a5ec30d0a2942a3e7358ca83b667b84d0c9ed7",
+                "reference": "88a5ec30d0a2942a3e7358ca83b667b84d0c9ed7",
                 "shasum": ""
             },
             "require": {
@@ -4364,7 +4590,7 @@
             "license": [
                 "GNU Affero GPL-3.0+"
             ],
-            "time": "2016-06-06 08:06:19"
+            "time": "2016-11-20 11:52:23"
         },
         {
             "name": "nlybe/groupsmap",
@@ -4732,12 +4958,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "5df65bc647893e8cf14967b59b2213179822708b"
+                "reference": "7a1c6b8d5700e89397e854530b837011d14aa4b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/5df65bc647893e8cf14967b59b2213179822708b",
-                "reference": "5df65bc647893e8cf14967b59b2213179822708b",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/7a1c6b8d5700e89397e854530b837011d14aa4b3",
+                "reference": "7a1c6b8d5700e89397e854530b837011d14aa4b3",
                 "shasum": ""
             },
             "conflict": {
@@ -4761,8 +4987,8 @@
                 "doctrine/mongodb-odm-bundle": ">=2,<3.0.1",
                 "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1",
                 "dompdf/dompdf": ">=0.6,<0.6.2",
-                "drupal/core": ">=8,<8.1.10",
-                "drupal/drupal": ">=8,<8.1.10",
+                "drupal/core": ">=8,<8.2.3",
+                "drupal/drupal": ">=8,<8.2.3",
                 "firebase/php-jwt": "<2",
                 "friendsofsymfony/rest-bundle": ">=1.2,<1.2.2",
                 "friendsofsymfony/user-bundle": ">=1.2,<1.3.5",
@@ -4807,7 +5033,7 @@
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
                 "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
                 "twig/twig": "<1.20",
-                "typo3/cms": ">=6.2,<6.2.27|>=8,<8.3.1|>=7,<7.6.11",
+                "typo3/cms": ">=6.2,<6.2.29|>=8,<8.4.1|>=7,<7.6.13",
                 "typo3/flow": ">=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5|>=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
                 "willdurand/js-translation-bundle": "<2.1.1",
@@ -4853,7 +5079,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2016-11-01 22:26:33"
+            "time": "2016-11-23 19:06:04"
         },
         {
             "name": "sbw-dev/sbw_attachments",
@@ -4936,13 +5162,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:sbw-dev/sbw_campaigns.git",
-                "reference": "a9f55edfdb16ade277aae08a80b562f9c9267ee7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/sbw_campaigns/zipball/a9f55edfdb16ade277aae08a80b562f9c9267ee7",
-                "reference": "a9f55edfdb16ade277aae08a80b562f9c9267ee7",
-                "shasum": ""
+                "reference": "b2acdd014db23fc9a0204e6cdec109df44642407"
             },
             "require": {
                 "bower-asset/moment": "~2.15",
@@ -4950,6 +5170,7 @@
                 "hypejunction/countries": "~1.0",
                 "hypejunction/payments": "~2.0",
                 "hypejunction/payments_paypal_api": "~1.0",
+                "hypejunction/payments_sofort": "~1.0",
                 "hypejunction/payments_stripe": "~1.0",
                 "hypejunction/payments_wire": "~1.0"
             },
@@ -4977,11 +5198,7 @@
                 "elgg",
                 "plugin"
             ],
-            "support": {
-                "source": "https://github.com/sbwtech/sbw_campaigns/tree/master",
-                "issues": "https://github.com/sbwtech/sbw_campaigns/issues"
-            },
-            "time": "2016-11-16 09:25:01"
+            "time": "2016-11-24 17:02:09"
         },
         {
             "name": "sebastian/money",
@@ -5120,17 +5337,59 @@
             "time": "2016-11-13 13:03:08"
         },
         {
-            "name": "stripe/stripe-php",
-            "version": "v4.1.1",
+            "name": "sofort/sofortlib-php",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "a3c940bd90f0ca1bad07c93ff31900ca4b99af64"
+                "url": "https://github.com/sofort/sofortlib-php.git",
+                "reference": "0e8a94e1b5565cf210ddd2e6b3b409abe411594e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/a3c940bd90f0ca1bad07c93ff31900ca4b99af64",
-                "reference": "a3c940bd90f0ca1bad07c93ff31900ca4b99af64",
+                "url": "https://api.github.com/repos/sofort/sofortlib-php/zipball/0e8a94e1b5565cf210ddd2e6b3b409abe411594e",
+                "reference": "0e8a94e1b5565cf210ddd2e6b3b409abe411594e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.10"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.5.1"
+            },
+            "suggest": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sofort\\SofortLib\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3"
+            ],
+            "authors": [
+                {
+                    "name": "Sofort GmbH",
+                    "email": "opensource@sofort.com"
+                }
+            ],
+            "description": "SOFORT API wrapper for PHP",
+            "time": "2016-10-12 08:52:30"
+        },
+        {
+            "name": "stripe/stripe-php",
+            "version": "v4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stripe/stripe-php.git",
+                "reference": "07a538d578dbdb5882e0fe537aa8e70124876290"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/07a538d578dbdb5882e0fe537aa8e70124876290",
+                "reference": "07a538d578dbdb5882e0fe537aa8e70124876290",
                 "shasum": ""
             },
             "require": {
@@ -5172,80 +5431,20 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2016-10-21 18:25:10"
-        },
-        {
-            "name": "symfony/event-dispatcher",
-            "version": "v3.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
-                "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "psr/log": "~1.0",
-                "symfony/config": "~2.8|~3.0",
-                "symfony/dependency-injection": "~2.8|~3.0",
-                "symfony/expression-language": "~2.8|~3.0",
-                "symfony/stopwatch": "~2.8|~3.0"
-            },
-            "suggest": {
-                "symfony/dependency-injection": "",
-                "symfony/http-kernel": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\EventDispatcher\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony EventDispatcher Component",
-            "homepage": "https://symfony.com",
-            "time": "2016-10-13 06:28:43"
+            "time": "2016-11-22 01:58:56"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.8.13",
+            "version": "v2.8.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "a6e6c34d337f3c74c39b29c5f54d33023de8897c"
+                "reference": "4f8c167732bbf3ba4284c0915f57b332091f6b68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/a6e6c34d337f3c74c39b29c5f54d33023de8897c",
-                "reference": "a6e6c34d337f3c74c39b29c5f54d33023de8897c",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/4f8c167732bbf3ba4284c0915f57b332091f6b68",
+                "reference": "4f8c167732bbf3ba4284c0915f57b332091f6b68",
                 "shasum": ""
             },
             "require": {
@@ -5287,7 +5486,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-24 15:52:36"
+            "time": "2016-11-15 23:02:12"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -6212,16 +6411,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.6.1",
+            "version": "v1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "58a8137754bc24b25740d4281399a4a3596058e0"
+                "reference": "6c52c2722f8460122f96f86346600e1077ce22cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/58a8137754bc24b25740d4281399a4a3596058e0",
-                "reference": "58a8137754bc24b25740d4281399a4a3596058e0",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/6c52c2722f8460122f96f86346600e1077ce22cb",
+                "reference": "6c52c2722f8460122f96f86346600e1077ce22cb",
                 "shasum": ""
             },
             "require": {
@@ -6229,10 +6428,11 @@
                 "php": "^5.3|^7.0",
                 "phpdocumentor/reflection-docblock": "^2.0|^3.0.2",
                 "sebastian/comparator": "^1.1",
-                "sebastian/recursion-context": "^1.0"
+                "sebastian/recursion-context": "^1.0|^2.0"
             },
             "require-dev": {
-                "phpspec/phpspec": "^2.0"
+                "phpspec/phpspec": "^2.0",
+                "phpunit/phpunit": "^4.8 || ^5.6.5"
             },
             "type": "library",
             "extra": {
@@ -6270,7 +6470,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2016-06-07 08:13:47"
+            "time": "2016-11-21 14:58:47"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -6517,16 +6717,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.28",
+            "version": "4.8.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "558a3a0d28b4cb7e4a593a4fbd2220e787076225"
+                "reference": "f19d481b468b76a7fb55eb2b772ed487e484891e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/558a3a0d28b4cb7e4a593a4fbd2220e787076225",
-                "reference": "558a3a0d28b4cb7e4a593a4fbd2220e787076225",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f19d481b468b76a7fb55eb2b772ed487e484891e",
+                "reference": "f19d481b468b76a7fb55eb2b772ed487e484891e",
                 "shasum": ""
             },
             "require": {
@@ -6542,7 +6742,7 @@
                 "phpunit/php-text-template": "~1.2",
                 "phpunit/php-timer": "^1.0.6",
                 "phpunit/phpunit-mock-objects": "~2.3",
-                "sebastian/comparator": "~1.1",
+                "sebastian/comparator": "~1.2.2",
                 "sebastian/diff": "~1.2",
                 "sebastian/environment": "~1.3",
                 "sebastian/exporter": "~1.2",
@@ -6585,7 +6785,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-11-14 06:25:28"
+            "time": "2016-11-20 10:35:28"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -6645,22 +6845,22 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "ce2bda23a56456f19e35d98241446b581f648c14"
+                "reference": "6a1ed12e8b2409076ab22e3897126211ff8b1f7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/ce2bda23a56456f19e35d98241446b581f648c14",
-                "reference": "ce2bda23a56456f19e35d98241446b581f648c14",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/6a1ed12e8b2409076ab22e3897126211ff8b1f7f",
+                "reference": "6a1ed12e8b2409076ab22e3897126211ff8b1f7f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "sebastian/diff": "~1.2",
-                "sebastian/exporter": "~1.2"
+                "sebastian/exporter": "~1.2 || ~2.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.4"
@@ -6705,7 +6905,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2016-11-17 14:39:37"
+            "time": "2016-11-19 09:18:40"
         },
         {
             "name": "sebastian/diff",
@@ -7064,16 +7264,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.1.6",
+            "version": "v3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27"
+                "reference": "9da375317228e54f4ea1b013b30fa47417e84943"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/7ff51b06c6c3d5cc6686df69004a42c69df09e27",
-                "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/9da375317228e54f4ea1b013b30fa47417e84943",
+                "reference": "9da375317228e54f4ea1b013b30fa47417e84943",
                 "shasum": ""
             },
             "require": {
@@ -7109,24 +7309,24 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-24 18:41:13"
+            "time": "2016-11-18 21:05:29"
         },
         {
             "name": "webmozart/assert",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "bb2d123231c095735130cc8f6d31385a44c7b308"
+                "reference": "2db61e59ff05fe5126d152bd0655c9ea113e550f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bb2d123231c095735130cc8f6d31385a44c7b308",
-                "reference": "bb2d123231c095735130cc8f6d31385a44c7b308",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/2db61e59ff05fe5126d152bd0655c9ea113e550f",
+                "reference": "2db61e59ff05fe5126d152bd0655c9ea113e550f",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3|^7.0"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6",
@@ -7135,7 +7335,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -7159,14 +7359,12 @@
                 "check",
                 "validate"
             ],
-            "time": "2016-08-09 15:02:57"
+            "time": "2016-11-23 20:04:58"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "arckinteractive/elgg_hybridauth": 20,
-        "au/au_group_tag_menu": 20,
         "au/au_subgroups": 20,
         "au/comment_tracker": 20,
         "au/rssimport": 20,
@@ -7174,7 +7372,6 @@
         "beck24/granular_access": 20,
         "beck24/image_proxy": 20,
         "coldtrick/event_manager": 20,
-        "coldtrick/file_tools": 20,
         "coldtrick/language_selector": 20,
         "demyx/landr": 20,
         "elgg/dbvalidator": 20,
