@@ -3410,16 +3410,16 @@
         },
         {
             "name": "hypejunction/payments_paypal_api",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/Elgg-payments_paypal_api.git",
-                "reference": "f704e73e312d9f8a4c02481ecc26d4dc24cd5d1a"
+                "reference": "420ea86c0e0688526c59efdae9c6d29b979b6bf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_paypal_api/zipball/f704e73e312d9f8a4c02481ecc26d4dc24cd5d1a",
-                "reference": "f704e73e312d9f8a4c02481ecc26d4dc24cd5d1a",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_paypal_api/zipball/420ea86c0e0688526c59efdae9c6d29b979b6bf0",
+                "reference": "420ea86c0e0688526c59efdae9c6d29b979b6bf0",
                 "shasum": ""
             },
             "require": {
@@ -3452,7 +3452,7 @@
                 "paypal",
                 "plugin"
             ],
-            "time": "2016-11-24 11:57:59"
+            "time": "2016-11-25 11:30:54"
         },
         {
             "name": "hypejunction/payments_sofort",
@@ -5162,7 +5162,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:sbw-dev/sbw_campaigns.git",
-                "reference": "b2acdd014db23fc9a0204e6cdec109df44642407"
+                "reference": "d2e6fbf8939029f6e1dc25aa6e71329dfb88784d"
             },
             "require": {
                 "bower-asset/moment": "~2.15",
@@ -5198,7 +5198,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-11-24 17:02:09"
+            "time": "2016-11-25 11:54:09"
         },
         {
             "name": "sebastian/money",
@@ -6364,16 +6364,16 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "0.2",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "b39c7a5b194f9ed7bd0dd345c751007a41862443"
+                "reference": "e224fb2ea2fba6d3ad6fdaef91cd09a172155ccb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/b39c7a5b194f9ed7bd0dd345c751007a41862443",
-                "reference": "b39c7a5b194f9ed7bd0dd345c751007a41862443",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/e224fb2ea2fba6d3ad6fdaef91cd09a172155ccb",
+                "reference": "e224fb2ea2fba6d3ad6fdaef91cd09a172155ccb",
                 "shasum": ""
             },
             "require": {
@@ -6407,7 +6407,7 @@
                     "email": "me@mikevanriel.com"
                 }
             ],
-            "time": "2016-06-10 07:14:17"
+            "time": "2016-11-25 06:54:22"
         },
         {
             "name": "phpspec/prophecy",
