@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "954a86b10da61837e964a986fcb72775",
-    "content-hash": "65d9b32422ead9b5fa1b6021be6f18ea",
+    "hash": "7f109c188993669327680ee5c03596d0",
+    "content-hash": "a54838072509d56bd19cf4dc4e3f5761",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -270,7 +270,7 @@
         },
         {
             "name": "beck24/image_proxy",
-            "version": "dev-master",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/beck24/image_proxy.git",
@@ -3760,7 +3760,7 @@
         },
         {
             "name": "iionly/elggx_fivestar",
-            "version": "dev-master",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iionly/elggx_fivestar.git",
@@ -3797,16 +3797,16 @@
         },
         {
             "name": "iionly/elggx_userpoints",
-            "version": "dev-master",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iionly/elggx_userpoints.git",
-                "reference": "0b1a46e7fda5ff3262da608fda7c9fe20bef4c65"
+                "reference": "9eab526ed0996e266a630e468a30dcc01955397b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iionly/elggx_userpoints/zipball/0b1a46e7fda5ff3262da608fda7c9fe20bef4c65",
-                "reference": "0b1a46e7fda5ff3262da608fda7c9fe20bef4c65",
+                "url": "https://api.github.com/repos/iionly/elggx_userpoints/zipball/9eab526ed0996e266a630e468a30dcc01955397b",
+                "reference": "9eab526ed0996e266a630e468a30dcc01955397b",
                 "shasum": ""
             },
             "require": {
@@ -3830,11 +3830,11 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-08-09 19:24:03"
+            "time": "2015-12-13 16:31:14"
         },
         {
             "name": "iionly/faq",
-            "version": "dev-master",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iionly/faq.git",
@@ -3871,7 +3871,7 @@
         },
         {
             "name": "iionly/feedback",
-            "version": "dev-master",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iionly/feedback.git",
@@ -3908,7 +3908,7 @@
         },
         {
             "name": "iionly/friendly_time",
-            "version": "dev-master",
+            "version": "1.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iionly/friendly_time.git",
@@ -3945,7 +3945,7 @@
         },
         {
             "name": "iionly/lastlogin",
-            "version": "dev-master",
+            "version": "1.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iionly/lastlogin.git",
@@ -3982,7 +3982,7 @@
         },
         {
             "name": "iionly/poll",
-            "version": "dev-master",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iionly/poll.git",
@@ -4019,16 +4019,16 @@
         },
         {
             "name": "iionly/tidypics",
-            "version": "dev-master",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iionly/tidypics.git",
-                "reference": "a17aec908ebf4eefca21ddf52981c7624cb6e7cc"
+                "reference": "52c18859ae2a27a684f4e0419623abc39015eb6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iionly/tidypics/zipball/a17aec908ebf4eefca21ddf52981c7624cb6e7cc",
-                "reference": "a17aec908ebf4eefca21ddf52981c7624cb6e7cc",
+                "url": "https://api.github.com/repos/iionly/tidypics/zipball/52c18859ae2a27a684f4e0419623abc39015eb6c",
+                "reference": "52c18859ae2a27a684f4e0419623abc39015eb6c",
                 "shasum": ""
             },
             "require": {
@@ -4052,7 +4052,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-11-02 18:51:39"
+            "time": "2016-09-28 20:46:11"
         },
         {
             "name": "imagine/imagine",
@@ -7364,7 +7364,6 @@
         "au/comment_tracker": 20,
         "au/rssimport": 20,
         "beck24/granular_access": 20,
-        "beck24/image_proxy": 20,
         "coldtrick/language_selector": 20,
         "demyx/landr": 20,
         "elgg/dbvalidator": 20,
@@ -7372,14 +7371,6 @@
         "elgg/videolist": 20,
         "elggzone/river_addon": 20,
         "iionly/elggx_badges": 20,
-        "iionly/elggx_fivestar": 20,
-        "iionly/elggx_userpoints": 20,
-        "iionly/faq": 20,
-        "iionly/feedback": 20,
-        "iionly/friendly_time": 20,
-        "iionly/lastlogin": 20,
-        "iionly/poll": 20,
-        "iionly/tidypics": 20,
         "juho-jaakkola/elgg-scheduling": 20,
         "jumbojett/vroom": 20,
         "nlybe/etherpad": 20,
