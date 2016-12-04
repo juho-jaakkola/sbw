@@ -4961,12 +4961,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "7a1c6b8d5700e89397e854530b837011d14aa4b3"
+                "reference": "3c25700b65ba5e34a5ec8fd05b5cdc7a68d9385a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/7a1c6b8d5700e89397e854530b837011d14aa4b3",
-                "reference": "7a1c6b8d5700e89397e854530b837011d14aa4b3",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3c25700b65ba5e34a5ec8fd05b5cdc7a68d9385a",
+                "reference": "3c25700b65ba5e34a5ec8fd05b5cdc7a68d9385a",
                 "shasum": ""
             },
             "conflict": {
@@ -5015,6 +5015,7 @@
                 "silverstripe/forum": "<=0.6.1|>=0.7,<=0.7.3",
                 "silverstripe/framework": ">=3,<3.3",
                 "silverstripe/userforms": "<3",
+                "simplesamlphp/saml2": ">=1.9,<1.9.1|>=1.10,<1.10.3|>=2.3,<2.3.3",
                 "simplesamlphp/simplesamlphp": "<1.14.4",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "swiftmailer/swiftmailer": ">=4,<4.99.99|>=5,<5.2.1",
@@ -5082,7 +5083,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2016-11-23 19:06:04"
+            "time": "2016-12-04 13:54:33"
         },
         {
             "name": "sbw-dev/sbw_attachments",
@@ -5165,7 +5166,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:sbw-dev/sbw_campaigns.git",
-                "reference": "a8d864536af8cd551eb7d2502c67dc2eb6e2c84a"
+                "reference": "31c7762a4426d15685d5dc12dc764b2a49ae2447"
             },
             "require": {
                 "bower-asset/moment": "~2.15",
@@ -5201,7 +5202,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-12-02 15:49:22"
+            "time": "2016-12-04 16:42:49"
         },
         {
             "name": "sebastian/money",
