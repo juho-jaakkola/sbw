@@ -5166,7 +5166,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:sbw-dev/sbw_campaigns.git",
-                "reference": "406a20b75c9c61e6b9246650af8604bd8562f407"
+                "reference": "ef9fca60a610a02ce05d6c6f3fca92b234a892c7"
             },
             "require": {
                 "bower-asset/moment": "~2.15",
@@ -5202,7 +5202,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-12-05 09:00:39"
+            "time": "2016-12-05 12:32:51"
         },
         {
             "name": "sebastian/money",
