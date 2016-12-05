@@ -3121,16 +3121,16 @@
         },
         {
             "name": "hypejunction/hypeinteractions",
-            "version": "4.2.2",
+            "version": "4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeInteractions.git",
-                "reference": "25c6799a09c01a090694746396a46477ada56196"
+                "reference": "e71ce4dc4782c470c2aae89291dae7de32c1ea93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeInteractions/zipball/25c6799a09c01a090694746396a46477ada56196",
-                "reference": "25c6799a09c01a090694746396a46477ada56196",
+                "url": "https://api.github.com/repos/hypeJunction/hypeInteractions/zipball/e71ce4dc4782c470c2aae89291dae7de32c1ea93",
+                "reference": "e71ce4dc4782c470c2aae89291dae7de32c1ea93",
                 "shasum": ""
             },
             "require": {
@@ -3167,7 +3167,7 @@
                 "plugin",
                 "stream"
             ],
-            "time": "2016-10-03 12:06:23"
+            "time": "2016-12-05 17:10:11"
         },
         {
             "name": "hypejunction/hypeinvite",
@@ -5166,7 +5166,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:sbw-dev/sbw_campaigns.git",
-                "reference": "ef9fca60a610a02ce05d6c6f3fca92b234a892c7"
+                "reference": "8f041d908bc1ac8c8e47a30ca99541488ff749fa"
             },
             "require": {
                 "bower-asset/moment": "~2.15",
@@ -5202,7 +5202,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-12-05 12:32:51"
+            "time": "2016-12-05 17:05:22"
         },
         {
             "name": "sebastian/money",
