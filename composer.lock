@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7f109c188993669327680ee5c03596d0",
-    "content-hash": "a54838072509d56bd19cf4dc4e3f5761",
+    "hash": "2dc8638f17887accdb4cd819d46a894a",
+    "content-hash": "638f2a80b70fe32b4ebce7a9c5204f15",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -103,16 +103,16 @@
         },
         {
             "name": "au/au_subgroups",
-            "version": "dev-master",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AU-Landing-Project/au_subgroups.git",
-                "reference": "51b4a21a4bbc8394f1dfa17d291a7c3db3db5b03"
+                "reference": "914c61979a467252b0822437575a0a8d2f43b83d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AU-Landing-Project/au_subgroups/zipball/51b4a21a4bbc8394f1dfa17d291a7c3db3db5b03",
-                "reference": "51b4a21a4bbc8394f1dfa17d291a7c3db3db5b03",
+                "url": "https://api.github.com/repos/AU-Landing-Project/au_subgroups/zipball/914c61979a467252b0822437575a0a8d2f43b83d",
+                "reference": "914c61979a467252b0822437575a0a8d2f43b83d",
                 "shasum": ""
             },
             "require": {
@@ -135,7 +135,7 @@
                 "plugin",
                 "subgroups"
             ],
-            "time": "2016-06-24 15:30:28"
+            "time": "2016-12-06 09:05:34"
         },
         {
             "name": "au/comment_tracker",
@@ -619,16 +619,16 @@
         },
         {
             "name": "bower-asset/moment",
-            "version": "2.17.0",
+            "version": "2.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "4710a7935cb347d8b2cf50f5befccfea8180619d"
+                "reference": "b8a297c1f99b3918f44dd9e3d7bd59379a876ba6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/4710a7935cb347d8b2cf50f5befccfea8180619d",
-                "reference": "4710a7935cb347d8b2cf50f5befccfea8180619d",
+                "url": "https://api.github.com/repos/moment/moment/zipball/b8a297c1f99b3918f44dd9e3d7bd59379a876ba6",
+                "reference": "b8a297c1f99b3918f44dd9e3d7bd59379a876ba6",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -1443,27 +1443,29 @@
         },
         {
             "name": "demyx/landr",
-            "version": "dev-master",
+            "version": "dev-index_forwarding",
             "source": {
                 "type": "git",
-                "url": "https://github.com/manacim/Landr.git",
-                "reference": "ce315e9b95b1e08b0cc657f2aca2aa7b5b3d8c37"
+                "url": "https://github.com/sbwtech/Landr.git",
+                "reference": "d7e1f6eeef4ec25acd864734068afd11cf46bbaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/manacim/Landr/zipball/ce315e9b95b1e08b0cc657f2aca2aa7b5b3d8c37",
-                "reference": "ce315e9b95b1e08b0cc657f2aca2aa7b5b3d8c37",
+                "url": "https://api.github.com/repos/sbwtech/Landr/zipball/d7e1f6eeef4ec25acd864734068afd11cf46bbaa",
+                "reference": "d7e1f6eeef4ec25acd864734068afd11cf46bbaa",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": ">=1.0.8"
             },
             "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
-            "time": "2016-09-12 04:19:11"
+            "support": {
+                "source": "https://github.com/sbwtech/Landr/tree/index_forwarding"
+            },
+            "time": "2016-12-06 08:31:45"
         },
         {
             "name": "doctrine/annotations",
@@ -2601,16 +2603,16 @@
         },
         {
             "name": "hybridauth/hybridauth",
-            "version": "v2.8.0",
+            "version": "v2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hybridauth/hybridauth.git",
-                "reference": "0cffedb5c039a8925b25284dd7181e711d02016d"
+                "reference": "5f2df6660789d7eefe0189baa0d05fcf53c81ce5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/0cffedb5c039a8925b25284dd7181e711d02016d",
-                "reference": "0cffedb5c039a8925b25284dd7181e711d02016d",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/5f2df6660789d7eefe0189baa0d05fcf53c81ce5",
+                "reference": "5f2df6660789d7eefe0189baa0d05fcf53c81ce5",
                 "shasum": ""
             },
             "require": {
@@ -2650,7 +2652,7 @@
                 "twitter",
                 "yahoo"
             ],
-            "time": "2016-10-29 18:05:43"
+            "time": "2016-12-05 18:24:36"
         },
         {
             "name": "hypejunction/acl_builder_api",
@@ -2899,6 +2901,7 @@
                     "": "classes/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -2916,10 +2919,6 @@
                 "files",
                 "plugin"
             ],
-            "support": {
-                "source": "https://github.com/hypeJunction/hypeAttachments/tree/2.1.3",
-                "issues": "https://github.com/hypeJunction/hypeAttachments/issues"
-            },
             "time": "2016-10-16 14:59:39"
         },
         {
@@ -4563,12 +4562,10 @@
                 "willdurand/geocoder": "@stable"
             },
             "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
-            "support": {
-                "source": "https://github.com/sbwtech/Elgg-MapsAPI/tree/2.9.4"
-            },
             "time": "2016-09-08 20:32:44"
         },
         {
@@ -5110,6 +5107,7 @@
                     "": "classes/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -5127,10 +5125,6 @@
                 "files",
                 "plugin"
             ],
-            "support": {
-                "source": "https://github.com/sbwtech/sbw_attachments/tree/master",
-                "issues": "https://github.com/sbwtech/sbw_attachments/issues"
-            },
             "time": "2016-08-17 11:49:37"
         },
         {
@@ -5139,12 +5133,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/theme_sbw.git",
-                "reference": "8eceedd78358703ff0a3513fa5dc7a980109c5af"
+                "reference": "261a4fa2403caaaade22e798f6b6ec7d53f3db63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/8eceedd78358703ff0a3513fa5dc7a980109c5af",
-                "reference": "8eceedd78358703ff0a3513fa5dc7a980109c5af",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/261a4fa2403caaaade22e798f6b6ec7d53f3db63",
+                "reference": "261a4fa2403caaaade22e798f6b6ec7d53f3db63",
                 "shasum": ""
             },
             "require": {
@@ -5158,7 +5152,7 @@
                 "source": "https://github.com/sbwtech/theme_sbw/tree/master",
                 "issues": "https://github.com/sbwtech/theme_sbw/issues"
             },
-            "time": "2016-11-09 19:12:25"
+            "time": "2016-12-06 08:11:41"
         },
         {
             "name": "sbwtech/sbw_campaigns",
@@ -5667,16 +5661,16 @@
         },
         {
             "name": "teamwebgalli/galliElggEmbed",
-            "version": "dev-elgg_1.9+",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sbwtech/galliElggEmbed.git",
-                "reference": "593b62fc3a892f6dce747746c3da5fe617833734"
+                "url": "https://github.com/teamwebgalli/galliElggEmbed.git",
+                "reference": "af9f28ef513c7ec7eee683fd9d3dabfa1646efda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/galliElggEmbed/zipball/593b62fc3a892f6dce747746c3da5fe617833734",
-                "reference": "593b62fc3a892f6dce747746c3da5fe617833734",
+                "url": "https://api.github.com/repos/teamwebgalli/galliElggEmbed/zipball/af9f28ef513c7ec7eee683fd9d3dabfa1646efda",
+                "reference": "af9f28ef513c7ec7eee683fd9d3dabfa1646efda",
                 "shasum": ""
             },
             "require": {
@@ -5687,9 +5681,10 @@
                 "GPL-2.0"
             ],
             "support": {
-                "source": "https://github.com/sbwtech/galliElggEmbed/tree/elgg_1.9+"
+                "source": "https://github.com/teamwebgalli/galliElggEmbed/tree/master",
+                "issues": "https://github.com/teamwebgalli/galliElggEmbed/issues"
             },
-            "time": "2016-07-31 10:14:47"
+            "time": "2016-08-02 02:19:48"
         },
         {
             "name": "tedivm/stash",
@@ -7375,7 +7370,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "au/au_subgroups": 20,
         "au/comment_tracker": 20,
         "au/rssimport": 20,
         "beck24/granular_access": 20,

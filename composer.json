@@ -7,7 +7,8 @@
   "repositories": [
     {"type": "vcs", "url": "https://github.com/Elggzone/River-Addon.git"},
     {"type": "vcs", "url": "https://github.com/hypeJunction/Elgg-payments_sofort.git"},
-    {"type": "vcs", "url": "https://github.com/sbwtech/galliElggEmbed.git"},
+    {"type": "vcs", "url": "https://github.com/teamwebgalli/galliElggEmbed.git"},
+    {"type": "vcs", "url": "https://github.com/sbwtech/Landr.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/theme_sbw.git"},
     {"type": "vcs", "url": "https://github.com/sbwtech/elggx_badges.git"},
     {"type": "vcs", "url": "git@bitbucket.org:sbw-dev/sbw_campaigns.git"},
@@ -16,7 +17,7 @@
   "require": {
     "arckinteractive/elgg_hybridauth": "^1.3",
     "au/au_group_tag_menu": "^2.0.0",
-    "au/au_subgroups": "dev-master",
+    "au/au_subgroups": "~2.1.0",
     "au/comment_tracker": "dev-master",
     "au/rssimport": "dev-master",
     "beck24/embed_extender": "~1.8.3",
@@ -39,7 +40,7 @@
     "coldtrick/translation_editor": "^5.2",
     "coldtrick/widget_manager": "^7.0",
     "daltonmedia/elgg_cookieconsent": "^1.1",
-    "demyx/landr": "dev-master",
+    "demyx/landr": "dev-index_forwarding",
     "elgg/dbvalidator": "dev-master",
     "elgg/elgg": "2.3.*",
     "elgg/mentions": "dev-master",
@@ -70,7 +71,7 @@
     "nlybe/membersmap": "~2.14.1",
     "sbw-dev/theme_sbw": "dev-master",
     "sbw-dev/sbw_attachments": "dev-master",
-    "teamwebgalli/galliElggEmbed": "dev-elgg_1.9+",
+    "teamwebgalli/galliElggEmbed": "dev-master",
     "thetruebumba/spam_login_filter": "dev-master",
     "hypejunction/ui_tabs": "^1.1",
     "sbwtech/sbw_campaigns": "dev-master"
