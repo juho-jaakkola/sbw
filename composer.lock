@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2dc8638f17887accdb4cd819d46a894a",
-    "content-hash": "638f2a80b70fe32b4ebce7a9c5204f15",
+    "hash": "071bf56faa39ad43e56bcebad57e88a2",
+    "content-hash": "df95e94fff8952615166c5652c57a08b",
     "packages": [
         {
             "name": "arckinteractive/elgg_hybridauth",
@@ -139,16 +139,16 @@
         },
         {
             "name": "au/comment_tracker",
-            "version": "dev-master",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AU-Landing-Project/comment_tracker.git",
-                "reference": "eef0fef8fc092b6ae4936c44763b39536858c3e4"
+                "reference": "e0d80760b453740337da18b1c53630208ed0bf39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AU-Landing-Project/comment_tracker/zipball/eef0fef8fc092b6ae4936c44763b39536858c3e4",
-                "reference": "eef0fef8fc092b6ae4936c44763b39536858c3e4",
+                "url": "https://api.github.com/repos/AU-Landing-Project/comment_tracker/zipball/e0d80760b453740337da18b1c53630208ed0bf39",
+                "reference": "e0d80760b453740337da18b1c53630208ed0bf39",
                 "shasum": ""
             },
             "require": {
@@ -175,7 +175,7 @@
                 "plugin",
                 "subscriptions"
             ],
-            "time": "2016-03-18 20:27:41"
+            "time": "2016-12-11 16:30:41"
         },
         {
             "name": "au/rssimport",
@@ -928,16 +928,16 @@
         },
         {
             "name": "coldtrick/file_tools",
-            "version": "v3.0.0-rc.2",
+            "version": "v3.0.0-rc.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/file_tools.git",
-                "reference": "942431032b793e748baeae71f81eecd14b62ff24"
+                "reference": "4c39cb47644f2ad351d7c820c5dff875566ae42d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/file_tools/zipball/942431032b793e748baeae71f81eecd14b62ff24",
-                "reference": "942431032b793e748baeae71f81eecd14b62ff24",
+                "url": "https://api.github.com/repos/ColdTrick/file_tools/zipball/4c39cb47644f2ad351d7c820c5dff875566ae42d",
+                "reference": "4c39cb47644f2ad351d7c820c5dff875566ae42d",
                 "shasum": ""
             },
             "require": {
@@ -963,7 +963,7 @@
                 "plugin",
                 "tools"
             ],
-            "time": "2016-11-28 10:47:46"
+            "time": "2016-12-08 14:01:05"
         },
         {
             "name": "coldtrick/friend_request",
@@ -1443,29 +1443,27 @@
         },
         {
             "name": "demyx/landr",
-            "version": "dev-index_forwarding",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sbwtech/Landr.git",
-                "reference": "d7e1f6eeef4ec25acd864734068afd11cf46bbaa"
+                "url": "https://github.com/manacim/Landr.git",
+                "reference": "ce315e9b95b1e08b0cc657f2aca2aa7b5b3d8c37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/Landr/zipball/d7e1f6eeef4ec25acd864734068afd11cf46bbaa",
-                "reference": "d7e1f6eeef4ec25acd864734068afd11cf46bbaa",
+                "url": "https://api.github.com/repos/manacim/Landr/zipball/ce315e9b95b1e08b0cc657f2aca2aa7b5b3d8c37",
+                "reference": "ce315e9b95b1e08b0cc657f2aca2aa7b5b3d8c37",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": ">=1.0.8"
             },
             "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
-            "support": {
-                "source": "https://github.com/sbwtech/Landr/tree/index_forwarding"
-            },
-            "time": "2016-12-06 08:31:45"
+            "time": "2016-09-12 04:19:11"
         },
         {
             "name": "doctrine/annotations",
@@ -2603,16 +2601,16 @@
         },
         {
             "name": "hybridauth/hybridauth",
-            "version": "v2.8.1",
+            "version": "v2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hybridauth/hybridauth.git",
-                "reference": "5f2df6660789d7eefe0189baa0d05fcf53c81ce5"
+                "reference": "36d52f0f66d6f7584167a243a11b592b5a6bcead"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/5f2df6660789d7eefe0189baa0d05fcf53c81ce5",
-                "reference": "5f2df6660789d7eefe0189baa0d05fcf53c81ce5",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/36d52f0f66d6f7584167a243a11b592b5a6bcead",
+                "reference": "36d52f0f66d6f7584167a243a11b592b5a6bcead",
                 "shasum": ""
             },
             "require": {
@@ -2652,7 +2650,7 @@
                 "twitter",
                 "yahoo"
             ],
-            "time": "2016-12-05 18:24:36"
+            "time": "2016-12-09 16:04:35"
         },
         {
             "name": "hypejunction/acl_builder_api",
@@ -2779,12 +2777,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/http-parser.git",
-                "reference": "2ef2462c5ae998532be555246f7d7c00d83f4764"
+                "reference": "d6beb4269b9dbe6c6464ca3b4d4884ec4fcfc260"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/http-parser/zipball/2ef2462c5ae998532be555246f7d7c00d83f4764",
-                "reference": "2ef2462c5ae998532be555246f7d7c00d83f4764",
+                "url": "https://api.github.com/repos/hypeJunction/http-parser/zipball/d6beb4269b9dbe6c6464ca3b4d4884ec4fcfc260",
+                "reference": "d6beb4269b9dbe6c6464ca3b4d4884ec4fcfc260",
                 "shasum": ""
             },
             "require": {
@@ -2820,7 +2818,7 @@
                 "scraper",
                 "twitter tags"
             ],
-            "time": "2016-10-14 18:08:23"
+            "time": "2016-12-08 13:11:08"
         },
         {
             "name": "hypejunction/hypeapps",
@@ -3269,16 +3267,16 @@
         },
         {
             "name": "hypejunction/hypescraper",
-            "version": "5.0.0",
+            "version": "5.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeScraper.git",
-                "reference": "a542ca852c1d475d1982a7cae35c5d4780debee4"
+                "reference": "539cd407eeb78eb8b2803d19901d5029fc0f8efc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/hypeScraper/zipball/a542ca852c1d475d1982a7cae35c5d4780debee4",
-                "reference": "a542ca852c1d475d1982a7cae35c5d4780debee4",
+                "url": "https://api.github.com/repos/hypeJunction/hypeScraper/zipball/539cd407eeb78eb8b2803d19901d5029fc0f8efc",
+                "reference": "539cd407eeb78eb8b2803d19901d5029fc0f8efc",
                 "shasum": ""
             },
             "require": {
@@ -3314,11 +3312,11 @@
                 "extract",
                 "plugin"
             ],
-            "time": "2016-11-16 10:22:04"
+            "time": "2016-12-08 12:37:40"
         },
         {
             "name": "hypejunction/hypewall",
-            "version": "4.4.11",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/hypeWall.git",
@@ -3722,22 +3720,23 @@
         },
         {
             "name": "iionly/elggx_badges",
-            "version": "dev-remove_td_tags",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sbwtech/elggx_badges.git",
-                "reference": "feb915b24c8073e9bd37b7ea39cfd6406ba7ef52"
+                "url": "https://github.com/iionly/elggx_badges.git",
+                "reference": "2fbad8df1793ce8eab290f0b46983583841557da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/elggx_badges/zipball/feb915b24c8073e9bd37b7ea39cfd6406ba7ef52",
-                "reference": "feb915b24c8073e9bd37b7ea39cfd6406ba7ef52",
+                "url": "https://api.github.com/repos/iionly/elggx_badges/zipball/2fbad8df1793ce8eab290f0b46983583841557da",
+                "reference": "2fbad8df1793ce8eab290f0b46983583841557da",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": ">=1.0.8"
             },
             "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -3754,11 +3753,7 @@
                 "elgg",
                 "plugin"
             ],
-            "support": {
-                "issues": "https://github.com/iionly/elggx_badges/issues",
-                "source": "https://github.com/sbwtech/elggx_badges/tree/remove_td_tags"
-            },
-            "time": "2016-11-15 16:56:36"
+            "time": "2016-12-11 10:33:35"
         },
         {
             "name": "iionly/elggx_fivestar",
@@ -4570,7 +4565,7 @@
         },
         {
             "name": "nlybe/etherpad",
-            "version": "dev-master",
+            "version": "2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nlybe/Elgg-Etherpad.git",
@@ -4619,21 +4614,21 @@
         },
         {
             "name": "nlybe/hypewall_extended",
-            "version": "dev-master",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nlybe/hypeWall_Extended.git",
-                "reference": "8567d31b899166f2e1a913798875b5fc5f9dce07"
+                "reference": "3a20401dbb7712add6c0997345875f3444a46475"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nlybe/hypeWall_Extended/zipball/8567d31b899166f2e1a913798875b5fc5f9dce07",
-                "reference": "8567d31b899166f2e1a913798875b5fc5f9dce07",
+                "url": "https://api.github.com/repos/nlybe/hypeWall_Extended/zipball/3a20401dbb7712add6c0997345875f3444a46475",
+                "reference": "3a20401dbb7712add6c0997345875f3444a46475",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": ">=1.0.8",
-                "hypejunction/hypewall": "^4.4"
+                "hypejunction/hypewall": "dev-master"
             },
             "type": "elgg-plugin",
             "extra": {
@@ -4643,7 +4638,7 @@
             "license": [
                 "GPL-2.0"
             ],
-            "time": "2016-10-25 03:19:01"
+            "time": "2016-04-17 19:58:14"
         },
         {
             "name": "nlybe/membersmap",
@@ -4958,12 +4953,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "3c25700b65ba5e34a5ec8fd05b5cdc7a68d9385a"
+                "reference": "5560bd95c22a4ccf9404d8f176fceb4812a7398e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3c25700b65ba5e34a5ec8fd05b5cdc7a68d9385a",
-                "reference": "3c25700b65ba5e34a5ec8fd05b5cdc7a68d9385a",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/5560bd95c22a4ccf9404d8f176fceb4812a7398e",
+                "reference": "5560bd95c22a4ccf9404d8f176fceb4812a7398e",
                 "shasum": ""
             },
             "conflict": {
@@ -5013,7 +5008,7 @@
                 "silverstripe/framework": ">=3,<3.3",
                 "silverstripe/userforms": "<3",
                 "simplesamlphp/saml2": ">=1.9,<1.9.1|>=1.10,<1.10.3|>=2.3,<2.3.3",
-                "simplesamlphp/simplesamlphp": "<1.14.4",
+                "simplesamlphp/simplesamlphp": "<1.14.10",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "swiftmailer/swiftmailer": ">=4,<4.99.99|>=5,<5.2.1",
                 "symfony/dependency-injection": ">=2,<2.0.17",
@@ -5080,7 +5075,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2016-12-04 13:54:33"
+            "time": "2016-12-06 13:29:26"
         },
         {
             "name": "sbw-dev/sbw_attachments",
@@ -5133,12 +5128,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sbwtech/theme_sbw.git",
-                "reference": "261a4fa2403caaaade22e798f6b6ec7d53f3db63"
+                "reference": "e73ae688af1af09a70c41c86f3c28608b5706cca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/261a4fa2403caaaade22e798f6b6ec7d53f3db63",
-                "reference": "261a4fa2403caaaade22e798f6b6ec7d53f3db63",
+                "url": "https://api.github.com/repos/sbwtech/theme_sbw/zipball/e73ae688af1af09a70c41c86f3c28608b5706cca",
+                "reference": "e73ae688af1af09a70c41c86f3c28608b5706cca",
                 "shasum": ""
             },
             "require": {
@@ -5152,7 +5147,7 @@
                 "source": "https://github.com/sbwtech/theme_sbw/tree/master",
                 "issues": "https://github.com/sbwtech/theme_sbw/issues"
             },
-            "time": "2016-12-06 08:11:41"
+            "time": "2016-12-11 17:04:42"
         },
         {
             "name": "sbwtech/sbw_campaigns",
@@ -6716,16 +6711,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.30",
+            "version": "4.8.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "a534e04d0bd39c557c2881c341efd06fa6f1292a"
+                "reference": "98b2b39a520766bec663ff5b7ff1b729db9dbfe3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a534e04d0bd39c557c2881c341efd06fa6f1292a",
-                "reference": "a534e04d0bd39c557c2881c341efd06fa6f1292a",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/98b2b39a520766bec663ff5b7ff1b729db9dbfe3",
+                "reference": "98b2b39a520766bec663ff5b7ff1b729db9dbfe3",
                 "shasum": ""
             },
             "require": {
@@ -6784,7 +6779,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-12-01 17:05:48"
+            "time": "2016-12-09 02:45:31"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -7370,7 +7365,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "au/comment_tracker": 20,
         "au/rssimport": 20,
         "beck24/granular_access": 20,
         "coldtrick/language_selector": 20,
@@ -7379,11 +7373,8 @@
         "elgg/mentions": 20,
         "elgg/videolist": 20,
         "elggzone/river_addon": 20,
-        "iionly/elggx_badges": 20,
         "juho-jaakkola/elgg-scheduling": 20,
         "jumbojett/vroom": 20,
-        "nlybe/etherpad": 20,
-        "nlybe/hypewall_extended": 20,
         "sbw-dev/theme_sbw": 20,
         "sbw-dev/sbw_attachments": 20,
         "teamwebgalli/gallielggembed": 20,
