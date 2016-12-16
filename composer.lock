@@ -2748,16 +2748,16 @@
         },
         {
             "name": "hypejunction/elgg_tokeninput",
-            "version": "4.1.2",
+            "version": "4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/elgg_tokeninput.git",
-                "reference": "bc31f290b45559f94620ef39f5d3e06fb9cf4121"
+                "reference": "20602cc33eda90a3eacbe09875437259c98244fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/elgg_tokeninput/zipball/bc31f290b45559f94620ef39f5d3e06fb9cf4121",
-                "reference": "bc31f290b45559f94620ef39f5d3e06fb9cf4121",
+                "url": "https://api.github.com/repos/hypeJunction/elgg_tokeninput/zipball/20602cc33eda90a3eacbe09875437259c98244fc",
+                "reference": "20602cc33eda90a3eacbe09875437259c98244fc",
                 "shasum": ""
             },
             "require": {
@@ -2785,7 +2785,7 @@
                 "plugin",
                 "search"
             ],
-            "time": "2016-08-03 16:58:06"
+            "time": "2016-12-16 10:14:05"
         },
         {
             "name": "hypejunction/http-parser",
@@ -3429,16 +3429,16 @@
         },
         {
             "name": "hypejunction/payments_paypal_api",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/Elgg-payments_paypal_api.git",
-                "reference": "420ea86c0e0688526c59efdae9c6d29b979b6bf0"
+                "reference": "084dc19337201de8fa745e80bf6739e9c658dadb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_paypal_api/zipball/420ea86c0e0688526c59efdae9c6d29b979b6bf0",
-                "reference": "420ea86c0e0688526c59efdae9c6d29b979b6bf0",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg-payments_paypal_api/zipball/084dc19337201de8fa745e80bf6739e9c658dadb",
+                "reference": "084dc19337201de8fa745e80bf6739e9c658dadb",
                 "shasum": ""
             },
             "require": {
@@ -3471,7 +3471,7 @@
                 "paypal",
                 "plugin"
             ],
-            "time": "2016-11-25 11:30:54"
+            "time": "2016-12-15 12:19:32"
         },
         {
             "name": "hypejunction/payments_sofort",
@@ -4586,16 +4586,16 @@
         },
         {
             "name": "nlybe/etherpad",
-            "version": "2.4",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nlybe/Elgg-Etherpad.git",
-                "reference": "e04465c84d5bc20d6d94f1047f18fa65af4bf96f"
+                "reference": "afd5361bc6d6dfd52b097f0c1c54da2188510f9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nlybe/Elgg-Etherpad/zipball/e04465c84d5bc20d6d94f1047f18fa65af4bf96f",
-                "reference": "e04465c84d5bc20d6d94f1047f18fa65af4bf96f",
+                "url": "https://api.github.com/repos/nlybe/Elgg-Etherpad/zipball/afd5361bc6d6dfd52b097f0c1c54da2188510f9f",
+                "reference": "afd5361bc6d6dfd52b097f0c1c54da2188510f9f",
                 "shasum": ""
             },
             "require": {
@@ -4606,7 +4606,7 @@
             "license": [
                 "GNU Affero GPL-3.0+"
             ],
-            "time": "2016-12-01 00:53:37"
+            "time": "2016-12-13 00:54:23"
         },
         {
             "name": "nlybe/groupsmap",
@@ -4688,16 +4688,16 @@
         },
         {
             "name": "paypal/rest-api-sdk-php",
-            "version": "1.10.0",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paypal/PayPal-PHP-SDK.git",
-                "reference": "f87c4306cccf31be9acea71a55c4978a7f77afcf"
+                "reference": "7e664f12be32b975575371e8ad3bc17b6b318851"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paypal/PayPal-PHP-SDK/zipball/f87c4306cccf31be9acea71a55c4978a7f77afcf",
-                "reference": "f87c4306cccf31be9acea71a55c4978a7f77afcf",
+                "url": "https://api.github.com/repos/paypal/PayPal-PHP-SDK/zipball/7e664f12be32b975575371e8ad3bc17b6b318851",
+                "reference": "7e664f12be32b975575371e8ad3bc17b6b318851",
                 "shasum": ""
             },
             "require": {
@@ -4733,7 +4733,7 @@
                 "rest",
                 "sdk"
             ],
-            "time": "2016-10-27 21:14:38"
+            "time": "2016-12-14 21:59:21"
         },
         {
             "name": "pelago/emogrifier",
@@ -5180,7 +5180,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:sbw-dev/sbw_campaigns.git",
-                "reference": "8f041d908bc1ac8c8e47a30ca99541488ff749fa"
+                "reference": "bc679a4fd197cd8d0dbf6f11c2ec283333959aed"
             },
             "require": {
                 "bower-asset/moment": "~2.15",
@@ -5216,7 +5216,7 @@
                 "elgg",
                 "plugin"
             ],
-            "time": "2016-12-05 17:05:22"
+            "time": "2016-12-15 12:25:49"
         },
         {
             "name": "sebastian/money",
